@@ -2,11 +2,13 @@
 Hearts of Iron 4 Second Dimension Expansion MOD
 
 ![image](https://steamuserimages-a.akamaihd.net/ugc/2511396369283859075/BED50FD0282F544B42648B0FD3F42643B9A637AC/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
 025名二次元美女将领
 330名二次元美女顾问
 8种二次元额外内容
 
 ![image](https://steamuserimages-a.akamaihd.net/ugc/2511396369283850015/0D72AB703AD7D1C57E549ECC19020591BDB62890/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
 70名政治顾问
 10名KX/KR专属政治顾问
 80名理论家
@@ -18,6 +20,7 @@ Hearts of Iron 4 Second Dimension Expansion MOD
 30名科学家
 
 ![image](https://steamuserimages-a.akamaihd.net/ugc/2511396369283864773/CAD6A955A43F5CE6286EC9969F68F1956911CFBE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
 30名美女陆军将领
 50名美女陆军元帅
 20名美丽人妻将领
@@ -50,6 +53,7 @@ Hearts of Iron 4 Second Dimension Expansion MOD
 20名赛尔号将领
 
 ![image](https://steamuserimages-a.akamaihd.net/ugc/2511396369283874324/2C99108B35E2B7FE8EF579ECA369FB3269654CAE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
 17个工业企业
 14个军工组织
 40个军官团精神
