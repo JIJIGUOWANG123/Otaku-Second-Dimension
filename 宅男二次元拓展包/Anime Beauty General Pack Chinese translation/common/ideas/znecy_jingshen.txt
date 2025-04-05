@@ -1,0 +1,77 @@
+ideas = {
+	country = {
+		znecy_zhiyuanjun = {		
+		    picture = generic_znecy_zhiyuanjun
+		    allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+		    available = {
+				is_ai = no
+			}
+			
+		    modifier = {
+				send_volunteer_size = 500
+			}
+	    }
+		znecy_tezhongbing = {		
+		    picture = generic_znecy_tezhongbing
+		    allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+		    available = {
+				is_ai = no
+			}
+			
+		    modifier = {
+				special_forces_cap_flat = 500
+			}
+	    }
+		znecy_jianzhusudu = {		
+		    picture = generic_znecy_jianzhusudu
+		    allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+		    available = {
+				is_ai = no
+			}
+			
+		    modifier = {
+				production_speed_buildings_factor = 10.0
+			}
+	    }
+		znecy_shengchansudu = {		
+		    picture = generic_znecy_shengchansudu
+		    allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+		    available = {
+				is_ai = no
+			}
+			
+		    modifier = {
+				industrial_capacity_factory = 10.0
+				industrial_capacity_dockyard = 10.0
+			}
+	    }
+	}
+}

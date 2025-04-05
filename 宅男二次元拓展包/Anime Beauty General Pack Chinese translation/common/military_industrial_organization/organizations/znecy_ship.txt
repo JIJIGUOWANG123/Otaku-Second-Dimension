@@ -1,0 +1,1016 @@
+#### 二次元民用船只生产集团 ####
+ZNECY_naval_civil_organization = {
+	icon = GFX_idea_ZNECY_JGZZ_CIVIL
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+	equipment_type = { convoy_1 screen_ship submarine }
+	research_categories = { mio_cat_tech_all_screen_ship_and_modules mio_cat_tech_all_submarine_and_modules }
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_light_ships
+		x = 1
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_oceangoing_ships
+		x = 4
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_submarine
+		x = 7
+	}
+	
+	initial_trait = {
+	    token = ZNECY_naval_manufacturer_1
+		name = ZNECY_naval_manufacturer_1
+		
+		limit_to_equipment_type = { 
+
+		}
+		
+		production_bonus = {
+		    production_capacity_factor = 0.05
+		}
+		
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_1
+		name = ZNECY_escort_ship_mio_trait_1
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_production
+
+		position = { x=1 y=0 }
+		
+		available = {
+		ZNECY = { has_completed_focus = ZNECY_guoyouhuaguanjianqiye_focus }
+	}
+		
+		limit_to_equipment_type = { 
+			convoy_1
+			screen_ship
+		}
+
+		equipment_bonus = {
+			build_cost_ic = -0.1
+		}
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.1
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_2
+		name = ZNECY_escort_ship_mio_trait_2
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_quality
+
+		position = { x=4 y=0 }
+		
+		available = {
+		ZNECY = { has_completed_focus = ZNECY_guoyouhuaguanjianqiye_focus }
+	}
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+
+		equipment_bonus = {
+		    naval_range = 0.3
+			build_cost_ic = 0.05
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_3
+		name = ZNECY_escort_ship_mio_trait_3
+		icon = GFX_generic_mio_department_icon_ship_submarine_production
+
+		position = { x=7 y=0 }
+		
+		available = {
+		ZNECY = { has_completed_focus = ZNECY_guoyouhuaguanjianqiye_focus }
+	}
+		
+		limit_to_equipment_type = { 
+			submarine
+		}
+
+		equipment_bonus = {
+		    max_strength = 0.25
+			reliability = 0.2
+			build_cost_ic = 0.05
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_4
+		name = ZNECY_escort_ship_mio_trait_4
+		icon = GFX_generic_mio_trait_icon_mines
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_1
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_1 }
+
+		equipment_bonus = {
+		    mines_planting = 0.5
+			sub_detection = 0.5
+			torpedo_attack = 0.3
+			max_strength = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_5
+		name = ZNECY_escort_ship_mio_trait_5
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=-1 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		mutually_exclusive = { ZNECY_escort_ship_mio_trait_6 }
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_2
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_2 }
+
+		equipment_bonus = {
+		    naval_speed = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_6
+		name = ZNECY_escort_ship_mio_trait_6
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=1 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		mutually_exclusive = { ZNECY_escort_ship_mio_trait_5 }
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_2
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_2 }
+
+		equipment_bonus = {
+		    naval_range = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_7
+		name = ZNECY_escort_ship_mio_trait_7
+		icon = GFX_generic_mio_department_icon_ship_submarine_conversion
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			submarine
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_3
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_3 }
+
+		equipment_bonus = {
+		    naval_speed = 0.15
+			fuel_consumption = -0.5
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_8
+		name = ZNECY_escort_ship_mio_trait_8
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_4
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_4 }
+
+		equipment_bonus = {
+		    anti_air_attack = 0.3
+			build_cost_ic = 0.05
+			max_strength = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_9
+		name = ZNECY_escort_ship_mio_trait_9
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_5
+
+        any_parent = {  ZNECY_escort_ship_mio_trait_5 ZNECY_escort_ship_mio_trait_6 }
+
+		equipment_bonus = {
+		    reliability = 0.1
+		    anti_air_attack = 0.1
+			max_strength = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_10
+		name = ZNECY_escort_ship_mio_trait_10
+		icon = GFX_generic_mio_trait_icon_air_agility
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_6
+
+        any_parent = {  ZNECY_escort_ship_mio_trait_5 ZNECY_escort_ship_mio_trait_6 }
+
+		equipment_bonus = {
+		    reliability = 0.1
+		    lg_attack = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_11
+		name = ZNECY_escort_ship_mio_trait_11
+		icon = GFX_generic_mio_trait_icon_torpedo_attack
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			submarine
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_7
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_7 }
+
+		equipment_bonus = {
+		    torpedo_attack = 1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_12
+		name = ZNECY_escort_ship_mio_trait_12
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_8
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_8 }
+
+		equipment_bonus = {
+		    lg_attack = 0.25
+			build_cost_ic = 0.1
+			max_strength = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_13
+		name = ZNECY_escort_ship_mio_trait_13
+		icon = GFX_generic_mio_trait_icon_surface_detection
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_9
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_9 }
+
+		equipment_bonus = {
+		    surface_detection = 0.3
+            sub_detection = 0.3
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_14
+		name = ZNECY_escort_ship_mio_trait_14
+		icon = GFX_generic_mio_trait_icon_hg_attack
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_10
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_10 }
+
+		equipment_bonus = {
+		    lg_attack = 0.15
+            hg_attack = 0.15
+			anti_air_attack = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_15
+		name = ZNECY_escort_ship_mio_trait_15
+		icon = GFX_generic_mio_department_icon_ship_submarine_quality
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+			submarine
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_11
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_11 }
+
+		equipment_bonus = {
+		    naval_range = 1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_escort_ship_mio_trait_16
+		name = ZNECY_escort_ship_mio_trait_16
+		icon = GFX_generic_mio_department_icon_ship_general_quality
+
+		position = { x=1 y=1 }
+		
+		limit_to_equipment_type = { 
+			screen_ship
+		}
+		
+		relative_position_id = ZNECY_escort_ship_mio_trait_13
+
+        all_parents = {  ZNECY_escort_ship_mio_trait_13 ZNECY_escort_ship_mio_trait_14 }
+
+		equipment_bonus = {
+		    naval_range = 0.3
+		    max_strength = 0.3
+			armor_value = 0.3
+			naval_speed = 0.15
+			build_cost_ic = 0.05
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+}
+#### 二次元海军装备制造局 ####
+ZNECY_naval_organization = {
+	icon = GFX_idea_ZNECY_JGZZ_NAVAL
+	
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		date < 2200.7.7
+	}
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+	equipment_type = {
+	mio_cat_eq_all_battleship
+	mio_cat_eq_all_carrier
+	mio_cat_eq_all_cruiser
+	mio_cat_eq_all_destroyer
+	}
+	research_categories = { 
+	mio_cat_tech_all_carrier_and_modules 
+	mio_cat_tech_all_capital_ship_and_modules
+	mio_cat_tech_all_cruiser_and_modules
+	mio_cat_tech_all_destroyer_and_modules
+	}
+	tree_header_text = {
+		text = ZNECY_mio_header_battleship
+		x = 1
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_carrier
+		x = 3
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_cruiser
+		x = 5
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_destroyer
+		x = 7
+	}
+	
+	initial_trait = {
+	    token = ZNECY_naval_manufacturer_0
+		name = ZNECY_naval_manufacturer_0
+		
+		limit_to_equipment_type = { 
+
+		}
+		
+		equipment_bonus = {
+		}
+		
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_1
+		name = ZNECY_attack_ship_mio_trait_1
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_weapons
+
+		position = { x=1 y=0 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_battleship
+		}
+
+		equipment_bonus = {
+		    hg_attack = 0.25
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_2
+		name = ZNECY_attack_ship_mio_trait_2
+		icon = GFX_generic_mio_department_icon_ship_carrier_offense
+
+		position = { x=3 y=0 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+		    carrier_size = 3
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_3
+		name = ZNECY_attack_ship_mio_trait_3
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
+
+		position = { x=5 y=0 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+		    lg_attack = 0.5
+			hg_attack = 0.1
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_4
+		name = ZNECY_attack_ship_mio_trait_4
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+
+		position = { x=7 y=0 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+		    torpedo_attack = 1
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_5
+		name = ZNECY_attack_ship_mio_trait_5
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_1
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_1 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_battleship
+		}
+
+		equipment_bonus = {
+		    max_strength = 0.5
+			armor_value = 0.3
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_6
+		name = ZNECY_attack_ship_mio_trait_6
+		icon = GFX_generic_mio_trait_icon_conversion_speed
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_2
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_2 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+		    max_strength = 0.5
+			anti_air_attack = 0.5
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_7
+		name = ZNECY_attack_ship_mio_trait_7
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_3
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_3 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_cruiser
+		}
+
+		equipment_bonus = {
+			anti_air_attack = 0.5
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_8
+		name = ZNECY_attack_ship_mio_trait_8
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_4
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_4 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			naval_speed = 0.15
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_9
+		name = ZNECY_attack_ship_mio_trait_9
+		icon = GFX_generic_mio_trait_icon_hg_attack
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_5
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_5 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_battleship
+		}
+
+		equipment_bonus = {
+			hg_attack = 0.25
+			surface_detection = 1
+			build_cost_ic = 0.2
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_10
+		name = ZNECY_attack_ship_mio_trait_10
+		icon = GFX_generic_mio_trait_icon_air_superiority
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_6
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_6 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			surface_detection = 1
+			build_cost_ic = 0.2
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_11
+		name = ZNECY_attack_ship_mio_trait_11
+		icon = GFX_generic_mio_trait_icon_unique
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_7
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_7 ZNECY_attack_ship_mio_trait_8 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			max_strength = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_13
+		name = ZNECY_attack_ship_mio_trait_13
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_engine
+		
+		special_trait_background = yes
+		
+		available = {
+			
+		}
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_9
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_9 ZNECY_attack_ship_mio_trait_10 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_battleship
+			mio_cat_eq_all_carrier
+		}
+
+		equipment_bonus = {
+			naval_range = 0.5
+			naval_speed = 0.15
+			fuel_consumption = -0.5
+			armor_value = 0.2
+			build_cost_ic = 0.2
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_14
+		name = ZNECY_attack_ship_mio_trait_14
+		icon = GFX_generic_mio_department_icon_ship_screen_ship
+		
+		special_trait_background = yes
+		
+		available = {
+			
+		}
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_11
+
+        all_parents = { ZNECY_attack_ship_mio_trait_11 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			naval_range = 0.5
+			naval_speed = 0.15
+			lg_attack = 0.5
+			hg_attack = 0.5
+			anti_air_attack = 0.5
+			fuel_consumption = -0.5
+			build_cost_ic = 0.1
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_attack_ship_mio_trait_15
+		name = ZNECY_attack_ship_mio_trait_15
+		icon = GFX_generic_mio_department_icon_ship_general_quality
+
+		position = { x=2 y=1 }
+		
+		relative_position_id = ZNECY_attack_ship_mio_trait_13
+
+        all_parents = {  ZNECY_attack_ship_mio_trait_13 ZNECY_attack_ship_mio_trait_14 }
+		
+		limit_to_equipment_type = { 
+		    mio_cat_eq_all_battleship
+		    mio_cat_eq_all_carrier
+			mio_cat_eq_all_cruiser
+			mio_cat_eq_all_destroyer
+		}
+
+		equipment_bonus = {
+			naval_speed = 0.5
+			surface_detection = 1
+			lg_attack = 1
+			hg_attack = 1
+			anti_air_attack = 1
+			torpedo_attack = 1
+			build_cost_ic = 1.5
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+}

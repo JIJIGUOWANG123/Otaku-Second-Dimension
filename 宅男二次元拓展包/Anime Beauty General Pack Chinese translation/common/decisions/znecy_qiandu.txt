@@ -1,0 +1,39 @@
+qiandu = {
+	ZNECY_qiandu_1 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_country_flag = QD_S2_flag
+			NOT = {
+				has_country_flag = znecy_qiandu_flag
+			}
+		}
+		fire_only_once = no
+		complete_effect = {
+			set_country_flag = znecy_qiandu_flag
+		}
+	}
+
+	ZNECY_qiandu_2 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_country_flag = QD_S2_flag
+			FROM = {
+				is_fully_controlled_by = ROOT
+				is_owned_by = ROOT
+				is_core_by = ROOT
+				is_capital = no
+			}
+			has_country_flag = znecy_qiandu_flag
+		}
+		fire_only_once = no
+		complete_effect = {
+			ROOT = {
+				set_capital = {
+					state = FROM
+				}
+				clr_country_flag = znecy_qiandu_flag
+			}
+		}
+		state_target = yes
+	}
+}

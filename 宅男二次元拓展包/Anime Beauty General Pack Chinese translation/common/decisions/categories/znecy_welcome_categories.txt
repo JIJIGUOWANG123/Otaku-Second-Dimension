@@ -1,0 +1,7 @@
+Znecy_lore_category = {
+	icon = GFX_generic_secondary_1
+	priority = 8
+	visible = {
+		has_country_flag = KG_S2_flag
+	}
+}

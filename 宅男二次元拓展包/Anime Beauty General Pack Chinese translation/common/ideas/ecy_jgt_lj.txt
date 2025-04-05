@@ -1,0 +1,306 @@
+ideas = {
+	academy_spirit = {
+		ECYLJJGT01_diyi = {
+			ledger = army
+			picture = ecyjgtlj_1
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				motorized_attack_factor = 0.15
+				motorized_defence_factor = 0.15
+				unit_mot_artillery_brigade_design_cost_factor = -0.15
+				unit_motorized_design_cost_factor = -0.15
+				unit_mot_recon_design_cost_factor = -0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT01_dier = {
+			ledger = army
+			picture = ecyjgtlj_2
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				enemy_operative_detection_chance = 15
+				CIVILIAN_INTEL_DECRYPTION_BONUS = 15
+				ARMY_INTEL_DECRYPTION_BONUS = 15
+				NAVY_INTEL_DECRYPTION_BONUS = 15
+				AIRFORCE_INTEL_DECRYPTION_BONUS = 15
+				enemy_operative_capture_chance_factor = 0.15
+				intelligence_agency_defense = 15
+				encryption_factor = 0.15
+				operation_capture_cipher_outcome = 0.15
+				operation_capture_cipher_risk = -0.15
+				operation_collaboration_government_outcome = 0.15
+				operation_coup_government_outcome = 0.15
+				operation_rescue_operative_outcome = 0.15
+				operation_rescue_operative_risk = -0.15
+				operation_make_resistance_contacts_outcome = 0.15
+				intel_network_state_level_penalty = 0.15
+				own_operative_detection_chance_factor = -0.15
+				intel_network_gain_factor = 0.15
+				decryption_factor = 0.15
+				army_intel_to_others = -15
+				navy_intel_to_others = -15
+				AIRFORCE_INTEL_TO_OTHERS = -15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT01_disan = {
+			ledger = army
+			picture = ecyjgtlj_3
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				experience_gain_factor = 0.15
+				GRANT_MEDAL_COST_FACTOR = -0.3
+				FIELD_OFFICER_PROMOTION_PENALTY = -0.15
+				trait_career_officer_xp_gain_factor = 0.25
+				trait_armor_officer_xp_gain_factor = 0.25
+				trait_engineer_officer_xp_gain_factor = 0.25
+				trait_cavalry_officer_xp_gain_factor = 0.25
+				trait_infantry_officer_xp_gain_factor = 0.25
+				trait_skirmisher_xp_gain_factor = 0.25
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT01_disi = {
+			ledger = army
+			picture = ecyjgtlj_4
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				political_advisor_cost_factor = -0.3
+				political_power_factor = 0.15
+				stability_factor = 0.15
+				weekly_casualties_war_support = 0.15
+				weekly_convoys_war_support = 0.15
+				weekly_bombing_war_support = 0.15
+				defensive_war_stability_factor = 0.15
+				drift_defence_factor = 0.15
+				PROPAGANDA_MISSION_FACTOR = 0.15
+				civilian_intel_to_others = -15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT01_diwu = {
+			ledger = army
+			picture = ecyjgtlj_5
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				trait_armor_officer_xp_gain_factor = 0.25
+				trait_panzer_expert_xp_gain_factor = 0.25
+				trait_panzer_leader_xp_gain_factor = 0.25
+				planning_speed = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	army_spirit = {
+		ECYLJJGT02_diyi = {
+			ledger = army
+			picture = ecyjgtlj_6
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				out_of_supply_factor = -0.15
+				supply_consumption_factor = 0.15
+				local_supplies = 0.15
+				supply_consumption_factor = -0.15
+				production_speed_rail_way_factor = 0.15
+				production_speed_supply_node_factor = 0.15
+				NO_SUPPLY_GRACE = 24
+				special_forces_out_of_supply_factor = -0.15
+				SUPPLY_FACTOR = 0.15
+				SUPPLY_NODE_RANGE = 0.15
+				TRUCK_ATTRITION = -0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT02_dier = {
+			ledger = army
+			picture = ecyjgtlj_7
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				experience_gain_army_factor = 0.15
+				land_doctrine_cost_factor = -0.15
+				command_power_gain = 0.25
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT02_disan = {
+			ledger = army
+			picture = ecyjgtlj_8
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				unit_cavalry_design_cost_factor = -15
+				cavalry_attack_factor = 0.15
+				supply_combat_penalties_on_core_factor = -0.25
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT02_disi = {
+			ledger = army
+			picture = ecyjgtlj_9
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				experience_gain_motorized_combat_factor = 0.15
+				experience_gain_mechanized_combat_factor = 0.15
+				unit_light_armor_design_cost_factor = -1.5
+				unit_medium_armor_design_cost_factor = -1.5
+				unit_modern_armor_design_cost_factor = -1.5
+				unit_heavy_armor_design_cost_factor = -1.5
+				unit_super_heavy_armor_design_cost_factor = -1.5
+				unit_motorized_design_cost_factor = -1.5
+				unit_mechanized_design_cost_factor = -1.5
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT02_diwu = {
+			ledger = army
+			picture = ecyjgtlj_10
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				grant_medal_cost_factor = -0.75
+				field_officer_promotion_penalty = -1.5
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	division_command_spirit = {
+		ECYLJJGT03_diyi = {
+			ledger = army
+			picture = ecyjgtlj_11
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				no_supply_grace = 72
+				out_of_supply_factor = -0.1
+				local_supplies = 0.15
+				supply_consumption_factor = -0.1
+				production_speed_supply_node_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT03_dier = {
+			ledger = army
+			picture = ecyjgtlj_12
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				breakthrough_factor = 0.15
+				recon_factor = 0.1
+				army_attack_factor = 0.15
+				army_speed_factor = 0.15
+				planning_speed = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT03_disan = {
+			ledger = army
+			picture = ecyjgtlj_13
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				attrition = -0.15
+				army_speed_factor = 0.15
+				army_infantry_defence_factor = 0.15
+				org_loss_when_moving = -0.15
+				no_supply_grace = 48
+				tactic_backhand_blow_preferred_weight_factor = 1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT03_disi = {
+			ledger = army
+			picture = ecyjgtlj_14
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				coordination_bonus = 0.15
+				army_defence_factor = 0.15
+				recon_factor = 0.15
+				land_reinforce_rate = 0.15
+				tactic_breakthrough_preferred_weight_factor = 1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYLJJGT03_diwu = {
+			ledger = army
+			picture = ecyjgtlj_15
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				production_speed_bunker_factor = 0.15
+				trait_engineer_xp_gain_factor = 0.25
+				trait_unyielding_defender_xp_gain_factor = 0.25
+				trait_old_guard_xp_gain_factor = 0.25
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

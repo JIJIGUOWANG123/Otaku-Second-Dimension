@@ -1,0 +1,382 @@
+znecytg_decision_category = {
+    TG_znecy = {
+	icon = generic_army_support
+        visible = {
+            ROOT = {
+                is_ai = no
+            }
+        }
+        available = {
+
+		}
+        fire_only_once = yes
+        cost =0
+        complete_effect = {
+                create_operative_leader = {
+                    name = "ZNECY_TG_1"
+                    GFX = GFX_TG_EC_1
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_2"
+                    GFX = GFX_TG_EC_2
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_3"
+                    GFX = GFX_TG_EC_3
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_4"
+                    GFX = GFX_TG_EC_4
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_5"
+                    GFX = GFX_TG_EC_5
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_6"
+                    GFX = GFX_TG_EC_6
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_7"
+                    GFX = GFX_TG_EC_7
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_8"
+                    GFX = GFX_TG_EC_8
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_9"
+                    GFX = GFX_TG_EC_9
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_10"
+                    GFX = GFX_TG_EC_10
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_11"
+                    GFX = GFX_TG_EC_11
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_12"
+                    GFX = GFX_TG_EC_12
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_13"
+                    GFX = GFX_TG_EC_13
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_14"
+                    GFX = GFX_TG_EC_14
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_15"
+                    GFX = GFX_TG_EC_15
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_16"
+                    GFX = GFX_TG_EC_16
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_17"
+                    GFX = GFX_TG_EC_17
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_18"
+                    GFX = GFX_TG_EC_18
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_19"
+                    GFX = GFX_TG_EC_19
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+                create_operative_leader = {
+                    name = "ZNECY_TG_20"
+                    GFX = GFX_TG_EC_20
+                    traits = { 
+                        operative_infiltrator 
+                        operative_natural_orator 
+                        operative_demolition_expert 
+                        operative_escape_artist 
+                        operative_well_groomed 
+                        operative_safe_cracker
+                        operative_linguist
+                        operative_commando
+                        operative_master_interrogator
+                    }
+                    bypass_recruitment = no
+                    available_to_spy_master = yes
+                    nationalities = { FRA ENG GER USA JAP CHI PRC SOV RUS TUR POR CAN RAJ EGY KOR AST HUN AUS }
+                }
+		}
+        ai_will_do = {
+            factor = 0
+        }
+
+    }
+}
+

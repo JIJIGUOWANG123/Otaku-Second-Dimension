@@ -1,0 +1,14 @@
+X_znecy_propaganda_campaigns = {
+	priority = 600
+	icon = SOV_propaganda
+	scripted_gui = znecy_propaganda_campaigns_ui
+	allowed = {
+		znecy_country = yes
+	}
+
+	visible = {
+		has_country_flag = HB_S2_flag
+		has_civil_war = no
+		is_subject = no
+	}
+}

@@ -1,0 +1,992 @@
+@DAYS_DETERMINED = 180 #Used for propaganda campaign ZNECY_heroes_forward -> Value should be the same as ZNECY_default_propaganda_campaign_duration
+
+X_znecy_propaganda_campaigns = {
+	X_znecy_propaganda_3 = { # ID = 3
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_3 }
+		}
+		days_remove = 180       
+		days_re_enable = X_znecy_propaganda_3_enable
+
+		cost = 50
+		modifier = {
+			war_support_weekly = 0.05
+			experience_gain_army_factor = 0.2
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 3 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_3
+				}
+				set_country_flag = Second_X_znecy_propaganda_3
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_3
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_3
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 3 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_4 = { # ID = 4
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_ }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			political_power_factor = 0.5
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 4 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_4
+				}
+				set_country_flag = Second_X_znecy_propaganda_4
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_4
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_4
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 4 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_5 = { # ID = 5
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = {
+			X_znecy_propaganda_poster_slot_available = yes
+		}
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_5 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			experience_gain_army = 0.25
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 5 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_5
+				}
+				set_country_flag = Second_X_znecy_propaganda_5
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_5
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_5
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 5 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_6 = { # ID = 6
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = {
+			X_znecy_propaganda_poster_slot_available = yes	
+		}
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_6 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			army_core_attack_factor = 0.20
+			army_core_defence_factor = 0.20
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 6 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_6
+				}
+				set_country_flag = Second_X_znecy_propaganda_6
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_6
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_6
+			}
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 6 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_7 = { # ID = 7
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = {
+			X_znecy_propaganda_poster_slot_available = yes
+		}
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_7 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			weekly_manpower = 2500
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 7 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_7
+				}
+				set_country_flag = Second_X_znecy_propaganda_7
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_7
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_7
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 7 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_8 = { # ID = 8
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_8 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 8 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_8
+				}
+				set_country_flag = Second_X_znecy_propaganda_8
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_8
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_8
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 8 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_9 = { # ID = 9
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_9 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			army_intel_to_others = -50
+			navy_intel_to_others = -50
+			airforce_intel_to_others = -50
+			civilian_intel_to_others = -50
+			foreign_subversive_activites = -0.25
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 9 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_9
+				}
+				set_country_flag = Second_X_znecy_propaganda_9
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_9
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_9
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 9 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_10 = { # ID = 10
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_10 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			command_power_gain_mult = 0.15
+			breakthrough_factor = 0.075
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 10 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_10
+				}
+				set_country_flag = Second_X_znecy_propaganda_10
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_3
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_3
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 10 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_11 = { # ID = 11
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = {
+			X_znecy_propaganda_poster_slot_available = yes
+		}
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_11 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			production_speed_coastal_bunker_factor = 0.5
+			production_speed_bunker_factor = 0.5
+			weekly_manpower = 5000
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 11 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_11
+				}
+				set_country_flag = Second_X_znecy_propaganda_11
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_11
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_11
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 11 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_12 = { # ID = 12
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes has_war = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_12 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			production_speed_arms_factory_factor = 0.2
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 12 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_12
+				}
+				set_country_flag = Second_X_znecy_propaganda_12
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_12
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_12
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 12 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_13 = { # ID = 13
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes has_war = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_13 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		targeted_modifier = {
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 13 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_13
+				}
+				set_country_flag = Second_X_znecy_propaganda_13
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_13
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_13
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 13 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_14 = { # ID = 14
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_14 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			exiled_government_weekly_manpower = 700
+		    weekly_manpower = 2500 
+	        non_core_manpower = 0.7
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 14 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_14
+				}
+				set_country_flag = Second_X_znecy_propaganda_14
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_14
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_14
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 14 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+			multiply_variable = { X_znecy_propaganda_14_cost = 2 }
+		}
+	}
+	X_znecy_propaganda_15 = { # ID = 15
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_15 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			political_power_gain = 0.1
+			command_power_gain_mult = 0.1
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 15 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_15
+				}
+
+				set_country_flag = Second_X_znecy_propaganda_15
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_15
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_15
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 15 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_16 = { # ID = 16
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_16 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			war_support_weekly = 0.007
+			experience_gain_army_factor = 0.1
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 16 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_16
+				}
+				set_country_flag = Second_X_znecy_propaganda_16
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_16
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_16
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 16 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_17 = { # ID = 17
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes has_war = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_17 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			stability_weekly = -0.001
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_arms_factory_factor = 0.15
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 17 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_17
+				}
+				set_country_flag = Second_X_znecy_propaganda_17
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_17
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_17
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 17 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_18 = { # ID = 18
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_18 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			political_power_factor = 0.07
+			weekly_manpower = 700
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 18 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_18
+				}
+				set_country_flag = Second_X_znecy_propaganda_18
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_18
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_18
+			}
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 18 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_19 = { # ID = 19
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_19 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			mobilization_speed = 0.2
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 19 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_19
+				}
+				set_country_flag = Second_X_znecy_propaganda_19
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_19
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_19
+			}
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 19 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_20 = { # ID = 20
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_20 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			industrial_capacity_factory = 0.1
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 20 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_20
+				}
+				set_country_flag = Second_X_znecy_propaganda_20
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_20
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_20
+			}
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 20 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_21 = { # ID = 21
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_21 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			production_speed_buildings_factor = 0.1
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 21 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_21
+				}
+				set_country_flag = Second_X_znecy_propaganda_21
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_21
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_21
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 21 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_22 = { # ID = 22
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_22 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			consumer_goods_factor = -0.10
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 22 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_22
+				}
+				set_country_flag = Second_X_znecy_propaganda_22
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_22
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_22
+			}
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 22 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_23 = { # ID = 23
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes has_war = no }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_23 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			war_support_weekly = 0.02
+			experience_gain_army_factor = 0.2
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 23 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_23
+				}
+				set_country_flag = Second_X_znecy_propaganda_23
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_23
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_23
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 23 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_24 = { # ID = 24
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_24 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			political_power_factor = 0.1
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 24 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_24
+				}
+				clr_country_flag = First_X_znecy_propaganda_24
+				set_country_flag = Second_X_znecy_propaganda_24
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_24
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_24
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 24 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_25 = { # ID = 25
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_25 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			justify_war_goal_time = -0.2
+			consumer_goods_factor = -0.05
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 25 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_25
+				}
+				clr_country_flag = First_X_znecy_propaganda_25
+				set_country_flag = Second_X_znecy_propaganda_25
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_25
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_25
+			}
+			custom_effect_tooltip = ZNECY_propaganda_campaign_cooldown_tt
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 25 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+		}
+	}
+	X_znecy_propaganda_26 = { # ID = 26
+		priority = 2
+		icon = eng_propaganda_campaigns
+		ai_will_do = { base = 0 }
+		allowed = { znecy_country = yes }
+		available = { X_znecy_propaganda_poster_slot_available = yes }
+		visible = {
+			NOT = { has_country_flag = Second_X_znecy_propaganda_26 }
+		}
+		days_remove = 180       
+		days_re_enable = 15
+
+		cost = 50
+		modifier = {
+			research_speed_factor = 0.10
+		}
+		complete_effect = {
+			set_variable = { X_znecy_new_propaganda_campaign = 26 }
+			X_znecy_pick_propaganda_campaign_slot_effect = yes
+			IF = {
+				limit = {
+					has_country_flag = First_X_znecy_propaganda_26
+				}
+				clr_country_flag = First_X_znecy_propaganda_26
+				set_country_flag = Second_X_znecy_propaganda_26
+			}
+		}
+		remove_effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_country_flag = First_X_znecy_propaganda_25
+				    }  
+				}
+				set_country_flag = First_X_znecy_propaganda_25
+			}
+			set_variable = { X_znecy_propaganda_campaign_to_remove = 26 }
+			X_znecy_reset_propaganda_campaign_slot_effect = yes
+			multiply_variable = { X_xchinese_propaganda_26_cost = 2 }
+		}
+	}
+
+}

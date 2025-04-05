@@ -1,0 +1,101 @@
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+##极权主义者
+    totalist_1 = {
+        totalist_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##工团主义者
+	syndicalist_2 = {
+		syndicalist_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##激进社会主义者
+	radical_socialist_3 = {
+		radical_socialist_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##社会民主主义者
+	social_democrat_4 = {
+		social_democrat_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##社会自由主义者
+	social_liberal_5 = {
+		social_liberal_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##市场自由主义者
+	market_liberal_6 = {
+		market_liberal_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##社会保守主义者
+	social_conservative_7 = {
+		social_conservative_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##威权民主主义者
+	authoritarian_democrat_8 = {
+		authoritarian_democrat_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##家长制独裁者
+	paternal_autocrat_9 = {
+		paternal_autocrat_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##国家民粹主义者
+	national_populist_10 = {
+		national_populist_drift = 0.15
+		political_power_gain = 0.3
+		
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+}

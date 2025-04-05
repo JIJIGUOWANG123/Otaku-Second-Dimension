@@ -1,0 +1,3321 @@
+#### 二次元陆军火炮制造局 ####
+ZNECY_empire_arsenal_organization = {
+	icon = GFX_idea_ZNECY_JGZZ_ARSENAL
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		date < 2200.7.7
+	}
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+	equipment_type = {
+		artillery_equipment
+		anti_tank_equipment
+		anti_air_equipment
+		rocket_artillery_equipment
+		railway_gun_equipment
+	}
+	research_categories = { mio_cat_all_artillery_equipment }
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_shell
+		x = 1
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_barrel
+		x = 4
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_research_and_production
+		x = 7
+	}
+	
+	initial_trait = {
+	    token = ZNECY_materiel_manufacturer_artillery
+		name = ZNECY_materiel_manufacturer_artillery
+		
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+		
+		production_bonus = {
+            production_efficiency_gain_factor = 0.05
+		}
+		
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_1
+		name = ZNECY_artillery_mio_trait_1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+
+		position = { x=1 y=0 }
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+		}
+
+		equipment_bonus = {
+            reliability = 0.15
+		}
+		
+		production_bonus = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_2
+		name = ZNECY_artillery_mio_trait_2
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		position = { x=4 y=0 }
+		
+		limit_to_equipment_type = { 
+            
+		}
+
+		equipment_bonus = {
+		}
+		
+		production_bonus = {
+			production_capacity_factor = 0.05
+			production_efficiency_cap_factor = 0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_3
+		name = ZNECY_artillery_mio_trait_3
+		icon = GFX_generic_mio_trait_icon_unique
+
+		position = { x=7 y=0 }
+		
+		limit_to_equipment_type = { 
+            
+		}
+
+		equipment_bonus = {
+			
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_4
+		name = ZNECY_artillery_mio_trait_4
+		icon = GFX_generic_mio_department_icon_tank_general_weapons
+
+		position = { x=-1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_1
+
+        all_parents = { ZNECY_artillery_mio_trait_1 }
+		
+		mutually_exclusive = { ZNECY_artillery_mio_trait_5 }
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+		}
+
+		equipment_bonus = {
+			defense = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_5
+		name = ZNECY_artillery_mio_trait_5
+		icon = GFX_generic_mio_department_icon_tank_general_weapons
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_1
+
+        all_parents = { ZNECY_artillery_mio_trait_1 }
+		
+		mutually_exclusive = { ZNECY_artillery_mio_trait_4 }
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+		}
+
+		equipment_bonus = {
+			breakthrough = 0.15
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_6
+		name = ZNECY_artillery_mio_trait_6
+		icon = GFX_generic_mio_department_icon_artillery_line_efficiency
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_2
+		
+		all_parents = { ZNECY_artillery_mio_trait_2 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = 0.03
+			breakthrough = 0.03
+			ap_attack = 0.10
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_7
+		name = ZNECY_artillery_mio_trait_7
+		icon = GFX_generic_mio_trait_icon_resources
+
+		position = { x=-1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_3
+		
+		all_parents = { ZNECY_artillery_mio_trait_3 }
+		
+		
+		limit_to_equipment_type = { 
+
+		}
+
+		equipment_bonus = {
+
+		}
+		
+		production_bonus = {
+            production_resource_need_factor = -0.15
+            production_resource_penalty_factor = -0.15
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_8
+		name = ZNECY_artillery_mio_trait_8
+		icon = GFX_generic_mio_department_icon_support_conversion
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_3
+		
+		all_parents = { ZNECY_artillery_mio_trait_3 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+            breakthrough = 0.10
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_9
+		name = ZNECY_artillery_mio_trait_9
+		icon = GFX_generic_mio_department_icon_tank_general_spg
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_4
+		
+		any_parent = { ZNECY_artillery_mio_trait_4 ZNECY_artillery_mio_trait_5 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+		    soft_attack = 0.05
+            reliability = 0.25
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_10
+		name = ZNECY_artillery_mio_trait_10
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_6
+		
+		all_parents = { ZNECY_artillery_mio_trait_6 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+            defense = 0.07
+			breakthrough = 0.07
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+           #production_efficiency_cap_factor = 0.05
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_11
+		name = ZNECY_artillery_mio_trait_11
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_7
+		
+		all_parents = { ZNECY_artillery_mio_trait_7 }
+		
+		
+		limit_to_equipment_type = { 
+
+		}
+
+		equipment_bonus = {
+           
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.1
+			production_efficiency_gain_factor = 0.15
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_12
+		name = ZNECY_artillery_mio_trait_12
+		icon = GFX_generic_mio_trait_icon_strategic_attack
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_8
+		
+		all_parents = { ZNECY_artillery_mio_trait_8 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+            soft_attack = 0.05
+			breakthrough = 0.05
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_13
+		name = ZNECY_artillery_mio_trait_13
+		icon = GFX_generic_mio_department_icon_tank_general_at
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_9
+		
+		all_parents = { ZNECY_artillery_mio_trait_9 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+			hard_attack = 0.05
+			ap_attack = 0.15
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_14
+		name = ZNECY_artillery_mio_trait_14
+		icon = GFX_generic_mio_trait_icon_air_agility
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_10
+		
+		all_parents = { ZNECY_artillery_mio_trait_10 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = 0.05
+			defense = 0.08
+			breakthrough = 0.08
+		}
+		
+		production_bonus = {
+            
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_15
+		name = ZNECY_artillery_mio_trait_15
+		icon = GFX_generic_mio_trait_icon_efficiency_cap
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_11
+		
+		all_parents = { ZNECY_artillery_mio_trait_11 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+
+		}
+		
+		production_bonus = {
+            production_conversion_speed_factor = 0.15
+            production_capacity_factor = 0.1
+		}
+		
+		organization_modifier = {
+            military_industrial_organization_design_team_assign_cost = -0.5
+            military_industrial_organization_design_team_change_cost = -0.5
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_16
+		name = ZNECY_artillery_mio_trait_16
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_12
+		
+		all_parents = { ZNECY_artillery_mio_trait_12 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+			rocket_artillery_equipment
+			anti_air_equipment
+		}
+
+		equipment_bonus = {
+            soft_attack = 0.05
+			hard_attack = 1
+			air_attack = 0.05
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_17
+		name = ZNECY_artillery_mio_trait_17
+		icon = GFX_generic_mio_trait_icon_soft_attack
+
+		position = { x=-1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_13
+		
+		all_parents = { ZNECY_artillery_mio_trait_13 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+            soft_attack = 0.1
+			breakthrough = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_18
+		name = ZNECY_artillery_mio_trait_18
+		icon = GFX_generic_mio_trait_icon_hard_attack
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_13
+		
+		all_parents = { ZNECY_artillery_mio_trait_13 }
+		
+		
+		limit_to_equipment_type = { 
+            anti_tank_equipment
+		}
+
+		equipment_bonus = {
+            hard_attack = 0.1
+			ap_attack = 0.25
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_19
+		name = ZNECY_artillery_mio_trait_19
+		icon = GFX_generic_mio_trait_icon_anti_air_attack
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_13
+		
+		all_parents = { ZNECY_artillery_mio_trait_13 }
+		
+		
+		limit_to_equipment_type = { 
+            anti_air_equipment
+		}
+
+		equipment_bonus = {
+            air_attack = 0.1
+		}
+		
+		production_bonus = {
+
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_20
+		name = ZNECY_artillery_mio_trait_20
+		icon = GFX_generic_mio_department_icon_artillery_production
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_14
+		
+		all_parents = { ZNECY_artillery_mio_trait_14 }
+		
+		
+		limit_to_equipment_type = { 
+            artillery_equipment
+		    anti_tank_equipment
+		    anti_air_equipment
+			rocket_artillery_equipment
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.05
+			breakthrough = 0.15
+			defense = 0.15
+		}
+		
+		production_bonus = {
+            production_efficiency_gain_factor = 0.10
+		}
+		
+		organization_modifier = {
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_21
+		name = ZNECY_artillery_mio_trait_21
+		icon = GFX_military_industrial_organization_railway_gun
+
+		position = { x=0 y=2 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_3
+		
+		all_parents = { ZNECY_artillery_mio_trait_7 ZNECY_artillery_mio_trait_8 ZNECY_artillery_mio_trait_3 }
+		
+		
+		limit_to_equipment_type = { 
+            railway_gun_equipment
+		}
+
+		equipment_bonus = {
+            maximum_speed = 0.1
+            railway_gun_attack = 0.15
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_artillery_mio_trait_22
+		name = ZNECY_artillery_mio_trait_22
+		icon = GFX_military_industrial_organization_railway_gun
+
+		position = { x=0 y=2 }
+		
+		relative_position_id = ZNECY_artillery_mio_trait_21
+		
+		all_parents = { ZNECY_artillery_mio_trait_21 ZNECY_artillery_mio_trait_15 ZNECY_artillery_mio_trait_16 }
+		
+		
+		limit_to_equipment_type = { 
+            railway_gun_equipment
+		}
+
+		equipment_bonus = {
+            maximum_speed = 0.1
+            railway_gun_attack = 0.25
+		}
+		
+		production_bonus = {
+		
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+}
+
+#### 二次元汽车制造总局 ####
+ZNECY_empire_automotive_organization = {
+	icon = GFX_idea_ZNECY_JGZZ_AUTOMOTIVE
+	name = ZNECY_empire_automotive_organization
+	
+	allowed = {
+		date < 2200.7.7
+	}
+	
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+	
+	equipment_type = {
+		motorized_equipment
+		mechanized_equipment
+		amphibious_mechanized_equipment
+	}
+	
+	research_categories = {
+		mio_cat_tech_all_motorized_mechanized
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_motorized
+		x = 1
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_mechanized
+		x = 7
+	}
+	
+	initial_trait = {
+		name = ZNECY_mio_initial_trait_motorized_mechanized_manufacturer
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_composite_cargo_bed
+		name = ZNECY_mio_trait_composite_cargo_bed
+		icon = GFX_generic_mio_department_icon_motorized_production
+		
+		position = { x=0 y=0 }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			reliability = -0.07
+			build_cost_ic = -0.05
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_steel_cargo_bed
+		name = ZNECY_mio_trait_steel_cargo_bed
+		icon = GFX_generic_mio_trait_icon_reliability
+		
+		position = { x=2 y=0 }
+		relative_position_id = ZNECY_mio_trait_composite_cargo_bed
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = 0.02
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_all_wheel_drive
+		name = ZNECY_mio_trait_all_wheel_drive
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		
+		position = { x=1 y=2 }
+		relative_position_id = ZNECY_mio_trait_composite_cargo_bed
+		
+		any_parent = { ZNECY_mio_trait_composite_cargo_bed ZNECY_mio_trait_steel_cargo_bed }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+		
+		equipment_bonus = {
+			breakthrough = 0.035
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_attached_wood_gas_generator
+		name = ZNECY_mio_trait_attached_wood_gas_generator
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+		
+		position = { x=-1 y=2 }
+		relative_position_id = ZNECY_mio_trait_all_wheel_drive
+		
+		all_parents = { ZNECY_mio_trait_all_wheel_drive }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			fuel_consumption = -0.05
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_high_powered_engine
+		name = ZNECY_mio_trait_high_powered_engine
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		
+		position = { x=2 y=0 }
+		relative_position_id = ZNECY_mio_trait_attached_wood_gas_generator
+		
+		all_parents = { ZNECY_mio_trait_all_wheel_drive }
+
+		limit_to_equipment_type = { motorized_equipment motorized_rocket_equipment }
+
+		equipment_bonus = {
+			fuel_consumption = 0.05
+			maximum_speed = 0.05
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_medium_machinegun_mounts
+		name = ZNECY_mio_trait_medium_machinegun_mounts
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		
+		position = { x=2 y=0 }
+		relative_position_id = ZNECY_mio_trait_steel_cargo_bed
+
+		equipment_bonus = {
+			breakthrough = 0.03
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_armored_pulpit_mount
+		name = ZNECY_mio_trait_armored_pulpit_mount
+		icon = GFX_generic_mio_trait_icon_hardness
+		
+		position = { x=0 y=2 }
+		relative_position_id = ZNECY_mio_trait_medium_machinegun_mounts
+
+		all_parents = { ZNECY_mio_trait_medium_machinegun_mounts }
+
+		equipment_bonus = {
+			hardness = 0.05
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_advanced_artillery_racks
+		name = ZNECY_mio_trait_advanced_artillery_racks
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		
+		position = { x=-1 y=2 }
+		relative_position_id = ZNECY_mio_trait_armored_pulpit_mount
+		
+		all_parents = { ZNECY_mio_trait_armored_pulpit_mount }
+			
+		limit_to_equipment_type = { motorized_rocket_equipment }
+
+		equipment_bonus = {
+			soft_attack = 0.035
+			build_cost_ic = 0.06
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_heavy_machinegun_mount
+		name = ZNECY_mio_trait_heavy_machinegun_mount
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		
+		position = { x=2 y=0 }
+		relative_position_id = ZNECY_mio_trait_advanced_artillery_racks
+		
+		all_parents = { ZNECY_mio_trait_armored_pulpit_mount }
+				
+		limit_to_equipment_type = { mechanized_equipment motorized_equipment }
+		
+		equipment_bonus = {
+			breakthrough = 0.04
+			build_cost_ic = 0.01
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_mounted_light_anti_tank_gun #elephant gun
+		name = ZNECY_mio_trait_mounted_light_anti_tank_gun
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		
+		position = { x=1 y=0 }
+		relative_position_id = ZNECY_mio_trait_heavy_machinegun_mount
+			
+		all_parents = { ZNECY_mio_trait_bulletproof_panels }
+		
+		limit_to_equipment_type = { mechanized_equipment }
+
+		equipment_bonus = {
+			ap_attack = 0.1
+			hard_attack = 0.02
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_open_chassi
+		name = ZNECY_mio_trait_open_chassi
+		icon = GFX_generic_mio_department_icon_mechanized_production
+		
+		position = { x=2 y=0 }
+		relative_position_id = ZNECY_mio_trait_medium_machinegun_mounts
+		
+		limit_to_equipment_type = { mechanized_equipment }
+		
+		equipment_bonus = {
+			defense = -0.02
+			build_cost_ic = -0.03
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_closed_chassi
+		name = ZNECY_mio_trait_closed_chassi
+		icon = GFX_generic_mio_department_icon_mechanized_hull
+		
+		position = { x=2 y=0 }
+		relative_position_id = ZNECY_mio_trait_open_chassi
+		
+		limit_to_equipment_type = { mechanized_equipment }
+		
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+	}
+
+
+	trait = {
+		token = ZNECY_mio_trait_bulletproof_panels
+		name = ZNECY_mio_trait_bulletproof_panels
+		icon = GFX_generic_mio_trait_icon_hardness
+		
+		position = { x=-1 y=2 }
+		relative_position_id = ZNECY_mio_trait_closed_chassi
+		
+		limit_to_equipment_type = { mechanized_equipment }
+		
+		any_parent = { ZNECY_mio_trait_closed_chassi ZNECY_mio_trait_open_chassi }
+
+		equipment_bonus = {
+			hardness = 0.05
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_light_flame_projectors
+		name = ZNECY_mio_trait_light_flame_projectors
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		
+		position = { x=0 y=2 }
+		relative_position_id = ZNECY_mio_trait_bulletproof_panels
+		
+		limit_to_equipment_type = { mechanized_equipment }
+		
+		all_parents = { ZNECY_mio_trait_bulletproof_panels }
+
+		equipment_bonus = {
+			breakthrough = 0.035
+		}
+	}
+
+	trait = {
+		token = ZNECY_mio_trait_land_mine_racks
+		name = ZNECY_mio_trait_land_mine_racks
+		icon = GFX_generic_mio_department_icon_mechanized_hull
+		
+		position = { x=1 y=0 }
+		relative_position_id = ZNECY_mio_trait_light_flame_projectors
+		
+		limit_to_equipment_type = { mechanized_equipment }
+		
+		all_parents = { ZNECY_mio_trait_bulletproof_panels }
+
+		equipment_bonus = {
+			defense = 0.06
+			maximum_speed = -0.02
+		}
+	}
+}
+#### 二次元工业部门 ####
+ZNECY_industry_sector_organization = {
+	icon = GFX_idea_ZNECY_JGZZ_SECTOR
+	
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	
+	allowed = {
+		date < 2200.7.7
+	}
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+	equipment_type = {
+		infantry_equipment
+		support_equipment
+		artillery_equipment
+		motorized_equipment
+		mechanized_equipment
+		armored_car_equipment
+		armor
+		convoy_1
+		capital_ship
+		screen_ship
+		submarine
+		mio_cat_eq_all_small_plane
+		mio_cat_eq_all_medium_plane
+		mio_cat_eq_all_large_plane
+		train_equipment
+	}
+
+	research_categories = {
+		infantry_weapons
+		support_tech
+		mio_cat_all_artillery_equipment
+		mio_cat_tech_all_motorized_mechanized
+		armor
+		mio_cat_tech_all_capital_ship_and_modules
+		mio_cat_tech_all_screen_ship_and_modules
+		mio_cat_tech_all_submarine_and_modules
+		mio_cat_all_light_aircraft_and_modules
+		train_tech
+		cat_armored_cars
+		train_equipment
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_weapons_department
+		x = 1
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_vehicles_department
+		x = 3
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_ships_department
+		x = 5
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_aircrafts_department
+		x = 7
+	}
+	
+	initial_trait = {
+	    token = ZNECY_armor_manufacturer_0
+		name = ZNECY_armor_manufacturer_0
+		
+		limit_to_equipment_type = { 
+
+		}
+		
+		equipment_bonus = {
+
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.05
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_1
+		name = ZNECY_mechanized_mio_trait_1
+		icon = GFX_generic_mio_department_icon_infantry_production
+
+		position = { x=1 y=0 }
+		
+		available = {
+		
+	}
+		
+		limit_to_equipment_type = { 
+			infantry_equipment
+		    support_equipment
+		}
+
+		equipment_bonus = {
+            build_cost_ic = -0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_2
+		name = ZNECY_mechanized_mio_trait_2
+		icon = GFX_generic_mio_department_icon_motorized_engine
+
+		position = { x=3 y=0 }
+		
+		available = {
+		
+	}
+		
+		limit_to_equipment_type = { 
+			motorized_equipment
+			train_equipment
+		}
+
+		equipment_bonus = {
+            build_cost_ic = -0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_3
+		name = ZNECY_mechanized_mio_trait_3
+		icon = GFX_generic_mio_department_icon_ship_general_engine
+
+		position = { x=5 y=0 }
+		
+		available = {
+		
+	}
+		
+		limit_to_equipment_type = { 
+			convoy_1
+		}
+
+		equipment_bonus = {
+            build_cost_ic = -0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_4
+		name = ZNECY_mechanized_mio_trait_4
+		icon = GFX_generic_mio_department_icon_plane_light_production
+
+		position = { x=7 y=0 }
+		
+		available = {
+		
+	}
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_small_plane
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+            build_cost_ic = -0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_5
+		name = ZNECY_mechanized_mio_trait_5
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_1
+
+        all_parents = {  ZNECY_mechanized_mio_trait_1 }
+		
+		limit_to_equipment_type = { 
+			infantry_equipment
+		    support_equipment
+		}
+
+		equipment_bonus = {
+		    reliability = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_6
+		name = ZNECY_mechanized_mio_trait_6
+		icon = GFX_generic_mio_department_icon_motorized_mechanized_line_efficiency
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_2
+
+        all_parents = {  ZNECY_mechanized_mio_trait_2 }
+		
+		limit_to_equipment_type = { 
+			motorized_equipment
+			mechanized_equipment
+		}
+
+		equipment_bonus = {
+		    reliability = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_7
+		name = ZNECY_mechanized_mio_trait_7
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_production
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_3
+
+        all_parents = {  ZNECY_mechanized_mio_trait_3 }
+		
+		limit_to_equipment_type = { 
+			capital_ship
+		    screen_ship
+		    submarine
+		}
+
+		equipment_bonus = {
+		    reliability = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_8
+		name = ZNECY_mechanized_mio_trait_8
+		icon = GFX_generic_mio_department_icon_plane_general_production
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_4
+
+        all_parents = {  ZNECY_mechanized_mio_trait_4 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_small_plane
+			mio_cat_eq_all_medium_plane
+			mio_cat_eq_all_large_plane
+		}
+
+		equipment_bonus = {
+		    reliability = 0.05
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_9
+		name = ZNECY_mechanized_mio_trait_9
+		icon = GFX_generic_mio_department_icon_artillery_conversion
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_5
+
+        all_parents = {  ZNECY_mechanized_mio_trait_5 }
+		
+		limit_to_equipment_type = { 
+			artillery_equipment
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.05
+			reliability = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_10
+		name = ZNECY_mechanized_mio_trait_10
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_6
+
+        all_parents = {  ZNECY_mechanized_mio_trait_6 }
+		
+		limit_to_equipment_type = { 
+			mechanized_equipment
+		    armor
+			train_equipment
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.2
+			reliability = -0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_11
+		name = ZNECY_mechanized_mio_trait_11
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_production
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_7
+
+        all_parents = {  ZNECY_mechanized_mio_trait_7 }
+		
+		limit_to_equipment_type = { 
+			capital_ship
+		    screen_ship
+		    submarine
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.1
+		}
+		
+		organization_modifier = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_mechanized_mio_trait_12
+		name = ZNECY_mechanized_mio_trait_12
+		icon = GFX_generic_mio_department_icon_plane_light_quality
+
+		position = { x=0 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_8
+
+        all_parents = {  ZNECY_mechanized_mio_trait_8 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_small_plane
+			mio_cat_eq_all_medium_plane
+			mio_cat_eq_all_large_plane
+		}
+
+		equipment_bonus = {
+		
+		}
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.1
+            production_efficiency_gain_factor = 0.1
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+
+	trait = {
+		token = ZNECY_mechanized_mio_trait_13
+		name = ZNECY_mechanized_mio_trait_13
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=-1 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_12
+
+        any_parent = {  ZNECY_mechanized_mio_trait_12 ZNECY_mechanized_mio_trait_11 ZNECY_mechanized_mio_trait_10 ZNECY_mechanized_mio_trait_9 }
+		
+		limit_to_equipment_type = { 
+			
+		}
+
+		equipment_bonus = {
+		
+		}
+		production_bonus = {
+			production_cost_factor = -0.1
+		}
+		
+		organization_modifier = {
+		}
+	}
+
+	trait = {
+		token = ZNECY_mechanized_mio_trait_14
+		name = ZNECY_mechanized_mio_trait_14
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_9
+
+        any_parent = {  ZNECY_mechanized_mio_trait_12 ZNECY_mechanized_mio_trait_11 ZNECY_mechanized_mio_trait_10 ZNECY_mechanized_mio_trait_9 }
+		
+		limit_to_equipment_type = { 
+			
+		}
+
+		equipment_bonus = {
+		
+		}
+		
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 1.00
+		}
+	}
+
+	trait = {
+		token = ZNECY_mechanized_mio_trait_15
+		name = ZNECY_mechanized_mio_trait_15
+		icon = GFX_generic_mio_department_icon_facilities
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_10
+
+        all_parents = {  ZNECY_mechanized_mio_trait_13 ZNECY_mechanized_mio_trait_14 }
+		
+		limit_to_equipment_type = { 
+			
+		}
+
+		equipment_bonus = {
+		
+		}
+
+		production_bonus = {
+		    production_capacity_factor = 0.2
+		    production_efficiency_cap_factor = 0.2
+		    production_efficiency_gain_factor = 0.2
+			production_resource_penalty_factor = -0.4
+		}
+		
+		organization_modifier = {
+		}
+	}
+
+	trait = {
+		token = ZNECY_mechanized_mio_trait_16
+		name = ZNECY_mechanized_mio_trait_16
+		icon = GFX_generic_mio_department_icon_artillery_line_efficiency
+
+		position = { x=-3 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_15
+
+        all_parents = { ZNECY_mechanized_mio_trait_15 }
+		
+		limit_to_equipment_type = { 
+			infantry_equipment
+			support_equipment
+			artillery_equipment
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.05
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+
+	trait = {
+		token = ZNECY_mechanized_mio_trait_17
+		name = ZNECY_mechanized_mio_trait_17
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_line_efficiency
+
+		position = { x=-1 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_15
+
+        all_parents = { ZNECY_mechanized_mio_trait_15 }
+		
+		limit_to_equipment_type = { 
+			armor
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.05
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	trait = {
+		token = ZNECY_mechanized_mio_trait_18
+		name = ZNECY_mechanized_mio_trait_18
+		icon = GFX_generic_mio_department_icon_ship_capital_ship_production
+
+		position = { x=1 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_15
+
+        all_parents = { ZNECY_mechanized_mio_trait_15 }
+		
+		limit_to_equipment_type = { 
+			capital_ship
+		    screen_ship
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.05
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+	trait = {
+		token = ZNECY_mechanized_mio_trait_19
+		name = ZNECY_mechanized_mio_trait_19
+		icon = GFX_generic_mio_department_icon_plane_heavy_fighter_line_efficiency
+
+		position = { x=3 y=1 }
+		
+		relative_position_id = ZNECY_mechanized_mio_trait_15
+
+        all_parents = { ZNECY_mechanized_mio_trait_15 }
+		
+		limit_to_equipment_type = { 
+			mio_cat_eq_all_small_plane
+			mio_cat_eq_all_medium_plane
+		}
+
+		equipment_bonus = {
+		    build_cost_ic = -0.05
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.05
+		}
+		
+		organization_modifier = {
+
+		}
+	}
+}
+#### 二次元陆军装备制造总局 ####
+ZNECY_infantry_equipment_organization = {
+	icon = GFX_idea_ZNECY_JGZZ_EQUIPMENT
+	
+	allowed = {
+		has_dlc = "Arms Against Tyranny"
+		date < 2200.7.7
+	}
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+	
+	#ai_chance = { factor = 1 }
+	
+	equipment_type = {
+		infantry_equipment
+		support_equipment
+	}
+	research_categories = { 
+		infantry_weapons 
+		support_tech
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_weapon_1
+		x = 1
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_header_clothing
+		x = 4
+	}
+	
+	tree_header_text = {
+		text = ZNECY_mio_header_support_equipment
+		x = 7
+	}
+	
+	initial_trait = {
+	    token = ZNECY_materiel_manufacturer_infantry_weapons
+		name = ZNECY_materiel_manufacturer_infantry_weapons
+		
+		equipment_bonus = {
+			build_cost_ic = -0.1
+		}
+		
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.15
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_1
+		name = ZNECY_light_arms_mio_trait_1
+		icon = GFX_generic_mio_department_icon_infantry_production
+
+		position = { x=1 y=0 }
+		
+		limit_to_equipment_type = { 
+           infantry_equipment
+		}
+
+		equipment_bonus = {
+            reliability = 0.1
+			build_cost_ic = 0.03
+		}
+		
+		production_bonus = {
+			production_capacity_factor = 0.1
+			production_efficiency_cap_factor = 0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_2
+		name = ZNECY_light_arms_mio_trait_2
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=4 y=0 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+
+		equipment_bonus = {
+            defense = 0.02
+			build_cost_ic = 0.01
+		}
+		
+		production_bonus = {
+
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_3
+		name = ZNECY_light_arms_mio_trait_3
+		icon = GFX_generic_mio_department_icon_support_line_efficiency
+
+		position = { x=7 y=0 }
+		
+		available = {
+		ZNECY = { has_completed_focus = ZNECY_guoyouhuaguanjianqiye_focus }
+	}
+		
+		limit_to_equipment_type = { 
+            support_equipment
+		}
+
+		equipment_bonus = {
+            build_cost_ic = -0.15
+		}
+		
+		production_bonus = {
+            production_capacity_factor = 0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_4
+		name = ZNECY_light_arms_mio_trait_4
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_1
+
+        all_parents = { ZNECY_light_arms_mio_trait_1 }
+
+		equipment_bonus = {
+            soft_attack = 0.05
+			breakthrough = 0.02
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_5
+		name = ZNECY_light_arms_mio_trait_5
+		icon = GFX_generic_mio_department_icon_infantry_conversion
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_2
+
+        all_parents = { ZNECY_light_arms_mio_trait_2 }
+
+		equipment_bonus = {
+            soft_attack = 0.02
+			breakthrough = 0.03
+			build_cost_ic = 0.01
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_6
+		name = ZNECY_light_arms_mio_trait_6
+		icon = GFX_generic_mio_department_icon_support_equipment
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_3
+
+        all_parents = { ZNECY_light_arms_mio_trait_3 }
+		
+		#mutually_exclusive = { ZNECY_light_arms_mio_trait_7 }
+
+		equipment_bonus = {
+            defense = 0.02
+			breakthrough = 0.02
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_8
+		name = ZNECY_light_arms_mio_trait_8
+		icon = GFX_generic_mio_department_icon_support_conversion
+
+		position = { x=-1 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_4
+
+        all_parents = { ZNECY_light_arms_mio_trait_4 }
+
+		equipment_bonus = {
+            breakthrough = 0.02
+			build_cost_ic = 0.03
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_9
+		name = ZNECY_light_arms_mio_trait_9
+		icon = GFX_generic_mio_department_icon_infantry_offense
+
+		position = { x=1 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_4
+
+        all_parents = { ZNECY_light_arms_mio_trait_4 }
+
+		equipment_bonus = {
+			defense = 0.02
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_10
+		name = ZNECY_light_arms_mio_trait_10
+		icon = GFX_generic_mio_department_icon_infantry_conversion
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_5
+
+        all_parents = { ZNECY_light_arms_mio_trait_5 }
+
+		equipment_bonus = {
+			defense = 0.03
+			build_cost_ic = 0.01
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	trait = {
+		token = ZNECY_light_arms_mio_trait_10_1
+		name = ZNECY_light_arms_mio_trait_10_1
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_10
+
+        all_parents = { ZNECY_light_arms_mio_trait_10 }
+
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = 0.01
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_11
+		name = ZNECY_light_arms_mio_trait_11
+		icon = GFX_generic_mio_department_icon_support_production
+
+		position = { x=-1 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+			support_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_6
+
+        all_parents = { ZNECY_light_arms_mio_trait_6 }
+
+		equipment_bonus = {
+			build_cost_ic = 0.02
+			breakthrough = 0.03
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_12
+		name = ZNECY_light_arms_mio_trait_12
+		icon = GFX_generic_mio_department_icon_tank_general_spg
+
+		position = { x=1 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_6
+
+        all_parents = { ZNECY_light_arms_mio_trait_6 }
+
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_13
+		name = ZNECY_light_arms_mio_trait_13
+		icon = GFX_generic_mio_department_icon_tank_general_weapons
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_8
+
+        all_parents = { ZNECY_light_arms_mio_trait_8 }
+
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_14
+		name = ZNECY_light_arms_mio_trait_14
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_9
+
+        all_parents = { ZNECY_light_arms_mio_trait_9 }
+
+		equipment_bonus = {
+			soft_attack = 0.05
+			breakthrough = 0.03
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_15
+		name = ZNECY_light_arms_mio_trait_15
+		icon = GFX_generic_mio_department_icon_support_conversion
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+			support_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_11
+
+        all_parents = { ZNECY_light_arms_mio_trait_11 }
+
+		equipment_bonus = {
+			build_cost_ic = 0.01
+			defense = 0.03
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_16
+		name = ZNECY_light_arms_mio_trait_16
+		icon = GFX_generic_mio_department_icon_tank_general_at
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+			support_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_12
+
+        all_parents = { ZNECY_light_arms_mio_trait_12 }
+
+		equipment_bonus = {
+			hard_attack = 0.02
+			ap_attack = 0.25
+			build_cost_ic = 0.03
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_17
+		name = ZNECY_light_arms_mio_trait_17
+		icon = GFX_generic_mio_department_icon_infantry_quality
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_13
+
+        all_parents = { ZNECY_light_arms_mio_trait_13 }
+
+		equipment_bonus = {
+			breakthrough = 0.03
+			build_cost_ic = 0.03
+		}
+		
+		production_bonus = {
+		    production_capacity_factor = 0.1
+		}
+	}
+	
+	trait = {
+		token = ZNECY_light_arms_mio_trait_18
+		name = ZNECY_light_arms_mio_trait_18
+		icon = GFX_generic_mio_department_icon_infantry_line_efficiency
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_14
+
+        all_parents = { ZNECY_light_arms_mio_trait_14 }
+
+		equipment_bonus = {
+			build_cost_ic = -0.10
+		}
+		
+		production_bonus = {
+		    production_capacity_factor = 0.1
+		}
+	}
+
+	trait = {
+		token = ZNECY_light_arms_mio_trait_22
+		name = ZNECY_light_arms_mio_trait_22
+		icon = GFX_generic_mio_trait_icon_ap_attack
+
+		position = { x=0 y=1 }
+		
+		limit_to_equipment_type = { 
+            infantry_equipment
+			support_equipment
+		}
+		
+		relative_position_id = ZNECY_light_arms_mio_trait_16
+
+        all_parents = { ZNECY_light_arms_mio_trait_16 }
+
+		equipment_bonus = {
+			hard_attack = 0.03
+			ap_attack = 0.30
+			build_cost_ic = 0.03
+		}
+		
+		production_bonus = {
+		
+		}
+	}
+}
+
+
+#二次元直升机制造商
+ZNECY_focke_achgelis_organization = {
+	include = generic_helicopter_organization
+	icon = GFX_idea_ZNECY_JGZZ_ACHGELIS
+	
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	
+	allowed = {
+		date < 2200.7.7
+	}
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+
+	add_trait = {
+		token = GER_mio_trait_hamburger_flugzeugbau
+		name = ZNECY_mio_trait_hamburger_flugzeugbau
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = no
+
+		position = { x=0 y=2 }  
+		
+		visible = {
+			
+		}
+
+		available = {
+			
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = GER_mio_trait_aerodynamic_research_insitute
+		name = GER_mio_trait_aerodynamic_research_insitute
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = no
+
+		relative_position_id = GER_mio_trait_hamburger_flugzeugbau
+
+		position = { x = 0 y = 1 }  
+		
+		visible = {
+			
+		}
+
+		available = {
+			
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+		}
+
+		organization_modifier = {
+		    military_industrial_organization_research_bonus = 0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+#二次元自行火炮制造商
+ZNECY_alkett_organization = {
+	include = generic_assault_guns_organization
+	icon = GFX_idea_ZNECY_JGZZ_ALKETT
+	
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+	
+	allowed = {
+		date < 2200.7.7
+	}
+	visible = {
+		date < 2200.7.7
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+	}
+
+	tree_header_text = {
+		text = mio_header_light_tank_department
+		x = 1
+	}
+
+	tree_header_text = {
+		text = mio_header_medium_tank_department
+		x = 4
+	}
+
+	tree_header_text = {
+		text = mio_header_heavy_tank_department
+		x = 7
+	}
+
+	override_trait = {
+		token = generic_mio_medium_assault_gun_rocket_tubes
+
+		mutually_exclusive = { GER_mio_trait_panzerjager }	
+	}
+	
+}
+#### 二次元陆军后勤总部 ####
+ZNECY_ZNECY_organization = {
+	equipment_type = { 
+		support_equipment
+		motorized_equipment 
+		train_equipment
+		transport_plane_equipment
+		convoy_1
+		guided_missile_equipment
+	}
+	research_categories = { electronics industry nuclear rocketry }
+	research_categories = {
+		internet_tech
+		computing_tech
+	}
+	research_bonus = 0.05
+
+	icon = GFX_idea_ZNECY_JGZZ_HOUQIN
+
+	available = {
+		owner = {
+			is_ai = no
+		}
+		date < 2200.7.7
+	}
+
+	allowed = { 
+		always = yes
+		date < 2200.7.7
+	}
+
+	visible = {
+		owner = { 
+            has_country_flag = JGZZ_S2_flag
+		}
+		date < 2200.7.7
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_loc_header_funding_research
+		x = 0.5
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_loc_header_resources
+		x = 3
+	}
+
+	tree_header_text = {
+		text = ZNECY_mio_loc_header_production
+		x = 7
+	}
+
+	initial_trait = {
+		name = ZNECY_organization_trait_initial
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+	trait = {
+		token = trait_gain_1
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.075
+			military_industrial_organization_size_up_requirement = -0.02
+		}
+		mutually_exclusive = {
+			trait_research_1
+		}
+		position = { x=0 y=0 }
+	}
+
+
+	trait = {
+		token = trait_research_1
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.025
+		}
+		mutually_exclusive = {
+			trait_gain_1
+		}
+		position = { x=1 y=0 }
+	}
+
+	trait = {
+		token = trait_gain_2
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.075
+			military_industrial_organization_size_up_requirement = -0.02
+		}
+		mutually_exclusive = {
+			trait_research_2
+		}
+		position = { x=0 y=1 }
+
+		any_parent = {
+			trait_gain_1
+			trait_research_1
+		}
+	}
+
+	trait = {
+		token = trait_research_2
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.025
+			
+		}
+		mutually_exclusive = {
+			trait_gain_2
+		}
+		position = { x=1 y=1 }
+
+		any_parent = {
+			trait_gain_1
+			trait_research_1
+		}
+	}
+
+	trait = {
+		token = trait_gain_3
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.075
+			military_industrial_organization_size_up_requirement = -0.02
+		}
+		mutually_exclusive = {
+			trait_research_3
+		}
+		position = { x=0 y=2 }
+
+		any_parent = {
+			trait_gain_2
+			trait_research_2
+		}
+	}
+
+	trait = {
+		token = trait_research_3
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.025
+		}
+		mutually_exclusive = {
+			trait_gain_3
+		}
+		position = { x=1 y=2 }
+
+		any_parent = {
+			trait_gain_2
+			trait_research_2
+		}
+	}
+
+	trait = {
+		token = trait_gain_4
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.075
+			military_industrial_organization_size_up_requirement = -0.02
+		}
+		mutually_exclusive = {
+			trait_research_4
+		}
+		position = { x=0 y=3 }
+
+		any_parent = {
+			trait_gain_3
+			trait_research_3
+		}
+	}
+
+	trait = {
+		token = trait_research_4
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.025
+		}
+		mutually_exclusive = {
+			trait_gain_4
+		}
+		position = { x=1 y=3 }
+
+		any_parent = {
+			trait_gain_3
+			trait_research_3
+		}
+	}
+
+	trait = {
+		token = trait_gain_5
+		icon = GFX_mio_policy_assembly_line_optimisers
+
+		position = { x=0 y=4 }
+
+		special_trait_background = yes
+		
+		mutually_exclusive = {
+			trait_research_5
+		}
+		
+		any_parent = {
+			trait_gain_4
+			trait_research_4
+		}
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.25
+			military_industrial_organization_research_bonus = 0.025
+			military_industrial_organization_design_team_assign_cost = -0.25
+		}
+	}
+	
+	trait = {
+		token = trait_research_5
+		icon = GFX_mio_policy_experimental_development_teams
+		
+		position = { x=1 y=4 }
+
+		special_trait_background = yes
+		
+		mutually_exclusive = {
+			trait_gain_5
+		}
+		
+		any_parent = {
+			trait_gain_4
+			trait_research_4
+		}
+		
+		
+		organization_modifier = {
+			military_industrial_organization_funds_gain = -0.15
+			military_industrial_organization_research_bonus = 0.15
+			military_industrial_organization_design_team_assign_cost = -0.25
+		}
+	}
+	trait = {
+		token = trait_production_initial_land
+		icon = GFX_generic_mio_department_icon_facilities
+
+		position = { x = 5 y = 2 }
+
+		special_trait_background = yes
+
+		limit_to_equipment_type = { train_equipment motorized_equipment }
+	
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		organization_modifier = {
+			military_industrial_organization_size_up_requirement = 0.1
+		}
+	}
+
+
+	trait = {
+		token = trait_production_initial_convoy
+		icon = GFX_generic_mio_department_icon_ship_general_production
+
+		position = { x = 5 y = 4 }
+
+		special_trait_background = yes
+
+		limit_to_equipment_type = { ZNECY_eq_group_convoy }
+	
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		organization_modifier = {
+			military_industrial_organization_size_up_requirement = 0.1
+		}
+	}
+
+	trait = {
+		token = trait_production_initial_plane
+		icon = GFX_generic_mio_department_icon_plane_general_production
+
+		position = { x = 5 y = 0 }
+
+		special_trait_background = yes
+
+		limit_to_equipment_type = { transport_plane_equipment }
+	
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		organization_modifier = {
+			military_industrial_organization_size_up_requirement = 0.1
+		}
+	}
+
+	trait = {
+		token = trait_initial_rockets
+		icon = GFX_generic_mio_trait_icon_torpedo_attack
+
+		relative_position_id = trait_production_initial_land
+		position = { x = 0 y = -1 }
+
+		special_trait_background = yes
+
+		any_parent = {
+			trait_production_initial_land
+		}
+		any_parent = {
+			trait_production_initial_plane
+		}
+		
+		available = {
+			FROM = {
+				OR = {
+					has_tech = improved_rocket_engines
+					has_tech = ICBM2
+				}
+			}
+		}
+
+		limit_to_equipment_type = { guided_missile_equipment Missile }
+
+		production_bonus = {
+			production_cost_factor = -0.075
+		}
+
+		organization_modifier = {
+			military_industrial_organization_size_up_requirement = 0.1
+		}
+	}
+
+
+
+
+	trait = {
+		token = trait_production_land_truck_production
+		icon = GFX_generic_mio_department_icon_motorized_production
+
+		relative_position_id = trait_production_initial_land
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_land_truck_defended
+			trait_production_land_truck_efficient
+		}
+
+		any_parent ={
+			trait_production_initial_land
+		}
+
+		limit_to_equipment_type = { motorized_equipment util_vehicle_equipment }
+		
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+	}
+
+	trait = {
+		token = trait_production_land_truck_defended
+		# icon = GFX_generic_mio_trait_icon_defense
+		icon = GFX_generic_mio_department_icon_motorized_engine
+		
+		relative_position_id = trait_production_land_truck_production
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_land_truck_production
+			trait_production_land_truck_efficient
+		}
+		
+		any_parent ={
+			trait_production_initial_land
+		}
+
+		limit_to_equipment_type = { motorized_equipment util_vehicle_equipment }
+		
+		equipment_bonus = {
+			anti_air_attack = 0.05
+			defense = 0.03
+			hardness = 0.02
+		}
+	}
+	
+	trait = {
+		token = trait_production_land_truck_efficient
+		icon = GFX_generic_mio_department_icon_motorized_line_efficiency
+		
+		relative_position_id = trait_production_land_truck_defended
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_land_truck_production
+			trait_production_land_truck_defended
+		}
+		
+		any_parent = {
+			trait_production_initial_land
+		}
+
+		limit_to_equipment_type = { motorized_equipment util_vehicle_equipment }
+		
+		equipment_bonus = {
+			fuel_consumption = -0.05
+			fuel_consumption_factor = -0.05
+		}
+	}
+
+	trait = {
+		token = trait_production_air_production
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_production
+
+		relative_position_id = trait_production_initial_plane
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_air_defence
+			trait_production_air_range
+		}
+
+		any_parent = {
+			trait_production_initial_plane
+		}
+
+		limit_to_equipment_type = { transport_plane_equipment util_vehicle_equipment }
+
+		production_bonus = {
+			production_capacity_factor = 0.075
+		}
+	}
+
+	trait = {
+		token = trait_production_air_defence
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_combat
+
+		relative_position_id = trait_production_air_production
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_air_production
+			trait_production_air_range
+		}
+
+		any_parent = {
+			trait_production_initial_plane
+		}
+
+		limit_to_equipment_type = { transport_plane_equipment }
+
+		equipment_bonus = {
+			air_defence = 0.1
+			air_agility = 0.05
+		}
+	}
+
+	trait = {
+		token = trait_production_air_range
+		icon = GFX_generic_mio_department_icon_plane_strategic_bomber_technology
+
+		relative_position_id = trait_production_air_defence
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_air_production
+			trait_production_air_defence
+		}
+
+		any_parent = {
+			trait_production_initial_plane
+		}
+
+
+		limit_to_equipment_type = { transport_plane_equipment }
+		equipment_bonus = {
+			air_range = 0.35
+		}
+	}
+
+
+
+	trait = {
+		token = trait_production_convoy_production
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_production
+
+		relative_position_id = trait_production_initial_convoy
+		position = { x = 1 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_convoy_defended
+		}
+
+		any_parent = {
+			trait_production_initial_convoy
+		}
+
+		limit_to_equipment_type = { ZNECY_eq_group_convoy }
+		
+		production_bonus = {
+			production_capacity_factor = 0.075
+		}
+	}
+
+	trait = {
+		token = trait_production_convoy_defended
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
+		
+		relative_position_id = trait_production_convoy_production
+		position = { x = 2 y = 0 }
+
+		mutually_exclusive = {
+			trait_production_convoy_production
+		}
+		
+		any_parent = {
+			trait_production_initial_convoy
+		}
+
+		limit_to_equipment_type = { ZNECY_eq_group_convoy }
+		
+		equipment_bonus = {
+			anti_air_attack = 0.05
+			naval_torpedo_damage_reduction_factor =  0.03
+			sub_detection = 0.02
+			surface_visibility = -0.02
+			surface_detection = 0.02
+		}
+	}
+
+
+
+	trait = {
+		token = trait_production_land_support_production
+		icon = GFX_generic_mio_department_icon_support_production
+		
+		relative_position_id = trait_production_initial_land
+		position = { x = 1 y = 1 }
+
+		any_parent = {
+			trait_production_initial_land
+		}
+
+		limit_to_equipment_type = { support_equipment cnc_equipment }
+		
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		equipment_bonus = {
+			defense = 0.05
+			reliability_factor = 0.05
+			reliability = 0.05
+		}
+	}
+
+
+	trait = {
+		token = trait_production_land_support_entrenchment
+		icon = GFX_generic_mio_department_icon_support_line_efficiency
+		
+		relative_position_id = trait_production_land_support_production
+		position = { x = 1 y = 0 }
+
+		any_parent = {
+			trait_production_initial_land
+		}
+
+		limit_to_equipment_type = { support_equipment cnc_equipment }
+		
+		equipment_bonus = {
+			defense = 0.05
+			reliability_factor = 0.05
+		}
+	}
+
+	trait = {
+		token = trait_production_land_support_supply
+		icon = GFX_generic_mio_department_icon_support_conversion
+		
+		relative_position_id = trait_production_land_support_entrenchment
+		position = { x = 1 y = 0 }
+
+		any_parent = {
+			trait_production_initial_land
+		}
+
+		limit_to_equipment_type = { support_equipment cnc_equipment }
+		
+		equipment_bonus = {
+			weight = -0.05
+			reliability_factor = 0.05
+			fuel_capacity = 0.05
+			fuel_consumption_factor = -0.03
+		}
+	}
+
+
+	trait = {
+		token = trait_production_final
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		
+		position = { x = 9 y = 2 }
+		special_trait_background = yes
+	
+		any_parent = {
+			trait_production_convoy_production
+			trait_production_convoy_defended
+		}
+
+		any_parent = {
+			trait_production_land_truck_defended
+			trait_production_land_truck_efficient
+			trait_production_land_truck_production
+		}
+
+		any_parent = {
+			trait_production_air_production
+			trait_production_air_defence
+			trait_production_air_range
+		}
+
+		parent = {
+			traits = { trait_production_land_support_production trait_production_land_support_entrenchment trait_production_land_support_supply }
+			num_parents_needed = 2
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.1
+		}
+	}
+
+
+
+	
+	trait = {
+		token = trait_rockets_range
+		icon = GFX_generic_mio_trait_icon_torpedo_attack
+
+		relative_position_id = trait_initial_rockets
+		position = { x = 2 y = 0 }
+
+		any_parent = {
+			trait_initial_rockets
+		}
+
+		available = {
+			FROM = {
+				OR = {
+					has_tech = advanced_rocket_engines
+					has_tech = ICBM3
+				}
+			}
+		}
+
+		limit_to_equipment_type = { guided_missile_equipment Missile }
+		equipment_bonus = {
+			air_range = 0.25
+			air_defence = 0.1
+		}
+	}
+
+	trait = {
+		token = trait_rockets_final
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		relative_position_id = trait_rockets_range
+		position = { x = 1 y = 0 }
+
+		any_parent = {
+			trait_rockets_range
+		}
+
+		limit_to_equipment_type = { guided_missile_equipment Missile }
+		equipment_bonus = {
+			air_range = 0.5
+			strategic_attack = 2.50
+		}
+	}
+	trait = {
+		token = trait_initial_resources
+		icon = GFX_generic_mio_trait_icon_hardness
+
+		special_trait_background = yes
+
+		position = { x = 3 y = 0 }
+
+		organization_modifier = {
+			military_industrial_organization_size_up_requirement = 0.1
+		}
+
+	}
+
+
+	trait = {
+		token = trait_synthetics_2_rubber
+		icon = GFX_generic_mio_trait_icon_resources
+
+		relative_position_id = trait_initial_resources
+		position = { x = -1 y = 1 }
+
+		mutually_exclusive = {
+			trait_synthetics_2_fuel
+		}
+
+		any_parent = {
+			trait_initial_resources
+		}
+		
+		available = {
+			FROM = {
+				OR = {
+					has_tech = improved_rubber_processing
+					has_tech = rubber_plant_a #r56
+					has_tech = fuel_refining2 #MD
+				}
+			}
+		}
+
+		on_complete = {
+			FROM = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = rubber
+					amount = 1
+				}
+			}
+		}
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = -0.02
+		}
+	}
+
+	trait = {
+		token = trait_synthetics_2_fuel
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		relative_position_id = trait_initial_resources
+		position = { x = 0 y = 1 }
+
+		any_parent = {
+			trait_initial_resources
+		}
+		
+		mutually_exclusive = {
+			trait_synthetics_2_rubber
+		}
+
+		available = {
+			FROM = {
+				OR = {
+					has_tech = improved_oil_processing
+					has_tech = fuel_refining2 #MD
+				}
+			}
+		}
+
+		on_complete = {
+			FROM = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = oil
+					amount = 1
+				}
+			}
+		}
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = -0.02
+		}
+	}
+
+	trait = {
+		token = trait_synthetics_3_rubber
+		icon = GFX_generic_mio_trait_icon_resources
+
+		relative_position_id = trait_synthetics_2_rubber
+		position = { x = 0 y = 1 }
+
+		mutually_exclusive = {
+			trait_synthetics_3_fuel
+		}
+
+		any_parent = {
+			trait_synthetics_2_fuel
+			trait_synthetics_2_rubber
+		}
+
+		available = {
+			FROM = {
+				OR = {
+					has_tech = advanced_rubber_processing
+					has_tech = rubber_plant_b # r56
+					has_tech = fuel_refining3 # MD
+				}
+			}
+		}
+
+		on_complete = {
+			FROM = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = rubber
+					amount = 1
+				}
+			}
+		}
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = -0.02
+		}
+	}
+	
+	trait = {
+		token = trait_synthetics_3_fuel
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		relative_position_id = trait_synthetics_2_fuel
+		position = { x = 0 y = 1 }
+		
+		mutually_exclusive = {
+			trait_synthetics_3_rubber
+		}
+		
+		any_parent = {
+			trait_synthetics_2_fuel
+			trait_synthetics_2_rubber
+		}
+
+		available = {
+			FROM = {
+				OR = {
+					has_tech = advanced_oil_processing
+					has_tech = fuel_refining3
+				}
+			}
+		}
+
+		on_complete = {
+			FROM = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = oil
+					amount = 1
+				}
+			}
+		}
+
+		organization_modifier = {
+			military_industrial_organization_funds_gain = -0.02
+		}
+	}
+
+	trait = {
+		token = trait_resources_air
+		icon = GFX_generic_mio_trait_icon_resources
+
+		relative_position_id = trait_production_initial_plane
+		position = { x = -1 y = 0 }
+
+		any_parent = {
+			trait_production_initial_plane
+		}
+		any_parent = {
+			trait_initial_resources
+		}
+
+		limit_to_equipment_type = {
+			transport_plane_equipment
+		}
+
+		production_bonus = {
+			production_resource_need_factor = -0.15
+		}
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.025
+		}
+	}
+	
+	trait = {
+		token = trait_resources_land
+		icon = GFX_generic_mio_trait_icon_resources
+		
+		relative_position_id = trait_production_initial_land
+		position = { x = -1 y = 0 }
+		
+		any_parent = {
+			trait_production_initial_land
+		}
+		any_parent = {
+			trait_initial_resources
+		}
+		
+		limit_to_equipment_type = {
+			support_equipment
+			train_equipment
+			motorized_equipment
+		}
+	
+		production_bonus = {
+			production_resource_need_factor = -0.15
+		}
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.025
+		}
+	}
+	
+	trait = {
+		token = trait_resources_sea
+		icon = GFX_generic_mio_trait_icon_resources
+		
+		relative_position_id = trait_production_initial_convoy
+		position = { x = -1 y = 0 }
+		
+		any_parent = {
+			trait_production_initial_convoy
+		}
+		any_parent = {
+			trait_initial_resources
+		}
+
+		limit_to_equipment_type = {
+			ZNECY_eq_group_convoy
+		}
+	
+		production_bonus = {
+			production_resource_need_factor = -0.15
+		}
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.025
+		}
+	}
+	trait = {
+		token = trait_construction_civ
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		position = {
+			x = 2
+			y = 3
+		}
+
+		mutually_exclusive = {
+			trait_construction_mil
+		}
+
+		organization_modifier = {
+
+		}
+
+
+		on_complete = {
+			FROM = {
+				add_ideas = ZNECY_idea_civ_construction
+			}
+		}
+	}
+	trait = {
+		token = trait_construction_mil
+		icon = GFX_generic_mio_trait_icon_production_capacity
+
+		relative_position_id = trait_construction_civ
+		position = {
+			x = 1
+			y = 0
+		}
+
+		mutually_exclusive = {
+			trait_construction_civ
+		}
+
+		organization_modifier = {
+			
+		}
+
+		on_complete = {
+			FROM = {
+				add_ideas = ZNECY_idea_mil_construction
+			}
+		}
+	}
+
+
+	trait = {
+		token = trait_construction_civ2
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+
+		relative_position_id =  trait_construction_civ
+		position = {
+			x = 0
+			y = 1
+		}
+
+		mutually_exclusive = {
+			trait_construction_mil2
+		}
+
+		any_parent ={
+			trait_construction_civ
+			trait_construction_mil
+		}
+
+		organization_modifier = {
+			
+		}
+
+		on_complete = {
+			FROM = {
+				ZNECY_effect_raise_construction_spirit_civ = yes
+			}
+		}
+	}
+
+	trait = {
+		token = trait_construction_mil2
+		icon = GFX_generic_mio_trait_icon_production_capacity
+
+		relative_position_id = trait_construction_civ2
+		position = {
+			x = 1
+			y = 0
+		}
+
+		mutually_exclusive = {
+			trait_construction_civ2
+		}
+
+		any_parent ={
+			trait_construction_civ
+			trait_construction_mil
+		}
+
+		organization_modifier = {
+			
+		}
+
+		on_complete = {
+			FROM = {
+				ZNECY_effect_raise_construction_spirit_mil = yes
+			}
+		}
+	}
+}

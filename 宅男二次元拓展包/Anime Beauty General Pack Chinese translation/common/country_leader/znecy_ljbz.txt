@@ -1,0 +1,218 @@
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+##步兵军官
+	ecy_bubingjunguan_1 = { 
+		random = no
+		army_infantry_attack_factor = 0.1
+		army_infantry_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##陆军师指挥官
+    ecy_lujunshizhg_1 = { 
+		random = no
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+		army_speed_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##装甲师指挥官
+	ecy_zhuangjiashizhg_1 = { 
+		random = no
+		army_armor_attack_factor = 0.1
+		army_armor_defence_factor = 0.1
+		army_armor_speed_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##火炮军官
+	ecy_huopaojunguan_1 = { 
+		random = no
+		army_artillery_attack_factor = 0.1
+		army_artillery_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##摩托化军官
+	ecy_motuohuajunguan_1 = { 
+		random = no
+		motorized_attack_factor = 0.1
+		motorized_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##军事参谋
+	ecy_junshicanmou_1 = { 
+		random = no
+		planning_speed = 0.1
+		max_planning = 0.1
+		war_support_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##帝国护卫队
+	ecy_diguohuweidui_1 = { 
+		random = no
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##民兵军官
+	ecy_minbingjunguan_1 = { 
+		random = no
+		modifier_army_sub_unit_militia_attack_factor = 0.1
+		modifier_army_sub_unit_militia_defence_factor = 0.1
+		modifier_army_sub_unit_militia_max_org_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##机械化军官
+	ecy_jixiehuajunguan_1 = { 
+		random = no
+		mechanized_attack_factor = 0.1
+		mechanized_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##急行军
+	ecy_lujunjixingjun_1 = { 
+		random = no
+		army_attack_speed_factor = 0.1
+		army_speed_factor = 0.1
+		supply_consumption_factor = -0.1
+		experience_gain_army_factor = 0.05
+	}
+##工程兵
+	ecy_gongchengbing_1 = { 
+		random = no
+		max_dig_in_factor = 0.1
+		dig_in_speed_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##实习教官
+	ecy_shixijiaoguan_1 = { 
+		random = no
+		training_time_factor = -0.1
+		training_time_army_factor = -0.1
+		experience_gain_army_factor = 0.05
+	}
+##实习委员
+	ecy_shixiweiyuan_1 = { 
+		random = no
+		org_loss_when_moving = -0.1
+		army_morale_factor = 0.1
+		army_org_regain = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##陆军防御
+	ecy_lujunfangyu_1 = { 
+		random = no
+		army_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##装甲防御
+	ecy_zhuangjiashify_1 = { 
+		random = no
+		army_armor_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##炮兵防御
+	ecy_paobingfangyu_1 = { 
+		random = no
+		army_artillery_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##机械防御
+	ecy_jixiefangyu_1 = { 
+		random = no
+		mechanized_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##摩托防御
+	ecy_motuofangyu_1 = { 
+		random = no
+		motorized_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##民兵防御
+	ecy_mingbingfangyu_1 = { 
+		random = no
+		modifier_army_sub_unit_militia_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##步兵防御
+	ecy_bubingfangyu_1 = { 
+		random = no
+		army_infantry_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##步兵攻击
+	ecy_bubinggongji_1 = { 
+		random = no
+		army_infantry_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##民兵攻击
+	ecy_minbinggongji_1 = { 
+		random = no
+		modifier_army_sub_unit_militia_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##陆军攻击
+	ecy_lujungongji_1 = { 
+		random = no
+		army_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##炮兵攻击
+	ecy_paobinggongji_1 = { 
+		random = no
+		army_artillery_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##装甲师攻击
+	ecy_zhuangjiashigj_1 = { 
+		random = no
+		army_armor_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##机械化攻击
+	ecy_jixiehuagj_1 = { 
+		random = no
+		mechanized_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##摩托化攻击
+	ecy_motuohuagj_1 = { 
+		random = no
+		motorized_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+##后勤队
+	ecy_houqindui_1 = { 
+		random = no
+		attrition = -0.1
+		supply_consumption_factor = -0.1
+		experience_gain_army_factor = 0.05
+	}
+##特种兵
+	ecy_tezhongbing_1 = { 
+		random = no
+		special_forces_attack_factor = 0.1
+		special_forces_defence_factor = 0.1
+		special_forces_cap_flat = 100
+		experience_gain_army_factor = 0.05
+	}
+##大突袭
+	ecy_datuxia_1 = { 
+		random = no
+		modifier_army_sub_unit_militia_attack_factor = 0.1
+		army_infantry_attack_factor = 0.1
+		army_attack_factor = 0.1
+		army_armor_attack_factor = 0.1
+		army_artillery_attack_factor = 0.1
+		motorized_attack_factor = 0.1
+		mechanized_attack_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+}

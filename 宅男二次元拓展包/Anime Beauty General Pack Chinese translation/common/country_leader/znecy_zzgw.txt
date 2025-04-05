@@ -1,0 +1,601 @@
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+#二次元政治家
+	ecy_zhengzhijia_1 = {
+		random = no
+		political_power_gain = 1
+		political_power_factor = 0.1
+		stability_weekly = 0.25
+		war_support_weekly = 0.25
+	}
+#二次元工程师
+	ecy_zhonggong_1 = {
+		random = no
+		global_building_slots_factor = 0.5
+		production_speed_buildings_factor = 0.5
+		repair_speed_rail_way_factor = 0.25
+		repair_speed_infrastructure_factor = 0.25
+		repair_speed_industrial_complex_factor = 0.25
+		repair_speed_arms_factory_factor = 0.25
+	}
+#二次元工人领袖
+	ecy_gongrenld_1 = {
+		random = no
+		industrial_capacity_factory = 0.25
+		industrial_capacity_dockyard = 0.25
+		production_factory_max_efficiency_factor = 0.25
+		line_change_production_efficiency_factor = 0.25
+		local_resources_factor = 0.25
+	}
+#二次元计划生育委员会
+	ecy_jihuashengyu_1 = {
+		random = no
+		weekly_manpower  = 2500
+		non_core_manpower = 0.25
+		mobilization_speed = 0.25
+		conscription_factor = 0.25
+	}
+#二次元联合参谋部
+	ecy_lianhecanmou_1 = {
+		random = no
+		max_command_power = 500
+		command_power_gain = 0.5
+	}
+#二次元经济计划部
+	ecy_jingjijihua_1 = {
+		random = no
+		political_advisor_cost_factor = -0.2
+		theorist_cost_factor = -0.2
+		army_chief_cost_factor = -0.2
+		navy_chief_cost_factor = -0.2
+		air_chief_cost_factor = -0.2
+		high_command_cost_factor = -0.2
+		mobilization_laws_cost_factor = -0.2
+		trade_laws_cost_factor = -0.2
+		economy_cost_factor = -0.2
+	}
+#二次元特务部
+	ecy_tewubu_1 = {
+		random = no
+		operative_slot = 5
+		agency_upgrade_time = -0.25
+		own_operative_capture_chance_factor = -0.25
+		enemy_operative_capture_chance_factor = 0.25
+		own_operative_intel_extraction_rate = -0.25
+		enemy_operative_intel_extraction_rate = 0.25
+	}
+#私人女秘书
+	ecy_sirennvmishu_1 = {
+		random = no
+		political_power_factor = 0.25
+		consumer_goods_factor = -0.25
+		stability_factor = 0.25
+		military_leader_cost_factor = -0.25
+	}
+#天才军事家
+	ecy_tcjunshijia_1 = {
+		random = no
+		political_power_factor = 0.05
+		experience_gain_army_factor = 0.25
+		experience_gain_navy_factor = 0.25
+		experience_gain_air_factor = 0.25
+	}
+#专业外交员
+	ecy_zhuanyewaijiao_1 = {
+		random = no
+		foreign_subversive_activites = -0.25
+		trade_opinion_factor = 0.15
+		improve_relations_maintain_cost_factor = -0.25
+		opinion_gain_monthly_same_ideology_factor = 0.15
+		drift_defence_factor = 0.15
+	}
+#天才科学家
+	ecy_tckexuejia_1 = {
+		random = no
+		research_speed_factor = 0.25
+		industrial_concern_cost_factor = -0.25
+		local_resources_factor = 0.15
+		nuclear_production_factor  = 0.1
+	}
+#战后处理专家
+	ecy_zhanhouchuli_1 = {
+		random = no
+		compliance_gain_add = 0.25
+		autonomy_gain = 0.25
+		legitimacy_factor = 0.25
+		repair_speed_industrial_complex_factor = 0.15
+		repair_speed_arms_factory_factor = 0.15
+		repair_speed_rail_way_factor = 0.15
+		repair_speed_infrastructure_factor = 0.15
+	}
+#二次元军师
+	ecy_ecyjunshi_1 = {
+		random = no
+		justify_war_goal_time = -0.25
+		enemy_justify_war_goal_time = 0.25
+		resistance_damage_to_garrison = -0.25
+		required_garrison_factor = -0.25
+	}
+#集体大公社
+	ecy_jitidagongshe_1 = {
+		random = no
+		production_lack_of_resource_penalty_factor = -0.25
+		local_resources_factor = 0.25
+		industrial_capacity_factory = 0.15
+	}
+#食品加工厂
+	ecy_shipinjiagong_1 = {
+		random = no
+		out_of_supply_factor = -0.25
+		industrial_capacity_factory = 0.25
+		global_monthly_population = 0.25
+	}
+#工业先祖
+	ecy_gongyexianzu_1 = {
+		random = no
+		production_speed_industrial_complex_factor = 0.25
+		production_speed_rail_way_factor = 0.25
+		production_speed_supply_node_factor = 0.25
+	}
+#战争军工
+	ecy_zhanzhengjungong_1 = {
+		random = no
+		production_speed_arms_factory_factor = 0.25
+		production_speed_dockyard_factor = 0.25
+		production_speed_air_base_factor = 0.25
+		production_speed_naval_base_factor = 0.25
+	}
+#资源部门
+	ecy_ziyuanbumen_1 = {
+		random = no
+		production_speed_synthetic_refinery_factor = 0.25
+		production_speed_infrastructure_factor = 0.25
+		production_speed_fuel_silo_factor = 0.25
+	}
+#防御工事
+	ecy_fangyugongshi_1 = {
+		random = no
+		production_speed_bunker_factor = 0.25
+		production_speed_coastal_bunker_factor = 0.25
+		production_speed_anti_air_building_factor = 0.25
+	}
+#科研机构
+	ecy_keyanjigou_1 = {
+		random = no
+		production_speed_rocket_site_factor = 0.25
+		production_speed_radar_station_factor = 0.25
+		production_speed_nuclear_reactor_factor = 0.25
+	}
+#研究基地
+	ecy_yanjiujidi_1 = {
+		random = no
+		sp_tag_radar_speed_factor = 0.25
+		sp_tag_nuclear_power_speed_factor = 0.25
+		sp_tag_nuclear_warfare_speed_factor = 0.25
+		sp_tag_surface_ship_speed_factor = 0.25
+		sp_tag_submarine_speed_factor = 0.25
+		sp_tag_artillery_speed_factor = 0.25
+		sp_tag_tank_speed_factor = 0.25
+		sp_tag_guided_bomb_speed_factor = 0.25
+		sp_tag_bomb_speed_factor = 0.25
+		sp_tag_rocket_speed_factor = 0.25
+		sp_tag_jet_speed_factor = 0.25
+		sp_tag_helicopter_speed_factor = 0.25
+		sp_tag_aircraft_speed_factor = 0.25
+	}
+#共产革命派
+	ecy_gongchangeming_1 = {
+		random = no
+		political_power_gain = 0.25
+		communism_drift = 0.25
+	}
+#民主改革派
+	ecy_minzhugaige_1 = {
+		random = no
+		political_power_gain = 0.25
+		democratic_drift = 0.25
+	}
+#绝对君主派
+	ecy_jueduijunzhu_1 = {
+		random = no
+		political_power_gain = 0.25
+		neutrality_drift = 0.25
+	}
+#民族复兴派
+	ecy_minzufuxing_1 = {
+		random = no
+		political_power_gain = 0.25
+		fascism_drift = 0.25
+	}
+#二次元意志
+	ecy_erciyuanyizhi_1 = {
+		random = no
+		drift_defence_factor = 0.5
+		stability_factor = 0.15
+		war_support_factor = 0.15
+		political_power_gain = 0.25
+	}
+#革命时代
+	ecy_gemingshidai_1 = {
+		random = no
+		production_speed_buildings_factor = 0.3
+		local_resources_factor = 0.1
+		industrial_capacity_factory = 0.05
+	}
+#老革命派
+	ecy_laogemingpai_1 = {
+		random = no
+		political_power_factor = 0.15
+		army_morale_factor = 0.1
+		compliance_gain = 0.02
+	}
+#活力四射
+	ecy_huolisishe_1 = {
+		random = no
+		stability_factor = 0.1
+		stability_weekly = 0.005
+		political_power_cost = -0.35
+		drift_defence_factor = 0.5
+	}
+#老企业家
+	ecy_laoqiyejia_1 = {
+		random = no
+		local_resources_factor = 0.15
+		production_speed_buildings_factor = 0.1
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.1
+		consumer_goods_factor = -0.1
+	}
+#人民公社
+	ecy_renmingongshe_1 = {
+		random = no
+		political_power_factor = 0.2
+		stability_weekly = 0.025
+	}
+#国家复苏
+	ecy_guojiafusu_1 = {
+		random = no
+		consumer_goods_expected_value = -0.05
+		consumer_goods_factor = -0.15
+		trade_opinion_factor = 0.25
+		economy_cost_factor = -0.15
+		trade_laws_cost_factor = -0.15
+		global_building_slots_factor = 0.1
+	}
+#睡美人
+	ecy_shuimeiren_1 = {
+		random = no
+		recon_factor = 0.05
+		spotting_chance = 0.05
+		political_power_gain = 0.25
+	}
+#追风者
+	ecy_zhuifengzhe_1 = {
+		random = no
+		production_speed_buildings_factor = 0.1
+		local_resources_factor = 0.1
+		industrial_capacity_factory = 0.05
+	}
+#包工头
+	ecy_baogongtou_1 = {
+		random = no
+		global_building_slots = 5
+		production_speed_buildings_factor = 0.1
+		industry_air_damage_factor = -0.30
+		repair_speed_factor = 0.25
+	}
+#帝国军师
+	ecy_diguojunshi_1 = {
+		random = no
+		planning_speed = 0.15
+		max_planning = 0.1
+		max_command_power = 50
+		command_power_gain_mult = 0.1
+	}
+#勤劳的女仆长
+	ecy_qinlaonvpu_1 = {
+		random = no
+		political_power_gain = 0.5
+		research_speed_factor = 0.05
+	}
+#帝国的荣耀
+	ecy_diguorongyao_1 = {
+		random = no
+		political_power_factor = 0.10
+		war_support_weekly = 0.003
+		conscription = 0.02
+		experience_gain_navy_factor = 0.2
+	}
+#铁血少女团
+	ecy_tiexueshaonv_1 = {
+		random = no
+		political_power_factor = 0.15
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.05
+		research_speed_factor = 0.05
+		production_speed_buildings_factor = 0.05
+	}
+#可爱小魔女
+	ecy_keaixiaomonv_1 = {
+		random = no
+		resistance_target = -0.15
+		resistance_growth = -0.3
+		political_power_cost = -0.15
+		drift_defence_factor = 0.5
+	}
+#二次元圣女
+	ecy_erciyuanshengnv_1 = {
+		random = no
+		army_org_factor = 0.1
+		navy_org = 10
+		opinion_gain_monthly_factor = 0.2
+		compliance_growth = 0.02
+		resistance_target = -0.05
+	}
+#红温少女
+	ecy_hongwenshaonv_1 = {
+		random = no
+		local_resources_factor = 0.15
+		resistance_growth = -0.1
+		consumer_goods_factor = -0.2
+		army_speed_factor = 0.05
+		naval_speed_factor = 0.08
+	}
+#二次元萝莉
+	ecy_erciyuanluoli_1 = {
+		random = no
+		political_power_gain = 0.15
+		conscription = 0.015
+		opinion_gain_monthly_factor = 0.3
+		high_command_cost_factor = -0.3
+	}
+#大资本家
+	ecy_dazibenjia_1 = {
+		random = no
+		local_resources_factor = 0.2
+		trade_opinion_factor = 0.2
+		consumer_goods_factor = -0.15
+	}
+#二次元少女
+	ecy_erciyuanshaonv_1 = {
+		random = no
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+	}
+#地下组织
+	ecy_dixiazuzhi_1 = {
+		random = no
+		siren_drift = -1.5
+		war_support_factor = 0.2
+		agency_upgrade_time = -0.25
+		operative_slot = 5
+		intel_network_gain_factor = 0.5
+		foreign_subversive_activites = -0.5
+	}
+#身经百战
+	ecy_shenjingbaizhan_1 = {
+		random = no
+		non_core_manpower = 0.05
+		agency_upgrade_time = -0.25
+		operative_slot = 3
+		navy_max_range_factor = 0.2
+		navy_fuel_consumption_factor = -0.2
+		experience_loss_factor = -0.05
+	}
+#狗屎运
+	ecy_goushiyun_1 = {
+		random = no
+		air_accidents = -0.3
+		screening_efficiency = 0.2
+		experience_loss_factor = -0.1
+		stability_factor = 0.15
+	}
+#二次元元老
+	ecy_erciyuanyuanlao_1 = {
+		random = no
+		political_power_factor = 0.05
+		mobilization_laws_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		political_advisor_cost_factor = -0.15
+		tank_manufacturer_cost_factor = -0.4
+		naval_manufacturer_cost_factor = -0.4
+		aircraft_manufacturer_cost_factor = -0.4
+		materiel_manufacturer_cost_factor = -0.4
+		industrial_concern_cost_factor = -0.4
+		theorist_cost_factor = -0.15
+		army_chief_cost_factor = -0.15
+		navy_chief_cost_factor = -0.15
+		air_chief_cost_factor = -0.15
+		high_command_cost_factor = -0.15
+	}
+#少女眼泪
+	ecy_shaonvyanlei_1 = {
+		random = no
+		war_support_factor = 0.2
+		conscription = 0.02
+		mobilization_speed = 0.5
+	}
+#少女外交官
+	ecy_waijiaozhuanjia_1 = {
+		random = no
+		min_export = -0.5
+		enemy_justify_war_goal_time = 0.25
+		opinion_gain_monthly_factor = 0.3
+	}
+#福利券发明人
+    ecy_fuliquanfmr_1 = {
+		random = no
+		production_speed_arms_factory_factor = 0.25
+		production_speed_dockyard_factor = 0.25
+		consumer_goods_factor = -0.25
+	}
+#帝国保密局局长
+    ecy_diguobaomiju_1 = {
+		random = no
+		resistance_growth = -0.15
+		civilian_intel_to_others = -0.2
+		army_intel_to_others = -0.2
+		operative_slot = 1
+	}
+#少女民兵总长
+    ecy_shaonvminbingzz_1 = {
+		random = no
+		conscription_factor = 0.1
+		modifier_army_sub_unit_militia_defence_factor = 0.15
+		modifier_army_sub_unit_militia_attack_factor = 0.15
+		modifier_army_sub_unit_militia_max_org_factor = 0.15
+		drift_defence_factor = 0.15
+	}
+#殖民地总理
+    ecy_zhimindizongli_1 = {
+		random = no
+		political_power_factor = 0.05
+		non_core_manpower = 0.02
+		resistance_garrison_penetration_chance = -0.1
+	}
+#帝国法学家
+    ecy_diguofaxuejia_1 = {
+		random = no
+		political_power_factor = 0.15
+		stability_factor = 0.15
+		weekly_casualties_war_support = 0.05
+		offensive_war_stability_factor = 0.15
+		defensive_war_stability_factor = 0.15
+	}
+#帝国工人局局长
+    ecy_diguogongrenjjz_1 = {
+		random = no
+		compliance_gain = 0.15
+		production_factory_efficiency_gain_factor = 0.15
+		line_change_production_efficiency_factor = 0.15
+	}
+#帝国最强の先锋
+    ecy_diguoxianfeng_1 = {
+		random = no
+		research_speed_factor = 0.15
+	    operative_slot = 3
+	    civilian_intel_factor = 0.25
+	    army_intel_factor = 0.25
+	    navy_intel_factor = 0.25
+	    airforce_intel_factor = 0.25
+	}
+#少女农夫长
+    ecy_shaonvnongfuzhang_1 = {
+		random = no
+		line_change_production_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = 0.1
+		research_speed_factor = 0.15
+	}
+#可爱少女农民
+	ecy_nongminkeai_1 = {
+		random = no
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_infrastructure_factor = 0.15
+		production_speed_synthetic_refinery_factor = 0.15
+		compliance_gain = 0.01
+	}
+#可爱圣女大人
+	ecy_shengnvkeai_1 = {
+		random = no
+		production_speed_arms_factory_factor = 0.15
+		production_speed_dockyard_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+		mobilization_speed = 0.03
+	}
+#二次元重工
+	ecy_zhonggongwang_1 = {
+		random = no
+		production_speed_buildings_factor = 0.15
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		production_factory_max_efficiency_factor = 0.15
+		repair_speed_factor = 0.2
+	}
+#骄傲的女王大人
+	ecy_jiaoaodegz_1 = {
+		random = no
+		political_power_gain = 0.1
+		local_resources_factor = 0.15
+		trade_opinion_factor = 0.3
+		production_speed_industrial_complex_factor = 0.2
+		production_speed_infrastructure_factor = 0.2
+	}
+#帝国军备工程师
+	ecy_jungongshi_1 = {
+		random = no
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			support_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		surrender_limit = 0.2
+		drift_defence_factor = 0.2
+		production_factory_max_efficiency_factor = 0.05
+	}
+#爱の恋人
+	ecy_aidelianren_1 = {
+		random = no
+		mobilization_laws_cost_factor = -0.15
+		conscription = 0.5
+		non_core_manpower = 0.05
+		mobilization_speed = 0.2
+		subversive_activites_upkeep = -0.1
+	}
+#真的超可爱
+	ecy_chaokeai_1 = {
+		random = no
+		land_reinforce_rate = 0.15
+		stability_factor = 0.2
+		stability_weekly = 0.05
+		compliance_gain = 0.1
+		defensive_war_stability_factor = 0.15
+	}
+#命运眷顾の人
+	ecy_mingyunjuangu_1 = {
+		random = no
+		enemy_operative_capture_chance_factor = 0.5
+		enemy_operative_detection_chance_factor = 0.5
+		enemy_operative_harmed_time_factor = 0.25
+	}
+#吸血鬼の侦探
+	ecy_xixueguizhent_1 = {
+		random = no
+		intelligence_agency_defense = 0.5
+		enemy_operative_forced_into_hiding_time_factor = 1.0
+		enemy_operative_intel_extraction_rate = 0.25
+	}
+#天才の药剂师
+	ecy_tiancaiyaojishi = {
+		random = no
+		political_power_factor = 0.1
+		war_stability_factor = 0.2
+		experience_gain_army_factor = 0.15
+		experience_gain_navy_factor = 0.05
+		experience_gain_air_factor = 0.15
+	}
+#帝国军需官
+	ecy_diguojunxuguan_1 = {
+		random = no
+		production_speed_arms_factory_factor = 0.15
+		production_speed_dockyard_factor = 0.15
+		production_speed_air_base_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+		production_speed_rocket_site_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+	}
+}

@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			set_global_flag = MOD_enable_eby_welcome_character
+			
+			every_country = {
+				limit = { is_ai = no }
+				set_variable = { zhainan_erciyuan_welcome_splash_variable = 1 }
+			}
+		}
+	}
+}

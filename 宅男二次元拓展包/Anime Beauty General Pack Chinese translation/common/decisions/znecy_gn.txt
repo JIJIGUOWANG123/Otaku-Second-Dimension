@@ -1,0 +1,657 @@
+znecygn_decision_category = {
+	GN_xd = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            
+        }
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = GN_S1_flag
+			set_country_flag = HB_S1_flag
+			set_country_flag = QD_S1_flag
+			set_country_flag = HX_S1_flag
+			set_country_flag = LX_S1_flag
+			set_country_flag = ZY_S1_flag
+			set_country_flag = JS_S1_flag
+        }
+    }
+
+    GN_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = GN_S2_flag
+            clr_country_flag = GN_S1_flag
+        }
+    }
+
+    GN_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = GN_S1_flag
+            clr_country_flag = GN_S2_flag
+        }
+    }
+
+	LX_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = LX_S2_flag
+            clr_country_flag = LX_S1_flag
+        }
+    }
+
+    LX_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = LX_S1_flag
+            clr_country_flag = LX_S2_flag
+        }
+    }
+
+	ZY_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = ZY_S2_flag
+            clr_country_flag = ZY_S1_flag
+        }
+    }
+
+    ZY_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = ZY_S1_flag
+            clr_country_flag = ZY_S2_flag
+        }
+    }
+
+	JS_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = JS_S2_flag
+            clr_country_flag = JS_S1_flag
+        }
+    }
+
+    JS_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = JS_S1_flag
+            clr_country_flag = JS_S2_flag
+        }
+    }
+
+	HX_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = HX_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = HX_S2_flag
+            clr_country_flag = HX_S1_flag
+        }
+    }
+
+    HX_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = HX_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = HX_S1_flag
+            clr_country_flag = HX_S2_flag
+        }
+    }
+
+	QD_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = QD_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = QD_S2_flag
+            clr_country_flag = QD_S1_flag
+        }
+    }
+
+    QD_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = QD_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = QD_S1_flag
+            clr_country_flag = QD_S2_flag
+        }
+    }
+
+	HB_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = HB_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = HB_S2_flag
+            clr_country_flag = HB_S1_flag
+        }
+    }
+
+    HB_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = HB_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = HB_S1_flag
+            clr_country_flag = HB_S2_flag
+        }
+    }
+
+	QD_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = QD_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = QD_S2_flag
+            clr_country_flag = QD_S1_flag
+        }
+    }
+
+    QD_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = QD_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = QD_S1_flag
+            clr_country_flag = QD_S2_flag
+        }
+    }
+
+    ZNECY_tsgn_1 = {
+        icon = generic_construction
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+        complete_effect = {
+            add_offsite_building = { type = arms_factory level = 20 }
+		    add_offsite_building = { type = industrial_complex level = 20 }
+		    add_offsite_building = { type = dockyard level = 20 }
+        }
+    }
+	
+    ZNECY_tsgn_2 = {
+        icon = generic_construction
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+        complete_effect = { 
+			add_research_slot = 3
+		} 
+    }
+
+    ZNECY_tsgn_3 = {
+        icon = GFX_decision_oil
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+				add_resource = {
+					type = oil
+					amount = 100
+					}
+				}
+		}
+    }
+
+    ZNECY_tsgn_4 = {
+        icon = GFX_decision_aluminium
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+				add_resource = {
+					type = aluminium
+					amount = 100
+					}
+				}
+		}
+    }
+
+    ZNECY_tsgn_5 = {
+        icon = GFX_decision_rubber
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+				add_resource = {
+					type = rubber
+					amount = 100
+					}
+				}
+		}
+    }
+
+    ZNECY_tsgn_6 = {
+        icon = GFX_decision_tungsten
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+				add_resource = {
+					type = tungsten
+					amount = 100
+					}
+				}
+		}
+    }
+
+    ZNECY_tsgn_7 = {
+        icon = GFX_decision_steel
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+				add_resource = {
+					type = steel
+					amount = 100
+					}
+				}
+		}
+    }
+
+    ZNECY_tsgn_8 = {
+        icon = GFX_decision_chromium
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = yes
+        cost = 0
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+				add_resource = {
+					type = chromium
+					amount = 100
+					}
+				}
+		}
+    }
+
+    ZNECY_tsgn_9 = {
+        icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+			has_intelligence_agency = yes
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+			has_intelligence_agency = yes
+        }
+
+		fire_only_once = yes
+
+		modifier = {
+            new_operative_slot_bonus = 100
+			intel_network_gain = 100
+		}
+
+		days_remove = -1
+    }
+
+    ZNECY_tsgn_10 = {
+        icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+			has_intelligence_agency = yes
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+			has_intelligence_agency = yes
+        }
+
+		fire_only_once = yes
+
+		modifier = {
+			operative_slot = 20
+            own_operative_detection_chance = -10000
+		}
+
+		days_remove = -1
+    }
+
+	ZNECY_tsgn_38 = {
+		icon = generic_construction
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = no
+        cost = 100
+		days_remove = 7
+		remove_effect = {
+			add_manpower = 50000
+		}
+	}
+
+	ZNECY_tsgn_37 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = no
+        cost = 100
+		days_remove = 7
+		remove_effect = {
+			add_offsite_building = { type = arms_factory level = 5 }
+		    add_offsite_building = { type = industrial_complex level = 5 }
+		    add_offsite_building = { type = dockyard level = 5 }
+		}
+	}
+
+    ZNECY_tsgn_12 = {
+		icon = generic_construction
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = no
+        cost = 50
+		days_remove = 15
+		complete_effect = {
+		}
+		remove_effect = {
+			random_core_state = {
+			    add_resource = {
+				    type = chromium
+				    amount = 10
+			    }
+				add_resource = {
+				    type = steel
+				    amount = 10
+				}
+				add_resource = {
+				    type = rubber
+				    amount = 10
+				}
+				add_resource = {
+				    type = oil
+				    amount = 10
+				}
+				add_resource = {
+				    type = tungsten
+				    amount = 10
+				}
+				add_resource = {
+				    type = aluminium
+				    amount = 10
+				}
+			}
+		}
+	}
+
+	ZNECY_tsgn_14 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = GN_S2_flag
+        }
+        fire_only_once = no
+        cost = 50
+		days_remove = 7
+		remove_effect = {
+			army_experience = 100
+			navy_experience = 100
+			air_experience = 100
+		}
+	}
+}

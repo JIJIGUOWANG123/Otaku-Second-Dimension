@@ -1,0 +1,48 @@
+hexinhua = {
+	znecy_core = {
+
+        icon = GFX_decision_generic_nationalism
+		priority = 1
+        target_array = controlled_states
+        state_target = yes 
+        on_map_mode = map_and_decisions_view
+		cost = 0
+
+        target_trigger = {
+
+            FROM = {
+                is_fully_controlled_by = ROOT
+				NOT = { 
+                        is_core_of = ROOT
+                }
+            }
+
+        }
+
+        visible = {
+			has_country_flag = HX_S2_flag
+			FROM = { 
+				NOT = { 
+                        is_core_of = ROOT 
+                } 
+			}
+
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                has_war = no
+            }
+
+        }
+
+        complete_effect = {
+
+            FROM = {
+                add_core_of = ROOT
+            }
+
+        }
+        
+    }  
+}

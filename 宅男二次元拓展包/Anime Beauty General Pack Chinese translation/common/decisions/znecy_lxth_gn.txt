@@ -1,0 +1,219 @@
+znecy_lingxiuqiehuan = {
+	ZNECY_tsgn_11 = {
+		icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+
+		fire_only_once = no
+
+		complete_effect = { 
+			custom_effect_tooltip = znecy_Yueer_become_leader_tt #自定义提示
+
+			hidden_effect = { 
+				set_country_leader_name = { 
+					name = znecy_ldr_Yueer
+				} #设置国家领导人名称
+
+				set_country_leader_portrait = { 
+					portrait = "gfx/ideas/lingxiu/znecy_Yueer.dds" 
+				} #设置国家领导人肖像		
+
+				set_country_leader_description = { 
+					desc = "ldr_znecy_Yueer" 
+				} #集合国家领导人描述				
+			}
+			add_country_leader_trait = ecy_zhengzhijia_1
+			add_country_leader_trait = ecy_zhonggong_1
+			add_country_leader_trait = ecy_gongrenld_1
+			add_country_leader_trait = ecy_tewubu_1
+		}
+	}
+
+	ZNECY_tsgn_13 = {
+		icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+
+		fire_only_once = no
+
+		complete_effect = { 
+			custom_effect_tooltip = znecy_Elysia_become_leader_tt #自定义提示
+
+			hidden_effect = { 
+				set_country_leader_name = { 
+					name = znecy_ldr_Elysia
+				} #设置国家领导人名称
+
+				set_country_leader_portrait = { 
+					portrait = "gfx/ideas/lingxiu/znecy_Elysia.dds" 
+				} #设置国家领导人肖像		
+
+				set_country_leader_description = { 
+					desc = "ldr_znecy_Elysia" 
+				} #集合国家领导人描述				
+			}
+			add_country_leader_trait = ecy_zhengzhijia_1
+			add_country_leader_trait = ecy_zhonggong_1
+			add_country_leader_trait = ecy_gongrenld_1
+			add_country_leader_trait = ecy_tewubu_1
+		}
+	}
+
+	ZNECY_tsgn_20 = {
+		icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+
+		fire_only_once = no
+
+		complete_effect = { 
+			custom_effect_tooltip = znecy_xier_become_leader_tt #自定义提示
+
+			hidden_effect = { 
+				set_country_leader_name = { 
+					name = znecy_ldr_xier
+				} #设置国家领导人名称
+
+				set_country_leader_portrait = { 
+					portrait = "gfx/ideas/lingxiu/znecy_xier.dds" 
+				} #设置国家领导人肖像		
+
+				set_country_leader_description = { 
+					desc = "ldr_znecy_xier" 
+				} #集合国家领导人描述				
+			}
+			add_country_leader_trait = ecy_zhengzhijia_1
+			add_country_leader_trait = ecy_zhonggong_1
+			add_country_leader_trait = ecy_gongrenld_1
+			add_country_leader_trait = ecy_tewubu_1
+		}
+	}
+
+	ZNECY_tsgn_27 = {
+		icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+
+		fire_only_once = no
+
+		complete_effect = { 
+			custom_effect_tooltip = znecy_lhfz_become_leader_tt #自定义提示
+
+			hidden_effect = { 
+				set_country_leader_name = { 
+					name = znecy_ldr_lhfz
+				} #设置国家领导人名称
+
+				set_country_leader_portrait = { 
+					portrait = "gfx/ideas/lingxiu/znecy_lhfz.dds" 
+				} #设置国家领导人肖像		
+
+				set_country_leader_description = { 
+					desc = "ldr_znecy_lhfz" 
+				} #集合国家领导人描述				
+			}
+			add_country_leader_trait = ecy_zhengzhijia_1
+			add_country_leader_trait = ecy_zhonggong_1
+			add_country_leader_trait = ecy_gongrenld_1
+			add_country_leader_trait = ecy_tewubu_1
+		}
+	}
+
+	ZNECY_tsgn_32 = {
+		icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+
+		fire_only_once = no
+
+		complete_effect = { 
+			custom_effect_tooltip = znecy_huifeng_become_leader_tt #自定义提示
+
+			hidden_effect = { 
+				set_country_leader_name = { 
+					name = znecy_ldr_huifeng
+				} #设置国家领导人名称
+
+				set_country_leader_portrait = { 
+					portrait = "gfx/ideas/lingxiu/znecy_huifeng.png" 
+				} #设置国家领导人肖像		
+
+				set_country_leader_description = { 
+					desc = "ldr_znecy_huifeng" 
+				} #集合国家领导人描述				
+			}
+			add_country_leader_trait = ecy_zhengzhijia_1
+			add_country_leader_trait = ecy_zhonggong_1
+			add_country_leader_trait = ecy_gongrenld_1
+			add_country_leader_trait = ecy_tewubu_1
+		}
+	}
+
+	ZNECY_tsgn_15 = {
+		icon = generic_political_discourse
+
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = LX_S2_flag
+        }
+
+		fire_only_once = no
+
+		complete_effect = { 
+			custom_effect_tooltip = znecy_Guojialdr_become_leader_tt #自定义提示
+
+			hidden_effect = {
+
+			}
+			add_country_leader_trait = ecy_zhengzhijia_1
+			add_country_leader_trait = ecy_zhonggong_1
+			add_country_leader_trait = ecy_gongrenld_1
+			add_country_leader_trait = ecy_tewubu_1
+		}
+	}
+}

@@ -1,0 +1,213 @@
+ideas = {
+	air_force_spirit = {
+		ECYKJJGT01_diyi = {
+			ledger = air
+			picture = ecyjgtkj_1
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				air_chief_cost_factor = -0.3
+				experience_gain_air_factor = 0.05
+				air_ace_generation_chance_factor = 0.1
+				air_mission_efficiency = 0.05
+				air_ace_bonuses_factor = 0.1
+				AIR_ADVISOR_cost_factor = -0.3
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT01_dier = {
+			ledger = air
+			picture = ecyjgtkj_2
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				air_chief_cost_factor = -0.3
+				experience_gain_air_factor = 0.15
+				air_mission_efficiency = 0.15
+				AIR_ADVISOR_cost_factor = -0.3
+				AIR_WING_XP_LOSS_WHEN_KILLED_FACTOR = -0.15
+				air_accidents_factor = -0.15
+				air_cas_present_factor = 0.15
+			}
+			equipment_bonus = {
+				#AIRCRAFT
+				small_plane_airframe = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				small_plane_cas_airframe = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				medium_plane_airframe = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				medium_plane_fighter_airframe = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				medium_plane_scout_plane_airframe = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				large_plane_airframe = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT01_disan = {
+			ledger = air
+			picture = ecyjgtkj_3
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				naval_strike_attack_factor = 0.15
+				naval_strike_targetting_factor = 0.1
+				sortie_efficiency = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT01_disi = {
+			ledger = air
+			picture = ecyjgtkj_4
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				unit_rocket_interceptor_design_cost_factor = -0.3
+				production_speed_rocket_site_factor = 0.1
+				unit_guided_missile_design_cost_factor = -0.3
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT01_diwu = {
+			ledger = air
+			picture = ecyjgtkj_5
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				air_cas_present_factor = 0.1
+				air_bombing_targetting = 0.1
+				sortie_efficiency = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	air_force_command_spirit = {
+		ECYKJJGT02_diyi = {
+			ledger = air
+			picture = ecyjgtkj_6
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			equipment_bonus = {
+				cv_fighter_equipment = {
+					AIR_ATTACK = 0.2
+					AIR_DEFENCE = -0.2
+					AIR_AGILITY = -0.15
+					reliability = -0.15
+					weight = -0.15
+					thrust = 0.15
+					instant = yes
+				}
+			}
+			modifier = {
+				AIR_UNTRAINED_PILOTS_PENALTY_FACTOR = 0.15
+			}
+		}
+		ECYKJJGT02_dier = {
+			ledger = air
+			picture = ecyjgtkj_7
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				air_range_factor = 0.3
+				air_night_penalty = -0.1
+				air_strategic_bomber_bombing_factor = 0.35
+				cat_strategic_destruction_cost_factor = -0.3
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT02_disan = {
+			ledger = air
+			picture = ecyjgtkj_8
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				enemy_army_bonus_air_superiority_factor = -0.1
+				air_intercept_efficiency = 0.15
+				cas_damage_reduction = 0.15
+				AIR_INTERCEPTION_DETECT_FACTOR = 0.15
+				INTERCEPTION_ATTACK_FACTOR = 0.15
+				air_defence_factor = 0.1
+				air_home_defence_factor = 0.2
+				AIR_POWER_PROJECTION_FACTOR = -0.2
+				STATIC_ANTI_AIR_DAMAGE_FACTOR = 0.2
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT02_disi = {
+			ledger = air
+			picture = ecyjgtkj_9
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				air_cas_present_factor = 0.1
+				air_bombing_targetting = 0.1
+				sortie_efficiency = 0.4
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYKJJGT02_diwu = {
+			ledger = air
+			picture = ecyjgtkj_10
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				air_cas_present_factor = 0.15
+				air_bombing_targetting = 0.15
+				sortie_efficiency = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

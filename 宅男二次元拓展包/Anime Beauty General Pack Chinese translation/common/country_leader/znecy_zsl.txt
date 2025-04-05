@@ -1,0 +1,915 @@
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+		
+##三军总教官
+	army0_chief_instructor = {
+	    experience_gain_army_factor = 0.25
+		experience_gain_navy_factor = 0.25
+		experience_gain_air_factor = 0.25
+		experience_gain_navy = 0.4
+		experience_gain_army = 0.4
+		experience_gain_air = 0.4
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##机动小钢炮
+	motorized1_small_steel_gun = {
+	    army_speed_factor = 0.28
+		org_loss_when_moving = -0.35
+		breakthrough_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##陆军总司令
+	top2_commander_of_the_army = {
+	    army_infantry_attack_factor = 0.45
+		army_core_attack_factor = 0.35
+		out_of_supply_factor = -0.45
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+    ##陆军后勤总部
+	army3_logistics_headquarters = {
+	    out_of_supply_factor = -0.35
+		supply_consumption_factor = -0.3
+		attrition = -0.35
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##特种二次元部队
+	special4_secondary_force = {
+	    army_attack_factor = 0.4
+		terrain_penalty_reduction = 0.35
+		army_speed_factor = 0.2
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##步兵机械师
+	mech5_infantry = {
+	    motorized_attack_factor = 0.35
+		motorized_defence_factor = 0.35
+		mechanized_attack_factor = 0.3
+		mechanized_defence_factor = 0.3
+		army_org_factor = 0.18
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##补给总部
+	secondary6_supply_team = {
+	    army_morale_factor = 0.28
+		supply_consumption_factor = -0.25
+		no_supply_grace = 20
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##特种侦察兵
+	technological7_special_forces = {
+	    recon_factor = 0.25
+		army_infantry_attack_factor = 0.35
+		army_infantry_defence_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+    ##装甲军团
+	secondary8_armored_army = {
+	    army_armor_attack_factor = 0.35
+		army_attack_factor = 0.35
+	    army_armor_defence_factor = 0.35
+		army_defence_factor = 0.35
+		army_armor_speed_factor = 0.35
+		equipment_bonus = {
+			armor = {
+				reliability = 0.35
+				maximum_speed = 0.35
+				instant = yes
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##可爱教官
+	secondary9_instructor = {
+	    training_time_army_factor = -0.15
+		experience_gain_army_factor = 0.25
+		experience_gain_navy_factor = 0.25
+		experience_gain_air_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##空中小赤佬
+	pedophile0_xiaochilao = {
+	    air_mission_efficiency = 0.32
+		equipment_bonus = {
+			small_plane_airframe = {
+				instant = yes
+				build_cost_ic = -0.25
+				air_superiority = 0.3
+			}
+			cv_small_plane_airframe = {
+				instant = yes
+				build_cost_ic = -0.25
+				air_superiority = 0.3
+			}
+			medium_plane_fighter_airframe = {
+				instant = yes
+				build_cost_ic = -0.3
+				air_superiority = 0.3
+			}
+		}	
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##舰载飞机王
+	king1_of_naval_aircraft = {
+	    experience_gain_air = 0.4
+		equipment_bonus = {
+			medium_plane_airframe = {
+				build_cost_ic = -0.3
+				instant = yes
+			}
+			cv_small_plane_airframe = {
+				build_cost_ic = -0.3
+				instant = yes
+			}
+			cv_small_plane_naval_bomber_airframe = {
+				build_cost_ic = -0.3
+				instant = yes
+			}
+		}
+		cat_operational_integrity_cost_factor = -0.35
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##空中复仇
+	airborne2_revenge_of_the_second = {
+	    sortie_efficiency = 0.25
+		air_cas_present_factor = 0.3
+		air_cas_efficiency = 0.3
+		equipment_bonus = {
+			large_plane_airframe = {
+				air_bombing = 0.35
+				instant = yes
+			}
+			medium_plane_airframe = {
+				air_ground_attack = 0.25
+				air_bombing = 0.25
+				instant = yes
+			}
+			small_plane_cas_airframe = {
+				air_ground_attack = 0.3
+				naval_strike_attack = 0.25
+				instant = yes
+			}
+			cv_small_plane_cas_airframe = {
+				air_ground_attack = 0.25
+				naval_strike_attack = 0.3
+				instant = yes
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+    ##美女海域辅助
+	second3_sea_aid = {
+	    experience_gain_air = 0.4
+		equipment_bonus = {
+			small_plane_cas_airframe = {
+				air_ground_attack = 0.3
+				instant = yes
+			}
+			cv_small_plane_cas_airframe = {
+				air_ground_attack = 0.3
+				instant = yes
+			}
+		}
+		navy_anti_air_attack_factor = 0.4
+		sortie_efficiency = 0.25
+		cat_battlefield_support_cost_factor = -0.35
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##海域巡逻军
+	maritime4_patrol_force = {
+	    navy_screen_defence_factor = 0.35
+		navy_capital_ship_defence_factor = 0.35
+		air_defence_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##近海小霸主
+	hegemony5_of_the_offshore = {
+	    navy_screen_attack_factor = 0.35
+		navy_screen_defence_factor = 0.35
+		naval_speed_factor = 0.3
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##海陆正规军
+	army6_and_navy_regulars = {
+	    cat_mass_assault_cost_factor = -0.35
+		experience_gain_army = 0.4
+		training_time_army_factor = -0.3
+		industrial_capacity_dockyard = 0.25
+		equipment_bonus = {
+			carrier = {
+				build_cost_ic = -0.3
+				instant = yes
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##偷窥天与海
+	peeping7_into_the_sky_and_the_sea = {
+	    experience_gain_army = 0.4
+		army_bonus_air_superiority_factor = 0.3
+		max_planning = 0.25
+		cat_grand_battle_plan_cost_factor = -0.35
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+    ##扭转乾坤
+	a8_radical_change = {
+	    org_loss_at_low_org_factor = -0.35
+		army_defence_factor = 0.28
+		naval_retreat_speed = 0.28
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+    ##门神
+	door9_god = {
+	    army_infantry_attack_factor = 0.35
+		army_infantry_defence_factor = 0.3
+		army_bonus_air_superiority_factor = 0.35
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##军需处长
+	quartermaster_general_1 = {
+		production_speed_air_base_factor = 0.25
+		production_speed_naval_base_factor = 0.25
+		production_speed_rocket_site_factor = 0.25
+		production_speed_radar_station_factor = 0.25
+		production_speed_nuclear_reactor_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##优雅的绅士
+	compassionate_gentleman_1 = {
+		opinion_gain_monthly_factor = 0.15
+		resistance_damage_to_garrison = -0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##二次元特务
+	backroom_backstabber_1 = {
+		subversive_activites_upkeep = -0.15
+		drift_defence_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##二次元工头
+	captain_of_industry_1 = {
+		production_speed_industrial_complex_factor = 0.25
+		production_speed_infrastructure_factor = 0.25
+		production_speed_rail_way_factor = 0.25
+		production_speed_synthetic_refinery_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##军备策划猿
+	armaments_organizer_1 = {
+		conversion_cost_civ_to_mil_factor = -0.25
+		production_speed_supply_node_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##外交猿
+	smooth_talking_charmer_1 = {
+        improve_relations_maintain_cost_factor = -0.15
+		trade_opinion_factor = 0.10
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##战争机器
+	war_industrialist_1 = {
+		production_speed_arms_factory_factor = 0.2
+		production_speed_dockyard_factor = 0.2
+		production_speed_fuel_silo_factor = 0.2
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##技术猿
+	technocrat_1 = {
+		production_speed_industrial_complex_factor = 0.15
+		research_speed_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##宣传猿
+	propaganda_bungler_1 = {
+		war_support_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##演员
+	smooth_talking_con_man_1 = {
+		trade_opinion_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##小变态
+	ideological_groupie_1 = {
+		opinion_gain_monthly_same_ideology_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##天使
+	compassionate_commoner_1 = {
+		opinion_gain_monthly_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##九品芝麻官
+	baron_of_terror_1 = {
+		resistance_damage_to_garrison = -0.25
+		foreign_subversive_activites = -0.25
+		non_core_manpower = 0.05
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##空战导师
+	air_warfare_theorist_1 = {
+		air_doctrine_cost_factor = -0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##侵袭专家
+	assault_avaition_1 = {
+		cat_operational_integrity_cost_factor = -0.22
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##小胡子附身
+	blitzkrieg_theorist_1 = {
+		equipment_bonus = {
+			armor = {
+				instant = yes
+				maximum_speed = 0.15
+			}
+		}
+		cat_mobile_warfare_cost_factor = -0.23
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##偷偷摸摸支援
+	close_air_support_proponent_1 = {
+		cat_battlefield_support_cost_factor = -0.22
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##电子烟派
+	council_of_theorists_1 = {
+		experience_gain_army = 0.12
+		experience_gain_air = 0.12
+		experience_gain_navy = 0.12
+		land_doctrine_cost_factor = -0.1
+		air_doctrine_cost_factor = -0.1
+		naval_doctrine_cost_factor = -0.1
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##横冲直撞
+	dive_bomber_1 = {
+		equipment_bonus = {
+			small_plane_cas_airframe = {
+				instant = yes
+				air_ground_attack = 0.13
+			}
+		}
+		air_doctrine_cost_factor = -0.2
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##守护大雷
+	grand_fleet_proponent_1 = {
+		cat_fleet_in_being_cost_factor = -0.23
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##军事理论学家
+	military_theorist_1 = {
+		land_doctrine_cost_factor = -0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##人海突袭专家
+	mass_assault_expert_1 = {
+		cat_mass_assault_cost_factor = -0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##潜艇研究学家
+	submarine_specialist_1 = {
+		cat_trade_interdiction_cost_factor = -0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##优势火力学说教授
+	superior_firepower_expert_1 = {
+		cat_superior_firepower_cost_factor = -0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##决战计划学说教授
+	grand_battle_plan_expert_1 = {
+		cat_grand_battle_plan_cost_factor = -0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##装甲车设计师
+	armored_car_manufacturer_1 = {
+		equipment_bonus = {
+			armored_car_equipment = {
+				maximum_speed = 0.12
+				soft_attack = 0.12
+				hard_attack = 0.12
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##步兵坦克设计师
+	infantry_tank_manufacturer_1 = {
+		equipment_bonus = {
+			armor = {
+				soft_attack = 0.12
+				armor_value = 0.12
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##中型坦克设计师
+	medium_tank_manufacturer_1 = {
+		equipment_bonus = {
+			armor = {
+				reliability = 0.12 
+				soft_attack = 0.12
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##重型坦克设计师
+	heavy_tank_manufacturer_1 = {
+		equipment_bonus = {
+			armor = {
+				armor_value = 0.12
+				hard_attack = 0.12
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##轻型坦克设计师
+	fast_tank_manufacturer_1 = {
+		equipment_bonus = {
+			armor = {
+				maximum_speed = 0.12 reliability = 0.17
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##轻型飞机设计师
+	light_aircraft_manufacturer_1 = {
+		equipment_bonus = {
+			small_plane_airframe = {
+				air_agility = 0.16
+				maximum_speed = 0.16
+			}
+			cv_small_plane_airframe = {
+				air_agility = 0.16
+				maximum_speed = 0.16
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##中型飞机设计师
+	medium_aircraft_manufacturer_1 = {
+		equipment_bonus = {
+			medium_plane_fighter_airframe = {
+				reliability = 0.23
+			}
+			medium_plane_airframe = {
+				reliability = 0.23
+			}
+			medium_plane_scout_plane_airframe = {
+				reliability = 0.23
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##重型飞机设计师
+	heavy_aircraft_manufacturer_1 = {
+		equipment_bonus = {
+
+			large_plane_airframe = {
+				air_bombing = 0.16
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##冰之王女
+	bing_zhi_wang_nv = {
+		winter_attrition_factor = -0.15
+		heat_attrition_factor = 0.10
+		land_reinforce_rate = 0.01
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##战王
+	zhan_wang_1 = {
+		army_attack_factor = 0.05
+		army_org_factor = 0.15
+		army_morale_factor = -0.10
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##超级小仙女
+	chao_ji_xiao_xian_nv = {
+		army_defence_factor = 0.05
+		army_core_defence_factor = 0.10
+		breakthrough_factor = 0.20
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##巴啦啦小魔仙
+	ba_la_la_xiao_mo_xian = {
+		army_speed_factor = 0.10
+		max_planning_factor = -0.10
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##装甲王
+	zhuang_jia_wang = {
+		recon_factor_while_entrenched = 0.10
+		army_armor_attack_actor = 0.05
+		army_armor_speed_factor = 0.10
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##天生指挥官
+	tian_sheng_zhi_hui_guan = {
+		experience_gain_army = 0.4
+		breakthrough_factor = 0.1
+		army_speed_factor = 0.15
+		army_defence_factor = 0.05
+		org_loss_when_moving = -0.05
+		
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##行军都督
+	xing_jun_du_du = {
+		org_loss_when_moving = -0.12
+		army_attack_factor = 0.05
+		air_cas_present_factor = 0.15
+		experience_gain_army = @chief_experience_gain_medium
+		command_cap = @tier2
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##战争狂魔
+	zhan_zheng_kuang_mo = {
+	    experience_gain_army = 1
+		command_power_gain = 1
+		max_command_power_mult = 0.5
+		max_command_power = 500
+		max_training = 0.3
+		command_abilities_cost_factor = -0.5
+		land_reinforce_rate = 1
+		experience_loss_factor = -0.75
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##幽灵杀手
+	you_ling_sha_shou = {
+		army_org = 10
+		army_org_factor = 0.3
+		supply_consumption_factor = -0.5
+		army_defence_factor = 0.1
+		army_core_defence_factor = 0.5
+		max_dig_in = 20
+		send_volunteer_size = 24
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令
+	zong_si_ling_2 = {
+		army_attack_factor = 0.75
+		army_core_attack_factor = 0.5
+		army_defence_factor = 0.75
+		army_core_defence_factor = 0.5
+		army_strength_factor = 0.75
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+
+
+##总司令特质-萨迪乌斯
+	sadiwusi_9= {
+        navy_anti_air_attack_factor = 0.22
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-火蜥蜴
+	huoxiyi_9 = {
+        navy_submarine_attack_factor = 0.22
+		navy_submarine_defence_factor = 0.15
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-圣甲虫
+	shengjiachong_9 = {
+        sortie_efficiency = 0.22
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-斯卡西
+	sikaxi_9 = {
+        cavalry_attack_factor = 0.16
+		cavalry_defence_factor = 0.16
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-塞赫麦特
+	saihemaite_9 = {
+        army_armor_attack_factor = 0.16
+	    army_armor_defence_factor = 0.16
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-索尼娅
+	suoniya_9 = {
+        air_range_factor = 0.24
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-斯普里甘
+	sipuligan_9 = {
+        army_artillery_attack_factor = 0.22
+		army_artillery_defence_factor = 0.15
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-钢铁龙
+	gangtienong_9 = {
+        special_forces_attack_factor = 0.16
+		special_forces_min = 20
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-T-3
+	t3tz_9 = {
+        air_ace_generation_chance_factor = 0.16
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##总司令特质-T-20S
+	t20stz_9 = {
+        army_infantry_attack_factor = 0.16
+		army_infantry_defence_factor = 0.21
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+}

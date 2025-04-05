@@ -1,0 +1,1012 @@
+znecyjl_decision_category = {
+    JL_xd = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            
+        }
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = JL_S1_flag
+        }
+    }
+    JL_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = JL_S2_flag
+            clr_country_flag = JL_S1_flag
+        }
+    }
+    JL_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = JL_S1_flag
+            clr_country_flag = JL_S2_flag
+        }
+    }
+    JL_ljjl = {
+        icon = GFX_ECY_ljjl
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_ljjl_character
+			every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_ljjl_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_ljjl_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+	JL_ljys = {
+        icon = GFX_ECY_ljys
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_ys_tt
+            set_global_flag = MOD_enable_eby_ljys_character
+			every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_ljys_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_ljys_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+	JL_renqi = {
+        icon = GFX_ECY_renqi
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_renqi_character
+			every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_renqi_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_renqi_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_glg = {
+        icon = GFX_ECY_glg
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_glg_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_glg_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_glg_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_mrfz = {
+        icon = GFX_ECY_mrfz
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_mrfz_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_mrfz_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_mrfz_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_gzlj = {
+        icon = GFX_ECY_gzlj
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_gzlj_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_gzlj_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_gzlj_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_blhx3 = {
+        icon = GFX_ECY_blhx3
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_blhx3_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_blhx3_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_blhx3_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_wlhx = {
+        icon = GFX_ECY_blhx
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_wlhx_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_wlhx_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_wlhx_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_blhxhj = {
+        icon = GFX_ECY_blhx
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_hj_tt
+            set_global_flag = MOD_enable_eby_blhxhj_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_blhxhj_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_blhxhj_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_mygwzd = {
+        icon = GFX_ECY_mygwzd
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_mygwzd_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_mygwzd_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_mygwzd_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_slns = {
+        icon = GFX_ECY_slns
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_slns_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_slns_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_slns_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_mcjl = {
+        icon = GFX_ECY_mc
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_mcjl_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_mcjl_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_mcjl_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_cbjq = {
+        icon = GFX_ECY_cbjq
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_cbjq_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_cbjq_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_cbjq_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_dqss = {
+        icon = GFX_ECY_dqss
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_dqss_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_dqss_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_dqss_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_emgx = {
+        icon = GFX_ECY_emgx
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_emgx_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_emgx_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_emgx_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_shsjl = {
+        icon = GFX_ECY_shsjl
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_shsjl_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_shsjl_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_shsjl_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_cbwn = {
+        icon = GFX_ECY_cbwn
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_cbwn_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_cbwn_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_cbwn_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_sjzl = {
+        icon = GFX_ECY_sjzl
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_sjzl_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_sjzl_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_sjzl_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_yqdq = {
+        icon = GFX_ECY_yqdq
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_yqdq_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_yqdq_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_yqdq_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_jczx = {
+        icon = GFX_ECY_jczx
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_jczx_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_jczx_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_jczx_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_slsy = {
+        icon = GFX_ECY_slsy
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_slsy_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_slsy_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_slsy_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_yhdzz = {
+        icon = GFX_ECY_yhdzz
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_yhdzz_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_yhdzz_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_yhdzz_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_wlda = {
+        icon = GFX_ECY_wlda
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_wlda_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_wlda_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_wlda_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_ljws = {
+        icon = GFX_ECY_ljws
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_ljws_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_ljws_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_ljws_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_snzq = {
+        icon = GFX_ECY_snzq
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_snzq_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_snzq_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_snzq_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_mjbh = {
+        icon = GFX_ECY_mjbh
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_mjbh_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_mjbh_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_mjbh_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_ysqd = {
+        icon = GFX_ECY_ysqd
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_ysqd_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_ysqd_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_ysqd_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_xqtd = {
+        icon = GFX_ECY_xqtd
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_xqtd_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_xqtd_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_xqtd_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_jql = {
+        icon = GFX_ECY_jql
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_jql_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_jql_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_jql_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_snqx = {
+        icon = GFX_ECY_snqx
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_snqx_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_snqx_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_snqx_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_srh = {
+        icon = GFX_ECY_srh
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_srh_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_srh_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_srh_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+    JL_zsca2 = {
+        icon = GFX_ECY_zsca2
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JL_S2_flag
+        }
+        fire_only_once = yes
+        complete_effect = {
+            custom_effect_tooltip = JL_jl_tt
+            set_global_flag = MOD_enable_eby_zsca2_character
+            every_possible_country = {
+				limit = {
+                    any_character = {
+                        has_character_flag = eby_zsca2_flag
+                    }
+                }
+				every_character = {
+					limit = {
+                        has_character_flag = eby_zsca2_flag
+                    }
+					set_nationality = ROOT
+				}
+			}
+        }
+    }
+}

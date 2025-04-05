@@ -1,0 +1,153 @@
+znecy_minzujingshen = {
+	ZNECY_tsgn_28 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			NOT = {
+				has_idea = znecy_zhiyuanjun
+			}
+        }
+        fire_only_once = no
+		complete_effect = {
+			add_ideas = znecy_zhiyuanjun
+		}
+	}
+
+	ZNECY_tsgn_29 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			has_idea = znecy_zhiyuanjun
+        }
+        fire_only_once = no
+		complete_effect = {
+			remove_ideas = znecy_zhiyuanjun
+		}
+	}
+
+	ZNECY_tsgn_30 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			NOT = {
+				has_idea = znecy_tezhongbing
+			}
+        }
+        fire_only_once = no
+		complete_effect = {
+			add_ideas = znecy_tezhongbing
+		}
+	}
+
+	ZNECY_tsgn_31 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			has_idea = znecy_tezhongbing
+        }
+        fire_only_once = no
+		complete_effect = {
+			remove_ideas = znecy_tezhongbing
+		}
+	}
+
+	ZNECY_tsgn_33 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			NOT = {
+				has_idea = znecy_jianzhusudu
+			}
+        }
+        fire_only_once = no
+		complete_effect = {
+			add_ideas = znecy_jianzhusudu
+		}
+	}
+
+	ZNECY_tsgn_34 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			has_idea = znecy_jianzhusudu
+        }
+        fire_only_once = no
+		complete_effect = {
+			remove_ideas = znecy_jianzhusudu
+		}
+	}
+
+    ZNECY_tsgn_35 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			NOT = {
+				has_idea = znecy_shengchansudu
+			}
+        }
+        fire_only_once = no
+		complete_effect = {
+			add_ideas = znecy_shengchansudu
+		}
+	}
+
+	ZNECY_tsgn_36 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = JS_S2_flag
+			has_idea = znecy_shengchansudu
+        }
+        fire_only_once = no
+		complete_effect = {
+			remove_ideas = znecy_shengchansudu
+		}
+	}
+}

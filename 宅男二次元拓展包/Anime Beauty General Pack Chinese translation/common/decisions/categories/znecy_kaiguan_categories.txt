@@ -1,0 +1,5 @@
+znecyjl_kaiguan = {
+	picture = GFX_generic_secondary
+	icon = GFX_generic_secondary_1
+	priority = 4000
+}

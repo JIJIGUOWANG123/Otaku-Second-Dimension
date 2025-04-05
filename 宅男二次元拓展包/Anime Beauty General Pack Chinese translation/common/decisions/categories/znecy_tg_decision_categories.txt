@@ -1,0 +1,7 @@
+znecytg_decision_category = {
+	icon = GFX_generic_secondary_1
+	priority = 800
+	visible = {
+		has_country_flag = KG_S2_flag
+	}
+}

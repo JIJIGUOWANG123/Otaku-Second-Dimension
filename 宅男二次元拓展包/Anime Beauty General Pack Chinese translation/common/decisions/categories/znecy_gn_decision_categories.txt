@@ -1,0 +1,36 @@
+znecygn_decision_category = {
+	icon = GFX_generic_secondary_1
+	priority = 700
+	visible = {
+		has_country_flag = KG_S2_flag
+	}
+}
+znecy_lingxiuqiehuan = {
+	icon = GFX_generic_secondary_1
+	priority = 650
+	visible = {
+		has_country_flag = KG_S2_flag
+	}
+}
+znecy_zhenyingmingzi = {
+	icon = GFX_generic_secondary_1
+	priority = 600
+	visible = {
+		has_country_flag = KG_S2_flag
+	}
+}
+znecy_minzujingshen = {
+	icon = GFX_generic_secondary_1
+	priority = 550
+	visible = {
+		has_country_flag = KG_S2_flag
+	}
+}
+hexinhua = {
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+	priority = 10000
+}
+qiandu = {
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+	priority = 15000
+}

@@ -1,0 +1,372 @@
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+##职业驱逐舰舰长
+	career0_destroyer_captains = {
+	    naval_speed_factor = 0.25
+        navy_visibility = -0.2
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##职业巡洋舰舰长
+	career1_cruiser_captain = {
+	    naval_speed_factor = 0.25
+		navy_org_factor = 0.15
+		navy_max_range_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##职业航母舰长
+	career2_aircraft_carrier_captains = {
+	    sortie_efficiency = 0.25
+		naval_speed_factor = 0.13
+		navy_max_range_factor = 0.3
+		spotting_chance = 0.3
+		navy_carrier_air_attack_factor = 0.15
+		navy_carrier_air_targetting_factor = 0.25
+		equipment_bonus = {
+			carrier = {
+				armor_value = 0.3
+				instant = yes
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##职业战列舰舰长
+	professional3_battleship_captains = {
+	    navy_org_factor = 0.15
+		naval_strike_agility_factor = 0.1
+		naval_speed_factor = 0.15
+		naval_light_gun_hit_chance_factor = 0.2
+		naval_heavy_gun_hit_chance_factor = 0.2
+		navy_capital_ship_defence_factor = 0.15
+		navy_capital_ship_attack_factor = 0.2
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##二次元海上向导
+	secondary4_sea_guides = {
+	    naval_speed_factor = 0.18
+		navy_max_range_factor = 0.25
+		spotting_chance = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##职业重型巡洋舰舰长
+	occupation5_heavy_cruiser_captain = {
+	    navy_org_factor = 0.2
+		naval_speed_factor = 0.1
+		navy_capital_ship_attack_factor = 0.15
+		navy_capital_ship_defence_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##二次元舰长榜样
+	secondary6_aptain_role_models = {
+	    naval_speed_factor = 0.3
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##边防舰长
+	border7_captain = {
+	    navy_screen_attack_factor = 0.25
+		naval_speed_factor = 0.18
+		screening_efficiency = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##海域隐秘专家
+	specialist8_in_maritime_concealment = {
+		navy_visibility = -0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+	
+##海域突击手
+	naval9_commando = {
+	    naval_speed_factor = 0.18
+		naval_strike_agility_factor = 0.25
+		navy_screen_attack_factor = 0.15
+		
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+##海上神射手
+	marksman_1 = {
+		naval_invasion_prep_speed = 0.3
+		naval_critical_score_chance_factor = 0.3
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军省油侠
+	navy_fuel_saving_man_2 = {
+		navy_fuel_consumption_factor = -0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##航母战术
+	carrier_based_tactics_3 = {
+		navy_carrier_air_attack_factor = 0.15 
+		navy_carrier_air_targetting_factor = 0.15 
+		navy_carrier_air_agility_factor = 0.15 
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##驱逐舰
+	destroyer_4 = {
+		navy_screen_attack_factor = 0.15
+		navy_screen_defence_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##舰队核心
+	fleetcore_5 = {
+		navy_capital_ship_attack_factor = 0.15 
+		navy_capital_ship_defence_factor = 0.15 
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##航母先锋
+	carrier_pioneer_6 = {
+		sortie_efficiency = 0.35 
+		navy_carrier_air_attack_factor = 0.2 
+		navy_carrier_air_targetting_factor = 0.2 
+		navy_carrier_air_agility_factor = 0.2 
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##超级航母
+	supercarrier_7 = {
+		naval_strike_attack_factor = 0.15
+		naval_strike_agility_factor = 0.15
+		air_air_superiority_attack_factor = 0.15
+		air_air_superiority_defence_factor = 0.15
+		air_air_superiority_agility_factor = 0.15
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##帝国军舰
+	imperial_warships_8 = {
+		navy_capital_ship_attack_factor = 0.2
+		navy_capital_ship_defence_factor = 0.2
+		equipment_bonus = {
+			capital_ship  = {
+				build_cost_ic = -0.20
+				armor_value = 0.15
+				instant = yes
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##高贵杰作
+    noble_masterpiece_9 = {
+		navy_screen_attack_factor = 0.2
+		navy_screen_defence_factor = 0.2
+		equipment_bonus = {
+			screen_ship  = {
+				build_cost_ic = -0.20
+				maximum_speed = 0.15
+				instant = yes
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##护卫舰
+	corvette_10 = {
+		navy_screen_attack_factor = 0.25
+	
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-天牛哈索尔
+	tianniuhasuoer_9 = {
+        experience_gain_navy = 1
+		convoy_escort_efficiency = 1
+		naval_coordination = 0.1
+		convoy_raiding_efficiency_factor = 1
+		navy_max_range_factor = 0.5
+		ships_at_battle_start = 0.5
+		industrial_capacity_dockyard = 5
+		industrial_capacity_dockyard = 5
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-走为上计
+	zouweishangji_9 = {
+        experience_gain_navy = 1
+		sortie_efficiency = 0.35
+		navy_carrier_air_attack_factor = 0.2
+		navy_carrier_air_targetting_factor = 0.2
+		navy_carrier_air_agility_factor = 0.2
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-小赖
+	xiaolai_9 = {
+        naval_strike_attack_factor = 0.1
+		naval_strike_targetting_factor = 0.1
+		naval_strike_agility_factor = 0.1
+		air_air_superiority_attack_factor = 0.1
+		air_air_superiority_defence_factor = 0.1
+		air_air_superiority_agility_factor = 0.1
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-女忍火焰
+	nvrenhuoyan_9 = {
+        navy_carrier_air_attack_factor = 0.12
+		navy_carrier_air_targetting_factor = 0.13
+		navy_carrier_air_agility_factor = 0.16
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-女忍零
+	nvrenling_9 = {
+        navy_capital_ship_attack_factor = 0.16
+		navy_capital_ship_defence_factor = 0.16
+		navy_screen_attack_factor = 0.16
+		navy_screen_defence_factor = 0.16
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-阿尔法
+	nmsaerfa_9 = {
+        convoy_raiding_efficiency_factor = 0.22
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-伐木工
+	famugong_9 = {
+        naval_speed_factor = 0.17
+		naval_retreat_speed = 0.1
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-机械
+	jixieguai_9 = {
+        positioning = 0.14
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-梅
+	meihai_9 = {
+        ships_at_battle_start = 0.12
+		naval_retreat_chance = 0.12
+		naval_retreat_speed = 0.12
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+
+##海军部长特质-对策
+	duice_9 = {
+        naval_hit_chance = 0.1
+		naval_accidents_chance = -0.05
+		naval_critical_score_chance_factor = 0.1
+		naval_mine_hit_chance = -0.05
+		naval_torpedo_hit_chance_factor = 0.1
+		naval_torpedo_reveal_chance_factor = -0.05
+		experience_gain_navy = @chief_experience_gain_high
+
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+}

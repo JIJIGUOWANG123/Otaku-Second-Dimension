@@ -1,0 +1,303 @@
+znecyng_decision_category = {
+	NG_xd = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            
+        }
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = NG_S1_flag
+        }
+    }
+
+    NG_xs = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S1_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = NG_S2_flag
+            clr_country_flag = NG_S1_flag
+        }
+    }
+
+    NG_yc = {
+        icon = generic_army_support
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+        fire_only_once = no
+        complete_effect = {
+            set_country_flag = NG_S1_flag
+            clr_country_flag = NG_S2_flag
+        }
+    }
+	
+    NG_guwen = {
+		icon = GFX_ECY_zzgw
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = NG_zzgw_tt
+			set_global_flag = MOD_enable_eby_guwen_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_guwen_flag
+					} 
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_guwen_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	NG_lilunjia = {
+		icon = GFX_ECY_llj
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_llj_tt
+			set_global_flag = MOD_enable_eby_lilunjia_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_lilunjia_flag
+					}
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_lilunjia_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	NG_lujunbuzhang = {
+		icon = GFX_ECY_ljbz
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_ljbz_tt
+			set_global_flag = MOD_enable_eby_lujunbuzhang_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_lujunbuzhang_flag
+					}
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_lujunbuzhang_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	NG_haijunbuzhang = {
+		icon = GFX_ECY_hjbz
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_hjbz_tt
+			set_global_flag = MOD_enable_eby_haijunbuzhang_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_haijunbuzhang_flag
+					}
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_haijunbuzhang_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	NG_kongjunbuzhang = {
+		icon = GFX_ECY_kjbz
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_kjbz_tt
+			set_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_kongjunbuzhang_flag
+					}
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_kongjunbuzhang_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	NG_zongsiling = {
+		icon = GFX_ECY_zsl
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_zsl_tt
+			set_global_flag = MOD_enable_eby_zongsiling_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_zongsiling_flag
+					} 
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_zongsiling_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+    NG_scientist = {
+		icon = GFX_ECY_ysqd
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_kxj_tt
+			set_global_flag = MOD_enable_eby_scientist_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_scientist_flag
+					} 
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_scientist_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	NG_gwkx = {
+		icon = GFX_ECY_zzgw
+        allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = NG_S2_flag
+        }
+		fire_only_once = yes
+		complete_effect = {
+            custom_effect_tooltip = NG_zzgw_tt
+			set_global_flag = MOD_enable_eby_gwkx_character
+			every_possible_country = {
+				limit = {
+					any_character = {
+						has_character_flag = eby_gwkx_flag
+					}
+				}
+				every_character = {
+					limit = {
+						has_character_flag = eby_gwkx_flag
+					}
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+}
+

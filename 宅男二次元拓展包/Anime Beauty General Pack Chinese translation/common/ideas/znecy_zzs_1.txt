@@ -1,0 +1,602 @@
+ideas = { 
+    industrial_concern = {
+        znecy_zzs_1 = {
+            picture = znecy_1
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				consumer_goods_factor = -0.25
+				stability_factor = 0.15
+			}
+			traits = { 
+				ZNECY_ZZS_1
+			}
+			research_bonus = {
+
+			}
+        }
+
+        znecy_zzs_2 = {
+            picture = znecy_2
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_arms_factory_factor = 0.25
+			}
+			traits = { 
+				ZNECY_ZZS_2
+			}
+			research_bonus = { 
+				industry = 0.05 
+			}
+        }
+
+        znecy_zzs_3 = {
+            picture = znecy_3
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = { 
+				production_speed_buildings_factor = 0.2 
+			}
+			traits = { 
+				ZNECY_ZZS_3
+			}
+			research_bonus = { 
+				electronics = 0.05
+				industry = 0.05 
+			}
+        }
+
+        znecy_zzs_4 = {
+            picture = znecy_4
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = { 
+				terrain_penalty_reduction = 0.1 
+			}
+			traits = { 
+				ZNECY_ZZS_4
+			}
+			research_bonus = { 
+				electronics=0.25 
+			}
+        }
+
+        znecy_zzs_5 = {
+            picture = znecy_5
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = { 
+				production_factory_max_efficiency_factor = 0.1
+			}
+			traits = { 
+				ZNECY_ZZS_5
+			}
+			research_bonus = { 
+				industry = 0.20 
+			}
+        }
+
+        znecy_zzs_6 = {
+            picture = znecy_6
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = { 
+				production_factory_efficiency_gain_factor = 0.1 
+			}
+			traits = { 
+				ZNECY_ZZS_6
+				}
+			research_bonus = { 
+				synth_resources = 0.20 
+			}
+        }
+
+        znecy_zzs_7 = {
+            picture = znecy_7
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = { 
+
+			}
+			traits = { 
+				ZNECY_ZZS_7
+			}
+			research_bonus = { 
+				electronics = 0.1 
+			}
+        }
+
+        znecy_zzs_8 = {
+            picture = znecy_8
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = { 
+
+			}
+			traits = { 
+				ZNECY_ZZS_8
+			}
+			research_bonus = { 
+				electronics = 0.1 
+			}
+        }
+
+        znecy_zzs_9 = {
+            picture = znecy_9
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {  
+
+			}
+			traits = { 
+				ZNECY_ZZS_9
+			}
+			research_bonus = { 
+				synth_resources = 0.15 
+			}
+        }
+
+        znecy_zzs_10 = {
+            picture = znecy_10
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {  
+
+			}
+			traits = { 
+				ZNECY_ZZS_10
+			}
+			research_bonus = { 
+				industry = 0.25
+				electronics=0.25
+				nuclear = 0.25
+				rocketry = 0.25
+				synth_resources =0.25
+			}
+        }
+
+        znecy_zzs_11 = {
+            picture = znecy_11
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {  
+
+			}
+			traits = { 
+				ZNECY_ZZS_11
+			}
+			research_bonus = {  
+
+			}
+        }
+
+        znecy_zzs_12 = {
+            picture = znecy_12
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {  
+
+			}
+			traits = { 
+				ZNECY_ZZS_12
+			}
+			research_bonus = {  
+
+			}
+        }
+
+		znecy_zzs_13 = {
+			picture = znecy_13
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				naval_speed_factor = 0.25 
+                experience_gain_navy = 0.1 
+			}
+			traits = {  
+                ZNECY_ZZS_13
+			}
+			research_bonus = { 
+				naval_equipment = 0.2
+			}
+		}
+
+		znecy_zzs_14 = {
+			picture = znecy_14
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				experience_gain_air = 0.1 
+                #air_ace_generation_chance_factor = 0.2 
+                #air_accidents = -0.1 
+			}
+			traits = {
+				ZNECY_ZZS_14
+			}
+			research_bonus = {
+				air_equipment = 0.2
+			}
+		}
+
+		znecy_zzs_15 = {
+			picture = znecy_15
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				terrain_penalty_reduction = 0.1
+			}
+			traits = {
+				ZNECY_ZZS_15
+			}
+			research_bonus = {  
+				armor = 0.2
+			}
+		}
+
+		znecy_zzs_16 = {
+			picture = znecy_16
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.4
+			}
+			traits = {
+				ZNECY_ZZS_16
+			}
+			research_bonus = {  
+				infantry_weapons = 0.2
+			}
+		}
+
+		znecy_zzs_17 = {
+			picture = znecy_17
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+				sp_tag_radar_speed_factor = 0.5 #雷达专项计划速度
+				sp_tag_nuclear_power_speed_factor = 0.5 #核能特殊项目速度
+				sp_tag_nuclear_warfare_speed_factor = 0.5 #核战争特殊项目速度
+				sp_tag_surface_ship_speed_factor = 0.5 #水面舰艇特殊项目速度
+				sp_tag_submarine_speed_factor = 0.5 #潜艇特殊项目速度
+				sp_tag_artillery_speed_factor = 0.5 #火炮特殊项目速度
+				sp_tag_tank_speed_factor = 0.5 #坦克特殊项目速度
+				sp_tag_guided_bomb_speed_factor = 0.5 #制导炸弹特殊项目速度
+				sp_tag_bomb_speed_factor = 0.5 #炸弹特殊项目速度
+				sp_tag_rocket_speed_factor = 0.5 #火箭项目速度
+				sp_tag_jet_speed_factor = 0.5 #喷气式飞机特殊项目速度
+				sp_tag_helicopter_speed_factor = 0.5 #直升机特殊项目速度
+				sp_tag_aircraft_speed_factor = 0.5 #飞行器特殊项目速度
+			}
+			traits = {
+				ZNECY_ZZS_17
+			}
+			research_bonus = {  
+				specialization_air_speed_factor = 0.5
+				specialization_land_speed_factor = 0.5
+				specialization_naval_speed_factor = 0.5
+				specialization_nuclear_speed_factor = 0.5
+			}
+	    }
+
+		znecy_zzs_18 = {
+			picture = znecy_18
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_18
+			}
+			research_bonus = {  
+				industry = 0.1
+			}
+		}
+
+		znecy_zzs_19 = {
+			picture = znecy_19
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_19
+			}
+			research_bonus = {  
+				industry = 0.1
+			}
+		}
+
+		znecy_zzs_20 = {
+			picture = znecy_20
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_20
+			}
+			research_bonus = {  
+				industry = 0.1
+			}
+		}
+
+		znecy_zzs_21 = {
+			picture = znecy_21
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_21
+			}
+			research_bonus = {  
+				industry = 0.15
+			}
+		}
+
+		znecy_zzs_22 = {
+			picture = znecy_22
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_22
+			}
+			research_bonus = {  
+				electronics = 0.1
+			}
+		}
+
+		znecy_zzs_23 = {
+			picture = znecy_23
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_23
+			}
+			research_bonus = {  
+				
+			}
+		}
+
+		znecy_zzs_24 = {
+			picture = znecy_24
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_24
+			}
+			research_bonus = {  
+				electronics = 0.15
+			}
+		}
+
+		znecy_zzs_25 = {
+			picture = znecy_25
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_25
+			}
+			research_bonus = {  
+				electronics = 0.15
+			}
+		}
+
+		znecy_zzs_26 = {
+			picture = znecy_26
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_26
+			}
+			research_bonus = {  
+				electronics = 0.15
+			}
+		}
+
+		znecy_zzs_27 = {
+			picture = znecy_27
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_27
+			}
+			research_bonus = {  
+				industry = 0.1
+			}
+		}
+
+		znecy_zzs_28 = {
+			picture = znecy_28
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_28
+			}
+			research_bonus = {  
+				train_tech = 0.2
+			}
+		}
+
+		znecy_zzs_29 = {
+			picture = znecy_29
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_29
+			}
+			research_bonus = {  
+				industry  = 0.15
+			}
+		}
+
+		znecy_zzs_30 = {
+			picture = znecy_30
+			available = { 
+				is_ai = no
+			}
+			visible = {
+				
+			}
+			modifier = {
+
+			}
+			traits = {
+				ZNECY_ZZS_30
+			}
+			research_bonus = {  
+				industry = 0.25
+				electronics=0.25
+				nuclear = 0.25
+				rocketry = 0.25
+				synth_resources =0.25
+			}
+		}
+	}
+}

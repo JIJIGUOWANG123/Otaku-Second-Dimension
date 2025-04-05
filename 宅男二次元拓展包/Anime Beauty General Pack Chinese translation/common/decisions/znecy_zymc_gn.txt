@@ -1,0 +1,176 @@
+znecy_zhenyingmingzi = {
+	ZNECY_tsgn_16 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			custom_effect_tooltip = wenxintishi_tt
+			create_faction = Second_Dimension_Axis
+		}
+	}
+
+	ZNECY_tsgn_17 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			custom_effect_tooltip = wenxintishi_tt
+			create_faction = Second_Dimension_Communist_League
+		}
+	}
+
+	ZNECY_tsgn_18 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			custom_effect_tooltip = wenxintishi_tt
+			create_faction = Second_Dimension_Alliance
+		}
+	}
+
+	ZNECY_tsgn_19 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			custom_effect_tooltip = wenxintishi_tt
+			create_faction = Second_Dimension_Agreement
+		}
+	}
+
+	ZNECY_tsgn_21 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			custom_effect_tooltip = wenxintishi_tt
+			create_faction = Second_Dimension_Convention
+		}
+	}
+
+	ZNECY_tsgn_22 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			set_faction_name = Second_Dimension_Axis
+		}
+	}
+
+	ZNECY_tsgn_23 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			set_faction_name = Second_Dimension_Communist_League
+		}
+	}
+
+	ZNECY_tsgn_24 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			set_faction_name = Second_Dimension_Alliance
+		}
+	}
+
+	ZNECY_tsgn_25 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			set_faction_name = Second_Dimension_Agreement
+		}
+	}
+
+	ZNECY_tsgn_26 = {
+		icon = generic_prepare_civil_war
+		allowed = {
+            always = yes
+        }
+		available = {
+            is_ai = no
+        }
+		visible = {
+            has_country_flag = ZY_S2_flag
+        }
+        fire_only_once = no
+		complete_effect = {
+			set_faction_name = Second_Dimension_Convention
+		}
+	}
+}

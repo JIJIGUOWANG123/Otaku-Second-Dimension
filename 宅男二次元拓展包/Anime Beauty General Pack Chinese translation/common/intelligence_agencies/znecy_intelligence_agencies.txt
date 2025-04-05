@@ -1,0 +1,112 @@
+#百鬼夜行
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_1
+    name = {
+        "Hundreds of Ghosts at Night"
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#千禧年
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_2
+    name = {
+        "Millennium" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#阿拜多斯
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_3
+    name = {
+        "Abydos" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#山海经
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_4
+    name = {
+        "Classic of Mountains and Seas" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#歌赫娜
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_5
+    name = {
+        "Gehna" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#崔尼蒂
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_6
+    name = {
+        "Trinity" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#淫纹1
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_7
+    name = {
+        "Trinity" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}
+#淫纹2
+intelligence_agency = {
+    picture = GFX_intelligence_agency_znecy_8
+    name = {
+        "Trinity" 
+    }
+    available = {
+        
+        is_ai = no
+    }
+    default = {
+        
+    }
+}

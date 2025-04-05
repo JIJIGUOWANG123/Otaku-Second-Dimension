@@ -1,0 +1,345 @@
+ideas = {
+	naval_academy_spirit = {
+		ECYHJJGT01_diyi = {
+			ledger = navy
+			picture = ecyjgthj_1
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				navy_submarine_attack_factor = 0.15
+				navy_submarine_defence_factor = 0.15
+				convoy_raiding_efficiency_factor = 0.15
+				navy_visibility = -0.1
+				NAVY_MAX_RANGE_FACTOR = 0.15
+				navy_capital_ship_attack_factor = 0.15
+				NAVAL_TORPEDO_REVEAL_CHANCE_FACTOR = -0.15
+				NAVAL_TORPEDO_HIT_CHANCE_FACTOR = 0.15
+				NAVAL_TORPEDO_SCREEN_PENETRATION_FACTOR = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT01_dier = {
+			ledger = navy
+			picture = ecyjgthj_2
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				experience_gain_submarine_training_factor = 0.15
+				experience_gain_submarine_combat_factor = 0.15
+				ship_hull_submarine_design_cost_factor = -0.4
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT01_disan = {
+			ledger = navy
+			picture = ecyjgthj_3
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				experience_gain_navy_factor = 0.1
+				navy_chief_cost_factor = -0.15
+				navy_leader_cost_factor = -0.15
+				trait_fleet_protector_xp_gain_factor = 0.15
+				trait_green_water_expert_xp_gain_factor = 0.4
+				trait_ironside_xp_gain_factor = 0.3
+				experience_gain_battleship_training_factor = 0.15
+				experience_gain_battleship_combat_factor = 0.15
+				NAVAL_RETREAT_CHANCE_AFTER_INITIAL_COMBAT = 0.15
+				NAVAL_RETREAT_CHANCE = 0.15
+				NAVAL_RETREAT_SPEED = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT01_disi = {
+			ledger = navy
+			picture = ecyjgthj_4
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				navy_max_range_factor = 0.2
+				naval_accidents_chance = -0.15
+				trait_arctic_water_expert_xp_gain_factor = 0.3
+				trait_green_water_expert_xp_gain_factor = 0.3
+				invasion_preparation = -0.2
+				naval_invasion_capacity = 10
+				amphibious_invasion = 0.3
+				amphibious_invasion_defence = 0.2
+				NAVAL_INVASION_PENALTY = -0.2
+				trait_naval_invader_xp_gain_factor = 0.3
+				experience_gain_destroyer_training_factor = 0.3
+				experience_gain_destroyer_combat_factor = 0.3
+				unit_destroyer_design_cost_factor = -0.3
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT01_diwu = {
+			ledger = navy
+			picture = ecyjgthj_5
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				experience_gain_navy_factor = 0.05
+				navy_chief_cost_factor = -0.1
+				naval_retreat_chance = -0.1
+				naval_retreat_speed = -0.1
+				NAVY_LEADER_START_DEFENSE_LEVEL = 1
+				naval_mines_effect_reduction = 0.2
+				naval_mines_damage_factor = 0.2
+				NAVAL_MINE_HIT_CHANCE = -0.2
+				SCREENING_WITHOUT_SCREENS = 0.2
+				NAVY_CAPITAL_SHIP_ATTACK_FACTOR = 0.1
+				trait_ironside_xp_gain_factor = 0.3
+				experience_gain_battleship_training_factor = 0.1
+				experience_gain_battleship_combat_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	navy_spirit = {
+		ECYHJJGT02_diyi = {
+			ledger = navy
+			picture = ecyjgthj_6
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				industrial_capacity_dockyard = 0.15
+				navy_org_factor = 0.15
+				army_org_factor = 0.15
+				experience_gain_navy_factor = 0.15
+				experience_gain_navy_unit_factor = 0.15
+				navy_chief_cost_factor = -0.3
+				production_speed_dockyard_factor = 0.15
+				planning_speed = 0.15
+				refit_speed = 0.15
+				repair_speed_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT02_dier = {
+			ledger = navy
+			picture = ecyjgthj_7
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				industrial_capacity_dockyard = 0.4
+				production_speed_dockyard_factor = 0.3
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT02_disan = {
+			ledger = navy
+			picture = ecyjgthj_8
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				navy_max_range_factor = -0.1
+				experience_gain_navy_factor = 0.05
+				navy_chief_cost_factor = -0.1
+				navy_leader_cost_factor = -0.1
+				trait_inshore_fighter_xp_gain_factor = 0.2
+				screening_efficiency = 0.1
+				navy_screen_attack_factor = 0.1
+				navy_screen_defence_factor = 0.1
+				NAVAL_MINES_DAMAGE_FACTOR = 0.1
+				experience_gain_battleship_training_factor = 0.1
+				experience_gain_battleship_combat_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT02_disi = {
+			ledger = navy
+			picture = ecyjgthj_9
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = -0.1
+				navy_org_factor = 0.1
+				army_org_factor = -0.1
+				experience_gain_army_factor = -0.1
+				experience_gain_army_unit_factor = -0.1
+				experience_gain_navy_factor = 0.1
+				experience_gain_navy_unit_factor = 0.1
+				army_chief_cost_factor = 0.1
+				navy_chief_cost_factor = -0.3
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = 0.1
+				planning_speed = -0.1
+				refit_speed = 0.1
+				repair_speed_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT02_diwu = {
+			ledger = navy
+			picture = ecyjgthj_10
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				navy_anti_air_attack_factor = -0.1
+				navy_capital_ship_attack_factor = 0.1
+				navy_capital_ship_defence_factor = 0.1
+				positioning = 0.1
+				naval_coordination = 0.05
+				naval_retreat_chance = -0.05
+				navy_submarine_detection_factor = -0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	naval_command_spirit = {
+		ECYHJJGT03_diyi = {
+			ledger = navy
+			picture = ecyjgthj_11
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				navy_max_range_factor = 0.15
+				experience_gain_navy_factor = 0.1
+				positioning = 0.1
+				sortie_efficiency = 0.1
+				navy_screen_defence_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT03_dier = {
+			ledger = navy
+			picture = ecyjgthj_12
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				shore_bombardment_bonus = 1
+				navy_capital_ship_defence_factor = 0.1
+				navy_screen_defence_factor = 0.1
+				navy_anti_air_attack_factor = -0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT03_disan = {
+			ledger = navy
+			picture = ecyjgthj_13
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+				modifier = {
+				convoy_escort_efficiency = 0.15
+				air_escort_efficiency = 0.15
+			}
+			equipment_bonus = {
+				convoy = {
+					build_cost_ic = -0.3
+					instant = yes
+				}
+			}
+			equipment_bonus = {
+				ship_hull_light = {
+					sub_detection = 0.15
+					sub_attack = 0.15
+					instant = yes
+				}
+			}
+			equipment_bonus = {
+				ship_hull_cruiser = {
+					sub_detection = 0.15
+					sub_attack = 0.15
+					instant = yes
+				}
+			}
+		}
+		ECYHJJGT03_disi = {
+			ledger = navy
+			picture = ecyjgthj_14
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				custom_modifier_tooltip = base_strike_academy_spirit_tt
+				spotting_chance = 0.15
+				navy_carrier_air_targetting_factor = 0.15
+				navy_carrier_air_attack_factor = 0.15
+				navy_carrier_air_agility_factor = 0.15
+			}
+			equipment_bonus = {
+				nav_bomber_equipment = {
+					naval_strike_attack = 0.15
+					naval_strike_targetting = 0.15
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ECYHJJGT03_diwu = {
+			ledger = navy
+			picture = ecyjgthj_15
+			visible = { }
+			available = { 
+				is_ai = no 
+			}
+			modifier = {
+				navy_capital_ship_attack_factor = 0.1
+				navy_capital_ship_defence_factor = 0.1
+				navy_screen_attack_factor = 0.1
+				navy_screen_defence_factor = 0.1
+				navy_max_range_factor = 0.2
+				experience_gain_navy = 0.1
+				NAVY_ORG_FACTOR = 0.05
+				navy_chief_cost_factor = -0.15
+				naval_manufacturer_cost_factor = -0.15
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}
