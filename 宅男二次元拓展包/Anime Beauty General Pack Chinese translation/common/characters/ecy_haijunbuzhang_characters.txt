@@ -1,0 +1,572 @@
+characters={
+	EBY_haijunbuzhang_1 = {
+		name = haijunbuzhang_1
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_1" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_1
+			traits = { career0_destroyer_captains }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_2 = {
+		name = haijunbuzhang_2
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_2" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_2
+			traits = { career1_cruiser_captain }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_3 = {
+		name = haijunbuzhang_3
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_3" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_3
+			traits = { career2_aircraft_carrier_captains }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_4 = {
+		name = haijunbuzhang_4
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_4" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_4
+			traits = { professional3_battleship_captains }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_5 = {
+		name = haijunbuzhang_5
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_5" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_5
+			traits = { secondary4_sea_guides }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_6 = {
+		name = haijunbuzhang_6
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_6" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_6
+			traits = { occupation5_heavy_cruiser_captain }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_7 = {
+		name = haijunbuzhang_7
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_7" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_7
+			traits = { secondary6_aptain_role_models }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_8 = {
+		name = haijunbuzhang_8
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_8" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_8
+			traits = { border7_captain }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_9 = {
+		name = haijunbuzhang_9
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_9" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_9
+			traits = { specialist8_in_maritime_concealment }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_10 = {
+		name = haijunbuzhang_10
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_10" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_10
+			traits = { naval9_commando }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_11 = {
+		name = haijunbuzhang_11
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_11" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_11
+			traits = { marksman_1 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_12 = {
+		name = haijunbuzhang_12
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_12" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_12
+			traits = { navy_fuel_saving_man_2 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_13 = {
+		name = haijunbuzhang_13
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_13" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_13
+			traits = { carrier_based_tactics_3 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_14 = {
+		name = haijunbuzhang_14
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_14" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_14
+			traits = { destroyer_4 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_15 = {
+		name = haijunbuzhang_15
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_15" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_15
+			traits = { fleetcore_5 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_16 = {
+		name = haijunbuzhang_16
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_16" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_16
+			traits = { carrier_pioneer_6 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_17 = {
+		name = haijunbuzhang_17
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_17" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_17
+			traits = { supercarrier_7 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_18 = {
+		name = haijunbuzhang_18
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_18" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_18
+			traits = { imperial_warships_8 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_19 = {
+		name = haijunbuzhang_19
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_19" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_19
+			traits = { noble_masterpiece_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_20 = {
+		name = haijunbuzhang_20
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_20" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = navy_chief
+			idea_token = haijunbuzhang_20
+			traits = { corvette_10 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_21 = {
+		name = haijunbuzhang_21
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_21" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_21
+			traits = { tianniuhasuoer_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_22 = {
+		name = haijunbuzhang_22
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_22" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_22
+			traits = { zouweishangji_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_23 = {
+		name = haijunbuzhang_23
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_23" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_23
+			traits = { xiaolai_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_24 = {
+		name = haijunbuzhang_24
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_24" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_24
+			traits = { nvrenhuoyan_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_25 = {
+		name = haijunbuzhang_25
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_25" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_25
+			traits = { nvrenling_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_26 = {
+		name = haijunbuzhang_26
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_26" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_26
+			traits = { nmsaerfa_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_27 = {
+		name = haijunbuzhang_27
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_27" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_27
+			traits = { famugong_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_28 = {
+		name = haijunbuzhang_28
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_28" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_28
+			traits = { jixieguai_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_29 = {
+		name = haijunbuzhang_29
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_29" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_29
+			traits = { meihai_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_haijunbuzhang_30 = {
+		name = haijunbuzhang_30
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_haijunbuzhang_30" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = navy_chief
+			idea_token = EBY_haijunbuzhang_30
+			traits = { duice_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_haijunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+}

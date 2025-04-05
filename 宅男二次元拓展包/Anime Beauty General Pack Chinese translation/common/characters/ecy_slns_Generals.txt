@@ -1,0 +1,1753 @@
+characters = {
+	#胜利女神：妮姬陆军上将
+	EBY_slns_1 = {
+		name = ECYSLNS_1
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_241
+			    small = GFX_Portrait_SQ_241_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_2 = {
+		name = ECYSLNS_2
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_242
+			    small = GFX_Portrait_SQ_242_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_3 = {
+		name = ECYSLNS_3
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_243
+			    small = GFX_Portrait_SQ_243_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_4 = {
+		name = ECYSLNS_4
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_244
+			    small = GFX_Portrait_SQ_244_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_5 = {
+		name = ECYSLNS_5
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_245
+			    small = GFX_Portrait_SQ_245_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_6 = {
+		name = ECYSLNS_6
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_246
+			    small = GFX_Portrait_SQ_246_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_7 = {
+		name = ECYSLNS_7
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_247
+			    small = GFX_Portrait_SQ_247_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_8 = {
+		name = ECYSLNS_8
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_248
+			    small = GFX_Portrait_SQ_248_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_9 = {
+		name = ECYSLNS_9
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_249
+			    small = GFX_Portrait_SQ_249_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_10 = {
+		name = ECYSLNS_10
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_250
+			    small = GFX_Portrait_SQ_250_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_11 = {
+		name = ECYSLNS_11
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_251
+			    small = GFX_Portrait_SQ_251_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_12 = {
+		name = ECYSLNS_12
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_252
+			    small = GFX_Portrait_SQ_252_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_13 = {
+		name = ECYSLNS_13
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_253
+			    small = GFX_Portrait_SQ_253_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_14 = {
+		name = ECYSLNS_14
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_254
+			    small = GFX_Portrait_SQ_254_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_15 = {
+		name = ECYSLNS_15
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_255
+			    small = GFX_Portrait_SQ_255_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_16 = {
+		name = ECYSLNS_16
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_256
+			    small = GFX_Portrait_SQ_256_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_17 = {
+		name = ECYSLNS_17
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_257
+			    small = GFX_Portrait_SQ_257_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_18 = {
+		name = ECYSLNS_18
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_258
+			    small = GFX_Portrait_SQ_258_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_19 = {
+		name = ECYSLNS_19
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_259
+			    small = GFX_Portrait_SQ_259_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_20 = {
+		name = ECYSLNS_20
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_260
+			    small = GFX_Portrait_SQ_260_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_21 = {
+		name = ECYSLNS_21
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_261
+			    small = GFX_Portrait_SQ_261_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_22 = {
+		name = ECYSLNS_22
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_262
+			    small = GFX_Portrait_SQ_262_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_23 = {
+		name = ECYSLNS_23
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_263
+			    small = GFX_Portrait_SQ_263_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_24 = {
+		name = ECYSLNS_24
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_264
+			    small = GFX_Portrait_SQ_264_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_25 = {
+		name = ECYSLNS_25
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_265
+			    small = GFX_Portrait_SQ_265_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_26 = {
+		name = ECYSLNS_26
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_266
+			    small = GFX_Portrait_SQ_266_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_27 = {
+		name = ECYSLNS_27
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_267
+			    small = GFX_Portrait_SQ_267_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_28 = {
+		name = ECYSLNS_28
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_268
+			    small = GFX_Portrait_SQ_268_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_29 = {
+		name = ECYSLNS_29
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_269
+			    small = GFX_Portrait_SQ_269_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_30 = {
+		name = ECYSLNS_30
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_270
+			    small = GFX_Portrait_SQ_270_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_31 = {
+		name = ECYSLNS_31
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_271
+			    small = GFX_Portrait_SQ_271_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_32 = {
+		name = ECYSLNS_32
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_272
+			    small = GFX_Portrait_SQ_272_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_33 = {
+		name = ECYSLNS_33
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_273
+			    small = GFX_Portrait_SQ_273_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_34 = {
+		name = ECYSLNS_34
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_274
+			    small = GFX_Portrait_SQ_274_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_35 = {
+		name = ECYSLNS_35
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_275
+			    small = GFX_Portrait_SQ_275_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_36 = {
+		name = ECYSLNS_36
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_276
+			    small = GFX_Portrait_SQ_276_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_37 = {
+		name = ECYSLNS_37
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_277
+			    small = GFX_Portrait_SQ_277_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_38 = {
+		name = ECYSLNS_38
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_278
+			    small = GFX_Portrait_SQ_278_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_39 = {
+		name = ECYSLNS_39
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_279
+			    small = GFX_Portrait_SQ_279_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_40 = {
+		name = ECYSLNS_40
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_280
+			    small = GFX_Portrait_SQ_280_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_41 = {
+		name = ECYSLNS_41
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_809
+			    small = GFX_Portrait_SQ_809_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_42 = {
+		name = ECYSLNS_42
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_810
+			    small = GFX_Portrait_SQ_810_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_43 = {
+		name = ECYSLNS_43
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_811
+			    small = GFX_Portrait_SQ_811_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_44 = {
+		name = ECYSLNS_44
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_812
+			    small = GFX_Portrait_SQ_812_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_45 = {
+		name = ECYSLNS_45
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_813
+			    small = GFX_Portrait_SQ_813_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_46 = {
+		name = ECYSLNS_46
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_814
+			    small = GFX_Portrait_SQ_814_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_47 = {
+		name = ECYSLNS_47
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_815
+			    small = GFX_Portrait_SQ_815_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_48 = {
+		name = ECYSLNS_48
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_816
+			    small = GFX_Portrait_SQ_816_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_49 = {
+		name = ECYSLNS_49
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_817
+			    small = GFX_Portrait_SQ_817_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_50 = {
+		name = ECYSLNS_50
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_818
+			    small = GFX_Portrait_SQ_818_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_51 = {
+		name = ECYSLNS_51
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_819
+			    small = GFX_Portrait_SQ_819_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_52 = {
+		name = ECYSLNS_52
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_820
+			    small = GFX_Portrait_SQ_820_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_53 = {
+		name = ECYSLNS_53
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_821
+			    small = GFX_Portrait_SQ_821_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_54 = {
+		name = ECYSLNS_54
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_822
+			    small = GFX_Portrait_SQ_822_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_55 = {
+		name = ECYSLNS_55
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_823
+			    small = GFX_Portrait_SQ_823_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_56 = {
+		name = ECYSLNS_56
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_824
+			    small = GFX_Portrait_SQ_824_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_57 = {
+		name = ECYSLNS_57
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_825
+			    small = GFX_Portrait_SQ_825_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_58 = {
+		name = ECYSLNS_58
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_826
+			    small = GFX_Portrait_SQ_826_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_59 = {
+		name = ECYSLNS_59
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_827
+			    small = GFX_Portrait_SQ_827_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_60 = {
+		name = ECYSLNS_60
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_828
+			    small = GFX_Portrait_SQ_828_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_61 = {
+		name = ECYSLNS_61
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_829
+			    small = GFX_Portrait_SQ_829_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_62 = {
+		name = ECYSLNS_62
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_830
+			    small = GFX_Portrait_SQ_830_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_63 = {
+		name = ECYSLNS_63
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_831
+			    small = GFX_Portrait_SQ_831_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_64 = {
+		name = ECYSLNS_64
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_832
+			    small = GFX_Portrait_SQ_832_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_65 = {
+		name = ECYSLNS_65
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_833
+			    small = GFX_Portrait_SQ_833_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_66 = {
+		name = ECYSLNS_66
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_834
+			    small = GFX_Portrait_SQ_834_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_67 = {
+		name = ECYSLNS_67
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_835
+			    small = GFX_Portrait_SQ_835_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_68 = {
+		name = ECYSLNS_68
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_836
+			    small = GFX_Portrait_SQ_836_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_69 = {
+		name = ECYSLNS_69
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_837
+			    small = GFX_Portrait_SQ_837_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_slns_70 = {
+		name = ECYSLNS_70
+		visible = {
+			has_global_flag = MOD_enable_eby_slns_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_838
+			    small = GFX_Portrait_SQ_838_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill=1
+			attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+}

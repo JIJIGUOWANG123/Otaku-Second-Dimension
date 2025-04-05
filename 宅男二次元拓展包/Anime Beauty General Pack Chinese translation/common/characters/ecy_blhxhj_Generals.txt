@@ -1,0 +1,783 @@
+characters = {
+	#碧蓝航线海军上将
+	EBY_blhxhj_1 = {
+		name = ECYBLHXHJ_1
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_31
+			    small = GFX_Portrait_SQ_31_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_2 = {
+		name = ECYBLHXHJ_2
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_32
+			    small = GFX_Portrait_SQ_32_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_3 = {
+		name = ECYBLHXHJ_3
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_33
+			    small = GFX_Portrait_SQ_33_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_4 = {
+		name = ECYBLHXHJ_4
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_34
+			    small = GFX_Portrait_SQ_34_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_5 = {
+		name = ECYBLHXHJ_5
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_35
+			    small = GFX_Portrait_SQ_35_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_6 = {
+		name = ECYBLHXHJ_6
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_36
+			    small = GFX_Portrait_SQ_36_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_7 = {
+		name = ECYBLHXHJ_7
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_37
+			    small = GFX_Portrait_SQ_37_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_8 = {
+		name = ECYBLHXHJ_8
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_38
+			    small = GFX_Portrait_SQ_38_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_9 = {
+		name = ECYBLHXHJ_9
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_39
+			    small = GFX_Portrait_SQ_39_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_10 = {
+		name = ECYBLHXHJ_10
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_40
+			    small = GFX_Portrait_SQ_40_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				blockade_runner
+				concealment_expert
+				smoke_screen_expert
+				brilliant_strategist
+				arctic_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_11 = {
+		name = ECYBLHXHJ_11
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_41
+			    small = GFX_Portrait_SQ_41_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_12 = {
+		name = ECYBLHXHJ_12
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_42
+			    small = GFX_Portrait_SQ_42_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_13 = {
+		name = ECYBLHXHJ_13
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_43
+			    small = GFX_Portrait_SQ_43_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_14 = {
+		name = ECYBLHXHJ_14
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_44
+			    small = GFX_Portrait_SQ_44_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_15 = {
+		name = ECYBLHXHJ_15
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_45
+			    small = GFX_Portrait_SQ_45_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_16 = {
+		name = ECYBLHXHJ_16
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_46
+			    small = GFX_Portrait_SQ_46_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_17 = {
+		name = ECYBLHXHJ_17
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_47
+			    small = GFX_Portrait_SQ_47_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_18 = {
+		name = ECYBLHXHJ_18
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_48
+			    small = GFX_Portrait_SQ_48_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_19 = {
+		name = ECYBLHXHJ_19
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_49
+			    small = GFX_Portrait_SQ_49_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_20 = {
+		name = ECYBLHXHJ_20
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_50
+			    small = GFX_Portrait_SQ_50_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+				lancer
+				torpedo_expert
+				brilliant_strategist
+				inshore_fighter
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_21 = {
+		name = ECYBLHXHJ_21
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_51
+			    small = GFX_Portrait_SQ_51_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_22 = {
+		name = ECYBLHXHJ_22
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_52
+			    small = GFX_Portrait_SQ_52_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_23 = {
+		name = ECYBLHXHJ_23
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_53
+			    small = GFX_Portrait_SQ_53_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_24 = {
+		name = ECYBLHXHJ_24
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_54
+			    small = GFX_Portrait_SQ_54_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_25 = {
+		name = ECYBLHXHJ_25
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_55
+			    small = GFX_Portrait_SQ_55_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_26 = {
+		name = ECYBLHXHJ_26
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_56
+			    small = GFX_Portrait_SQ_56_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_27 = {
+		name = ECYBLHXHJ_27
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_57
+			    small = GFX_Portrait_SQ_57_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_28 = {
+		name = ECYBLHXHJ_28
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_58
+			    small = GFX_Portrait_SQ_58_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_29 = {
+		name = ECYBLHXHJ_29
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_59
+			    small = GFX_Portrait_SQ_59_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+	EBY_blhxhj_30 = {
+		name = ECYBLHXHJ_30
+		visible = {
+			has_global_flag = MOD_enable_eby_blhxhj_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_60
+			    small = GFX_Portrait_SQ_60_small
+			}
+		}
+		navy_leader = {
+			traits = {
+				spotter
+				search_pattern_expert
+				hunter_killer
+				brilliant_strategist
+				blue_water_expert
+			}
+			skill=1
+			attack_skill=4
+			defense_skill=5
+			maneuvering_skill=10
+			coordination_skill=10
+		}
+	}
+}

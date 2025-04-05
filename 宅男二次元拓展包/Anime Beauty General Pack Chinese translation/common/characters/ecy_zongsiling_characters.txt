@@ -1,0 +1,572 @@
+characters={
+	EBY_zongsiling_1 = {
+		name = zongsiling_1
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_1" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_1
+			traits = { army0_chief_instructor }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_2 = {
+		name = zongsiling_2
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_2" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_2
+			traits = { motorized1_small_steel_gun }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_3 = {
+		name = zongsiling_3
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_3" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_3
+			traits = { top2_commander_of_the_army }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_4 = {
+		name = zongsiling_4
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_4" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_4
+			traits = { army3_logistics_headquarters }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_5 = {
+		name = zongsiling_5
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_5" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_5
+			traits = { special4_secondary_force }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_6 = {
+		name = zongsiling_6
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_6" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_6
+			traits = { mech5_infantry }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_7 = {
+		name = zongsiling_7
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_7" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_7
+			traits = { secondary6_supply_team }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_8 = {
+		name = zongsiling_8
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_8" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_8
+			traits = { technological7_special_forces }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_9 = {
+		name = zongsiling_9
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_9" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_9
+			traits = { secondary8_armored_army }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_10 = {
+		name = zongsiling_10
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_10" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_10
+			traits = { secondary9_instructor }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_11 = {
+		name = zongsiling_11
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_11" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_11
+			traits = { pedophile0_xiaochilao }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_12 = {
+		name = zongsiling_12
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_12" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_12
+			traits = { king1_of_naval_aircraft }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_13 = {
+		name = zongsiling_13
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_13" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_13
+			traits = { airborne2_revenge_of_the_second }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_14 = {
+		name = zongsiling_14
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_14" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_14
+			traits = { second3_sea_aid }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_15 = {
+		name = zongsiling_15
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_15" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_15
+			traits = { maritime4_patrol_force }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_16 = {
+		name = zongsiling_16
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_16" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_16
+			traits = { hegemony5_of_the_offshore }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_17 = {
+		name = zongsiling_17
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_17" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_17
+			traits = { army6_and_navy_regulars }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_18 = {
+		name = zongsiling_18
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_18" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_18
+			traits = { peeping7_into_the_sky_and_the_sea }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_19 = {
+		name = zongsiling_19
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_19" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_19
+			traits = { a8_radical_change }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_20 = {
+		name = zongsiling_20
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_20" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = EBY_zongsiling_20
+			traits = { door9_god }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_21 = {
+		name = zongsiling_21
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_21" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_21
+			traits = { sadiwusi_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_22 = {
+		name = zongsiling_22
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_22" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_22
+			traits = { huoxiyi_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_23 = {
+		name = zongsiling_23
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_23" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_23
+			traits = { shengjiachong_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_24 = {
+		name = zongsiling_24
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_24" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_24
+			traits = { sikaxi_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_25 = {
+		name = zongsiling_25
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_25" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_25
+			traits = { saihemaite_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_26 = {
+		name = zongsiling_26
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_26" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_26
+			traits = { suoniya_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_27 = {
+		name = zongsiling_27
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_27" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_27
+			traits = { sipuligan_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_28 = {
+		name = zongsiling_28
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_28" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_28
+			traits = { gangtienong_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_29 = {
+		name = zongsiling_29
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_29" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_29
+			traits = { t3tz_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_zongsiling_30 = {
+		name = zongsiling_30
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_zongsiling_30" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = EBY_zongsiling_30
+			traits = { t20stz_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_zongsiling_character
+			}
+			available = { is_ai = no }
+		}
+	}
+}

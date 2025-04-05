@@ -1,0 +1,503 @@
+characters={
+	#美丽人妻陆军上将
+	EBY_renqi_1 ={
+		name = ECYRQ_1
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_121
+			    small = GFX_Portrait_SQ_121_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_2 ={
+		name = ECYRQ_2
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_122
+			    small = GFX_Portrait_SQ_122_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_3 ={
+		name = ECYRQ_3
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_123
+			    small = GFX_Portrait_SQ_123_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_4 ={
+		name = ECYRQ_4
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_124
+			    small = GFX_Portrait_SQ_124_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_5 ={
+		name = ECYRQ_5
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_125
+			    small = GFX_Portrait_SQ_125_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_6 ={
+		name = ECYRQ_6
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_126
+			    small = GFX_Portrait_SQ_126_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_7 ={
+		name = ECYRQ_7
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_127
+			    small = GFX_Portrait_SQ_127_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_8 ={
+		name = ECYRQ_8
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_128
+			    small = GFX_Portrait_SQ_128_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_9 ={
+		name = ECYRQ_9
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_129
+			    small = GFX_Portrait_SQ_129_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_10 ={
+		name = ECYRQ_10
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_130
+			    small = GFX_Portrait_SQ_130_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_11 ={
+		name = ECYRQ_11
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_131
+			    small = GFX_Portrait_SQ_131_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_12 ={
+		name = ECYRQ_12
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_132
+			    small = GFX_Portrait_SQ_132_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_13 ={
+		name = ECYRQ_13
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_133
+			    small = GFX_Portrait_SQ_133_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_14 ={
+		name = ECYRQ_14
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_134
+			    small = GFX_Portrait_SQ_134_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_15 ={
+		name = ECYRQ_15
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_135
+			    small = GFX_Portrait_SQ_135_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_16 ={
+		name = ECYRQ_16
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_136
+			    small = GFX_Portrait_SQ_136_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_17 ={
+		name = ECYRQ_17
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_137
+			    small = GFX_Portrait_SQ_137_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_18 ={
+		name = ECYRQ_18
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_138
+			    small = GFX_Portrait_SQ_138_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_19 ={
+		name = ECYRQ_19
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_139
+			    small = GFX_Portrait_SQ_139_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_renqi_20 ={
+		name = ECYRQ_20
+		visible = {
+			has_global_flag = MOD_enable_eby_renqi_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_140
+			    small = GFX_Portrait_SQ_140_small
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				brilliant_strategist
+				adaptable
+				Znecy_trait_9
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+}

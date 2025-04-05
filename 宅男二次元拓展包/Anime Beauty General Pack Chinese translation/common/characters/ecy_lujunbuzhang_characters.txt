@@ -1,0 +1,602 @@
+characters={
+	EBY_lujunbuzhang_1 = {
+		name = lujunbuzhang_1
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_1" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_1
+			traits = {
+				ecy_bubingjunguan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_2 = {
+		name = lujunbuzhang_2
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_2" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_2
+			traits = {
+				ecy_lujunshizhg_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_3 = {
+		name = lujunbuzhang_3
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_3" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_3
+			traits = {
+				ecy_zhuangjiashizhg_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_4 = {
+		name = lujunbuzhang_4
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_4" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_4
+			traits = {
+				ecy_huopaojunguan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_5 = {
+		name = lujunbuzhang_5
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_5" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_5
+			traits = {
+				ecy_motuohuajunguan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_6 = {
+		name = lujunbuzhang_6
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_6" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_6
+			traits = {
+				ecy_junshicanmou_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_7 = {
+		name = lujunbuzhang_7
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_7" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_7
+			traits = {
+				ecy_diguohuweidui_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_8 = {
+		name = lujunbuzhang_8
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_8" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_8
+			traits = {
+				ecy_minbingjunguan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_9 = {
+		name = lujunbuzhang_9
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_9" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_9
+			traits = {
+				ecy_jixiehuajunguan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_10 = {
+		name = lujunbuzhang_10
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_10" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_10
+			traits = {
+				ecy_lujunjixingjun_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_11 = {
+		name = lujunbuzhang_11
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_11" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_11
+			traits = {
+				ecy_gongchengbing_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_12 = {
+		name = lujunbuzhang_12
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_12" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_12
+			traits = {
+				ecy_shixijiaoguan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_13 = {
+		name = lujunbuzhang_13
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_13" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_13
+			traits = {
+				ecy_shixiweiyuan_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_14 = {
+		name = lujunbuzhang_14
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_14" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_14
+			traits = {
+				ecy_lujunfangyu_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_15 = {
+		name = lujunbuzhang_15
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_15" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_15
+			traits = {
+				ecy_zhuangjiashify_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_16 = {
+		name = lujunbuzhang_16
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_16" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_16
+			traits = {
+				ecy_paobingfangyu_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_17 = {
+		name = lujunbuzhang_17
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_17" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_17
+			traits = {
+				ecy_jixiefangyu_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_18 = {
+		name = lujunbuzhang_18
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_18" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_18
+			traits = {
+				ecy_motuofangyu_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_19 = {
+		name = lujunbuzhang_19
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_19" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_19
+			traits = {
+				ecy_mingbingfangyu_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_20 = {
+		name = lujunbuzhang_20
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_20" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = lujunbuzhang_20
+			traits = {
+				ecy_bubingfangyu_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_21 = {
+		name = lujunbuzhang_21
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_21" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_21
+			traits = {
+				ecy_bubinggongji_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_22 = {
+		name = lujunbuzhang_22
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_22" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_22
+			traits = {
+				ecy_minbinggongji_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_23 = {
+		name = lujunbuzhang_23
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_23" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_23
+			traits = {
+				ecy_lujungongji_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_24 = {
+		name = lujunbuzhang_24
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_24" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_24
+			traits = {
+				ecy_paobinggongji_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_25 = {
+		name = lujunbuzhang_25
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_25" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_25
+			traits = {
+				ecy_zhuangjiashigj_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_26 = {
+		name = lujunbuzhang_26
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_26" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_26
+			traits = {
+				ecy_jixiehuagj_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_27 = {
+		name = lujunbuzhang_27
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_27" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_27
+			traits = {
+				ecy_motuohuagj_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_28 = {
+		name = lujunbuzhang_28
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_28" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_28
+			traits = {
+				ecy_houqindui_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_29 = {
+		name = lujunbuzhang_29
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_29" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_29
+			traits = {
+				ecy_tezhongbing_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_lujunbuzhang_30 = {
+		name = lujunbuzhang_30
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_lujunbuzhang_30" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = EBY_lujunbuzhang_30
+			traits = {
+				ecy_datuxia_1
+			}
+			visible = {
+				has_global_flag = MOD_enable_eby_lujunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+}

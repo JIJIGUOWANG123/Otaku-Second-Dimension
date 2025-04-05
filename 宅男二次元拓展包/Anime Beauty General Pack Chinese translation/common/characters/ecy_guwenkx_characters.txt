@@ -1,0 +1,242 @@
+characters = {
+	EBY_gwkx_1 = {
+		name = gwkx_1
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_1
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_1
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_1
+			traits = { totalist_1 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no 
+			}
+		}    
+	}
+	EBY_gwkx_2 = {
+		name = gwkx_2
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_2
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_2
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_2
+			traits = { syndicalist_2 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no 
+			}
+		}    
+	}
+	EBY_gwkx_3 = {
+		name = gwkx_3
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_3
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_3
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_3
+			traits = { radical_socialist_3 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no 
+			}
+		}    
+	}
+	EBY_gwkx_4 = {
+		name = gwkx_4
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_4
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_4
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_4
+			traits = { social_democrat_4 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no 
+			}
+		}    
+	}
+	EBY_gwkx_5 = {
+		name = gwkx_5
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_5
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_5
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_5
+			traits = { social_liberal_5 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no
+			}
+		}    
+	}
+	EBY_gwkx_6 = {
+		name = gwkx_6
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_6
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_6
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_6
+			traits = { market_liberal_6 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no 
+			}
+		}    
+	}
+	EBY_gwkx_7 = {
+		name = gwkx_7 
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_7
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_7
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_7
+			traits = { social_conservative_7 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no 
+			}
+		}    
+	}
+	EBY_gwkx_8 = {
+		name = gwkx_8
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_8
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_8
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_8
+			traits = { authoritarian_democrat_8 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no
+			}
+		}    
+	}
+	EBY_gwkx_9 = {
+		name = gwkx_9
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_9
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_9
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_9
+			traits = { paternal_autocrat_9 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no
+			}
+		}    
+	}
+	EBY_gwkx_10 = {
+		name = gwkx_10
+		portraits = {
+			army = {
+				small = GFX_idea_guwenkx_10
+			}
+			civilian = {
+				small = GFX_idea_guwenkx_10
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_gwkx_10
+			traits = { national_populist_10 }
+			allowed = { always = yes }
+		    visible = {
+				has_global_flag = MOD_enable_eby_gwkx_character
+			}
+			available = { 
+				is_ai = no
+			}
+		}    
+	}
+}

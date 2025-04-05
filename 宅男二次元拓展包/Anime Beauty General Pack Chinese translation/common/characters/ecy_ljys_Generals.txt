@@ -1,0 +1,1303 @@
+characters={
+	#二次元陆军元帅
+	EBY_ljys_1 ={
+		name = ECYYS_1
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv1
+				small = GFX_sq_meinv1_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_2 ={
+		name = ECYYS_2
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv2
+				small = GFX_sq_meinv2_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_3 ={
+		name = ECYYS_3
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv3
+				small = GFX_sq_meinv3_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_4 ={
+		name = ECYYS_4
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv4
+				small = GFX_sq_meinv4_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_5 ={
+		name = ECYYS_5
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv5
+				small = GFX_sq_meinv5_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_6 ={
+		name = ECYYS_6
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv6
+				small = GFX_sq_meinv6_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_7 ={
+		name = ECYYS_7
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv7
+				small = GFX_sq_meinv7_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_8 ={
+		name = ECYYS_8
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv8
+				small = GFX_sq_meinv8_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_9 ={
+		name = ECYYS_9
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv9
+				small = GFX_sq_meinv9_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_10 ={
+		name = ECYYS_10
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_sq_meinv10
+				small = GFX_sq_meinv10_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_11 ={
+		name = ECYYS_11
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_181
+				small = GFX_Portrait_SQ_181_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_12 ={
+		name = ECYYS_12
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_182
+				small = GFX_Portrait_SQ_182_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_13 ={
+		name = ECYYS_13
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_183
+				small = GFX_Portrait_SQ_183_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_14 ={
+		name = ECYYS_14
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_184
+				small = GFX_Portrait_SQ_184_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_15 ={
+		name = ECYYS_15
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_185
+				small = GFX_Portrait_SQ_185_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_16 ={
+		name = ECYYS_16
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_186
+				small = GFX_Portrait_SQ_186_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_17 ={
+		name = ECYYS_17
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_187
+				small = GFX_Portrait_SQ_187_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_18 ={
+		name = ECYYS_18
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_188
+				small = GFX_Portrait_SQ_188_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_19 ={
+		name = ECYYS_19
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_189
+				small = GFX_Portrait_SQ_189_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_20 ={
+		name = ECYYS_20
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_190
+				small = GFX_Portrait_SQ_190_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_21 ={
+		name = ECYYS_21
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_191
+				small = GFX_Portrait_SQ_191_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_22 ={
+		name = ECYYS_22
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_192
+				small = GFX_Portrait_SQ_192_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_23 ={
+		name = ECYYS_23
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_193
+				small = GFX_Portrait_SQ_193_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_24 ={
+		name = ECYYS_24
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_194
+				small = GFX_Portrait_SQ_194_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_25 ={
+		name = ECYYS_25
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_195
+				small = GFX_Portrait_SQ_195_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_26 ={
+		name = ECYYS_26
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_196
+				small = GFX_Portrait_SQ_196_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_27 ={
+		name = ECYYS_27
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_197
+				small = GFX_Portrait_SQ_197_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_28 ={
+		name = ECYYS_28
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_198
+				small = GFX_Portrait_SQ_198_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_29 ={
+		name = ECYYS_29
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_199
+				small = GFX_Portrait_SQ_199_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_30 ={
+		name = ECYYS_30
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_200
+				small = GFX_Portrait_SQ_200_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_31 ={
+		name = ECYYS_31
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_201
+				small = GFX_Portrait_SQ_201_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_32 ={
+		name = ECYYS_32
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_202
+				small = GFX_Portrait_SQ_202_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_33 ={
+		name = ECYYS_33
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_203
+				small = GFX_Portrait_SQ_203_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_34 ={
+		name = ECYYS_34
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_204
+				small = GFX_Portrait_SQ_204_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_35 ={
+		name = ECYYS_35
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_205
+				small = GFX_Portrait_SQ_205_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_36 ={
+		name = ECYYS_36
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_206
+				small = GFX_Portrait_SQ_206_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_37 ={
+		name = ECYYS_37
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_207
+				small = GFX_Portrait_SQ_207_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_38 ={
+		name = ECYYS_38
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_208
+				small = GFX_Portrait_SQ_208_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_39 ={
+		name = ECYYS_39
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_209
+				small = GFX_Portrait_SQ_209_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_40 ={
+		name = ECYYS_40
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_210
+				small = GFX_Portrait_SQ_210_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_41 ={
+		name = ECYYS_41
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_211
+				small = GFX_Portrait_SQ_211_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_42 ={
+		name = ECYYS_42
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_212
+				small = GFX_Portrait_SQ_212_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_43 ={
+		name = ECYYS_43
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_213
+				small = GFX_Portrait_SQ_213_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_44 ={
+		name = ECYYS_44
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_214
+				small = GFX_Portrait_SQ_214_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_45 ={
+		name = ECYYS_45
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_215
+				small = GFX_Portrait_SQ_215_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_46 ={
+		name = ECYYS_46
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_216
+				small = GFX_Portrait_SQ_216_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_47 ={
+		name = ECYYS_47
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_217
+				small = GFX_Portrait_SQ_217_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_48 ={
+		name = ECYYS_48
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_218
+				small = GFX_Portrait_SQ_218_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_49 ={
+		name = ECYYS_49
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_219
+				small = GFX_Portrait_SQ_219_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+	EBY_ljys_50 ={
+		name = ECYYS_50
+		visible = {
+			has_global_flag = MOD_enable_eby_ljys_character
+		}
+		portraits = {
+			army = {
+				large = GFX_Portrait_SQ_220
+				small = GFX_Portrait_SQ_220_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officert
+				adaptable
+				Znecy_trait_8
+			}
+			skill = 1
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 5
+		}
+	}
+}

@@ -1,0 +1,1472 @@
+characters = {
+	EBY_guwen_1 = {
+		name = guwen_1
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_1
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_1
+			traits = {
+				ecy_zhengzhijia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_2 = {
+		name = guwen_2
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_2
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_2
+			traits = {
+				ecy_zhonggong_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_3 = {
+		name = guwen_3
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_3
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_3
+			traits = {
+				ecy_gongrenld_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_4 = {
+		name = guwen_4
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_4
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_4
+			traits = {
+				ecy_jihuashengyu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_5 = {
+		name = guwen_5
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_5
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_5
+			traits = {
+				ecy_lianhecanmou_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_6 = {
+		name = guwen_6
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_6
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_6
+			traits = {
+				ecy_jingjijihua_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_7 = {
+		name = guwen_7
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_7
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_7
+			traits = {
+				ecy_tewubu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_8 = {
+		name = guwen_8
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_8
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_8
+			traits = {
+				ecy_sirennvmishu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_9 = {
+		name = guwen_9
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_9
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_9
+			traits = {
+				ecy_tcjunshijia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_10 = {
+		name = guwen_10
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_10
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_10
+			traits = {
+				ecy_zhuanyewaijiao_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_11 = {
+		name = guwen_11
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_11
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_11
+			traits = {
+				ecy_tckexuejia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_12 = {
+		name = guwen_12
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_12
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_12
+			traits = {
+				ecy_zhanhouchuli_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_13 = {
+		name = guwen_13
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_13
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_13
+			traits = {
+				ecy_ecyjunshi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_14 = {
+		name = guwen_14
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_14
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_14
+			traits = {
+				ecy_jitidagongshe_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_15 = {
+		name = guwen_15
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_15
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_15
+			traits = {
+				ecy_shipinjiagong_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_16 = {
+		name = guwen_16
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_16
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_16
+			traits = {
+				ecy_gongyexianzu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_17 = {
+		name = guwen_17
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_17
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_17
+			traits = {
+				ecy_zhanzhengjungong_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_18 = {
+		name = guwen_18
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_18
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_18
+			traits = {
+				ecy_ziyuanbumen_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_19 = {
+		name = guwen_19
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_19
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_19
+			traits = {
+				ecy_fangyugongshi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_20 = {
+		name = guwen_20
+		portraits = {
+			civilian = { 
+				small = GFX_idea_guwen_20
+		    }
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_20
+			traits = {
+				ecy_keyanjigou_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_21 = { 
+		name = guwen_21
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_21
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_21
+			traits = {
+				ecy_yanjiujidi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_22 = { 
+		name = guwen_22
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_22
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_22
+			traits = {
+				ecy_gongchangeming_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_23 = { 
+		name = guwen_23
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_23
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_23
+			traits = {
+				ecy_minzhugaige_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_24 = { 
+		name = guwen_24
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_24
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_24
+			traits = {
+				ecy_jueduijunzhu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_25 = { 
+		name = guwen_25
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_25
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_25
+			traits = {
+				ecy_minzufuxing_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_26 = { 
+		name = guwen_26
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_26
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_26
+			traits = {
+				ecy_erciyuanyizhi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_27 = { 
+		name = guwen_27
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_27
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_27
+			traits = {
+				ecy_gemingshidai_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_28 = { 
+		name = guwen_28
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_28
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_28
+			traits = {
+				ecy_laogemingpai_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_29 = { 
+		name = guwen_29
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_29
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_29
+			traits = {
+				ecy_huolisishe_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_30 = { 
+		name = guwen_30
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_30
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_30
+			traits = {
+				ecy_laoqiyejia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_31 = { 
+		name = guwen_31
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_31
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_31
+			traits = {
+				ecy_renmingongshe_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_32 = { 
+		name = guwen_32
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_32
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_32
+			traits = {
+				ecy_guojiafusu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_33 = { 
+		name = guwen_33
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_33
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_33
+			traits = {
+				ecy_shuimeiren_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_34 = { 
+		name = guwen_34
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_34
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_34
+			traits = {
+				ecy_zhuifengzhe_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_35 = { 
+		name = guwen_35
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_35
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_35
+			traits = {
+				ecy_baogongtou_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_36 = { 
+		name = guwen_36
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_36
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_36
+			traits = {
+				ecy_diguojunshi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_37 = { 
+		name = guwen_37
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_37
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_37
+			traits = {
+				ecy_qinlaonvpu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_38 = { 
+		name = guwen_38
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_38
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_38
+			traits = {
+				ecy_diguorongyao_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_39 = { 
+		name = guwen_39
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_39
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_39
+			traits = {
+				ecy_tiexueshaonv_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_40 = { 
+		name = guwen_40
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_40
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_40
+			traits = {
+				ecy_keaixiaomonv_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_41 = { 
+		name = guwen_41
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_41
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_41
+			traits = {
+				ecy_erciyuanshengnv_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_42 = { 
+		name = guwen_42
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_42
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_42
+			traits = {
+				ecy_hongwenshaonv_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_43 = { 
+		name = guwen_43
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_43
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_43
+			traits = {
+				ecy_erciyuanluoli_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_44 = { 
+		name = guwen_44
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_44
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_44
+			traits = {
+				ecy_dazibenjia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_45 = { 
+		name = guwen_45
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_45
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_45
+			traits = {
+				ecy_erciyuanshaonv_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_46 = { 
+		name = guwen_46
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_46
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_46
+			traits = {
+				ecy_dixiazuzhi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_47 = { 
+		name = guwen_47
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_47
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_47
+			traits = {
+				ecy_shenjingbaizhan_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_48 = { 
+		name = guwen_48
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_48
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_48
+			traits = {
+				ecy_goushiyun_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_49 = { 
+		name = guwen_49
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_49
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_49
+			traits = {
+				ecy_erciyuanyuanlao_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_50 = { 
+		name = guwen_50
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_50
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_50
+			traits = {
+				ecy_shaonvyanlei_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_51 = { 
+		name = guwen_51
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_51
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_51
+			traits = {
+				ecy_waijiaozhuanjia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_52 = { 
+		name = guwen_52
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_52
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_52
+			traits = {
+				ecy_fuliquanfmr_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_53 = { 
+		name = guwen_53
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_53
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_53
+			traits = {
+				ecy_diguobaomiju_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_54 = { 
+		name = guwen_54
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_54
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_54
+			traits = {
+				ecy_shaonvminbingzz_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_55 = { 
+		name = guwen_55
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_55
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_55
+			traits = {
+				ecy_zhimindizongli_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_56 = { 
+		name = guwen_56
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_56
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_56
+			traits = {
+				ecy_diguofaxuejia_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_57 = { 
+		name = guwen_57
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_57
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_57
+			traits = {
+				ecy_diguogongrenjjz_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_58 = { 
+		name = guwen_58
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_58
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_58
+			traits = {
+				ecy_diguoxianfeng_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_59 = { 
+		name = guwen_59
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_59
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_59
+			traits = {
+				ecy_shaonvnongfuzhang_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_60 = { 
+		name = guwen_60
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_60
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_60
+			traits = {
+				ecy_nongminkeai_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_61 = { 
+		name = guwen_61
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_61
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_61
+			traits = {
+				ecy_shengnvkeai_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_62 = { 
+		name = guwen_62
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_62
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_62
+			traits = {
+				ecy_zhonggongwang_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_63 = { 
+		name = guwen_63
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_63
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_63
+			traits = {
+				ecy_jiaoaodegz_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_64 = { 
+		name = guwen_64
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_64
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_64
+			traits = {
+				ecy_jungongshi_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_65 = { 
+		name = guwen_65
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_65
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_65
+			traits = {
+				ecy_aidelianren_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_66 = { 
+		name = guwen_66
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_66
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_66
+			traits = {
+				ecy_chaokeai_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_67 = { 
+		name = guwen_67
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_67
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_67
+			traits = {
+				ecy_mingyunjuangu_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_68 = { 
+		name = guwen_68
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_68
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_68
+			traits = {
+				ecy_xixueguizhent_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_69 = { 
+		name = guwen_69
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_69
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_69
+			traits = {
+				ecy_tiancaiyaojishi
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_guwen_70 = { 
+		name = guwen_70
+		portraits = {
+			civilian = {
+				small = GFX_idea_guwen_70
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = EBY_guwen_70
+			traits = {
+				ecy_diguojunxuguan_1
+			}
+			allowed = { always = yes }
+			visible = {
+				has_global_flag = MOD_enable_eby_guwen_character
+			}
+			available = { is_ai = no }
+		}
+	}
+}

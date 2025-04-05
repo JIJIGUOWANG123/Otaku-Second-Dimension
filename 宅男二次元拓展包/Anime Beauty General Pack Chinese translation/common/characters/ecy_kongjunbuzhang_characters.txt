@@ -1,0 +1,572 @@
+characters={
+	EBY_kongjunbuzhang_1 = {
+		name = kongjunbuzhang_1
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_1" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_1
+			traits = { hegemon0_of_the_skies }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_2 = {
+		name = kongjunbuzhang_2
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_2" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_2
+			traits = { megane1_power }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_3 = {
+		name = kongjunbuzhang_3
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_3" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_3
+			traits = { ace2_flight_instructor }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_4 = {
+		name = kongjunbuzhang_4
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_4" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_4
+			traits = { megane3_support_group }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_5 = {
+		name = kongjunbuzhang_5
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_5" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_5
+			traits = { machinima4_ace_division }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_6 = {
+		name = kongjunbuzhang_6
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_6" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_6
+			traits = { megane5_assault }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_7 = {
+		name = kongjunbuzhang_7
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_7" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_7
+			traits = { designer_6 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_8 = {
+		name = kongjunbuzhang_8
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_8" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_8
+			traits = { airplane7_savings }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_9 = {
+		name = kongjunbuzhang_9
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_9" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_9
+			traits = { auxiliary8_aircraft_women_corps }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_10 = {
+		name = kongjunbuzhang_10
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_10" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_10
+			traits = { nurse9_aviation_logistics }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_11 = {
+		name = kongjunbuzhang_11
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_11" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_11
+			traits = { strategic_bomber_1 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_12 = {
+		name = kongjunbuzhang_12
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_12" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_12
+			traits = { use_air_to_subdue_the_ground_2 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_13 = {
+		name = kongjunbuzhang_13
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_13" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_13
+			traits = { all_weather_strikes_3 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_14 = {
+		name = kongjunbuzhang_14
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_14" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_14
+			traits = { flight_instructor_4 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_15 = {
+		name = kongjunbuzhang_15
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_15" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_15
+			traits = { air_support_5 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_16 = {
+		name = kongjunbuzhang_16
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_16" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_16
+			traits = { air_traffic_control_6 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_17 = {
+		name = kongjunbuzhang_17
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_17" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_17
+			traits = { quick_replenishment_7 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_18 = {
+		name = kongjunbuzhang_18
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_18" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_18
+			traits = { close_support_8 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_19 = {
+		name = kongjunbuzhang_19
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_19" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_19
+			traits = { tactical_bombing_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_20 = {
+		name = kongjunbuzhang_20
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_20" 
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = air_chief
+			idea_token = kongjunbuzhang_20
+			traits = { save_on_expenses_10 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_21 = {
+		name = kongjunbuzhang_21
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_21" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_21
+			traits = { weimengr_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_22 = {
+		name = kongjunbuzhang_22
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_22" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_22
+			traits = { xiniu_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_23 = {
+		name = kongjunbuzhang_23
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_23" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_23
+			traits = { p18fengling_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_24 = {
+		name = kongjunbuzhang_24
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_24" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_24
+			traits = { p2000daodan_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_25 = {
+		name = kongjunbuzhang_25
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_25" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_25
+			traits = { boyi_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_26 = {
+		name = kongjunbuzhang_26
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_26" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_26
+			traits = { bingmaonvwang_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_27 = {
+		name = kongjunbuzhang_27
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_27" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_27
+			traits = { kuailuotuo_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_28 = {
+		name = kongjunbuzhang_28
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_28" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_28
+			traits = { lamier_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_29 = {
+		name = kongjunbuzhang_29
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_29" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_29
+			traits = { leina_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+	EBY_kongjunbuzhang_30 = {
+		name = kongjunbuzhang_30
+		portraits = { 
+			civilian = { 
+				small = "GFX_idea_kongjunbuzhang_30" 
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = air_chief
+			idea_token = EBY_kongjunbuzhang_30
+			traits = { tuweiwu_9 }
+
+			visible = {
+				has_global_flag = MOD_enable_eby_kongjunbuzhang_character
+			}
+			available = { is_ai = no }
+		}
+	}
+}

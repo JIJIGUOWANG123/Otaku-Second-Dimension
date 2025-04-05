@@ -1,0 +1,572 @@
+characters = {
+	EBY_scientist_1 = {
+		name = znecy_scientist_1
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_282.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_haijun
+			}
+			skills = {
+				specialization_naval = 3 #海军工程能力
+			}
+		}
+	}
+	EBY_scientist_2 = {
+		name = znecy_scientist_2
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_283.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_haijun
+			}
+			skills = {
+				specialization_naval = 3 #海军工程能力
+			}
+		}
+	}
+	EBY_scientist_3 = {
+		name = znecy_scientist_3
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_284.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_4 = {
+		name = znecy_scientist_4
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_285.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_5 = {
+		name = znecy_scientist_5
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_286.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_6 = {
+		name = znecy_scientist_6
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_287.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_7 = {
+		name = znecy_scientist_7
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_288.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_8 = {
+		name = znecy_scientist_8
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_289.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_9 = {
+		name = znecy_scientist_9
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_144.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_10 = {
+		name = znecy_scientist_10
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_221.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_11 = {
+		name = znecy_scientist_11
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_315.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_12 = {
+		name = znecy_scientist_12
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_316.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_13 = {
+		name = znecy_scientist_13
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_317.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_haijun
+			}
+			skills = {
+				specialization_naval = 3 #海军工程能力
+			}
+		}
+	}
+	EBY_scientist_14 = {
+		name = znecy_scientist_14
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_318.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_haijun
+			}
+			skills = {
+				specialization_naval = 3 #海军工程能力
+			}
+		}
+	}
+	EBY_scientist_15 = {
+		name = znecy_scientist_15
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_319.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_16 = {
+		name = znecy_scientist_16
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_321.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_17 = {
+		name = znecy_scientist_17
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_322.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_18 = {
+		name = znecy_scientist_18
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_323.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_19 = {
+		name = znecy_scientist_19
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_324.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_20 = {
+		name = znecy_scientist_20
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_325.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_21 = {
+		name = znecy_scientist_21
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_347.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_haijun
+			}
+			skills = {
+				specialization_naval = 3 #海军工程能力
+			}
+		}
+	}
+	EBY_scientist_22 = {
+		name = znecy_scientist_22
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_348.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_haijun
+			}
+			skills = {
+				specialization_naval = 3 #海军工程能力
+			}
+		}
+	}
+	EBY_scientist_23 = {
+		name = znecy_scientist_23
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_343.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_24 = {
+		name = znecy_scientist_24
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_719.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hangkong
+			}
+			skills = {
+				specialization_air = 3 #空气动力学和航空电子学能力
+			}
+		}
+	}
+	EBY_scientist_25 = {
+		name = znecy_scientist_25
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_342.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_26 = {
+		name = znecy_scientist_26
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_351.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_27 = {
+		name = znecy_scientist_27
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_353.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_28 = {
+		name = znecy_scientist_28
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_341.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_hedan
+			}
+			skills = {
+				specialization_nuclear = 3 #核研究能力
+			}
+		}
+	}
+	EBY_scientist_29 = {
+		name = znecy_scientist_29
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_350.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+	EBY_scientist_30 = {
+		name = znecy_scientist_30
+		portraits = { 
+			army = {
+				large = "gfx/leaders/SQ/Portrait_SQ_345.png"
+			}
+		}
+		visible = {
+			has_country_flag = MOD_enable_eby_scientist_character
+		}
+		scientist = {
+			traits = {
+				super_scientist_dimian
+			}
+			skills = {
+				specialization_land = 3 #地面战能力
+			}
+		}
+	}
+}
