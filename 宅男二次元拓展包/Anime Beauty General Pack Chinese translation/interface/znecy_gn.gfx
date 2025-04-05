@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_generic_znecy_zhiyuanjun"
+		texturefile = "gfx/interface/ideas/znecy_zhiyuanjun.png"
+    }
+	spriteType = {
+		name = "GFX_idea_generic_znecy_tezhongbing"
+		texturefile = "gfx/interface/ideas/znecy_tezhongbing.png"
+    }
+	spriteType = {
+		name = "GFX_idea_generic_znecy_jianzhusudu"
+		texturefile = "gfx/interface/ideas/znecy_jianzhusudu.png"
+    }
+	spriteType = {
+		name = "GFX_idea_generic_znecy_shengchansudu"
+		texturefile = "gfx/interface/ideas/znecy_shengchansudu.png"
+    }
+}

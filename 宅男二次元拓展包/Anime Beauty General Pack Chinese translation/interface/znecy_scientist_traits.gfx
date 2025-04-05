@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_scientist_trait_yuanshen"
+		texturefile = "gfx/interface/scientist_traits/scientist_trait_yuanshen.png"
+    }
+}

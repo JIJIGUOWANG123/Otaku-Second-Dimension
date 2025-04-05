@@ -1,0 +1,58 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_PAN"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_PAN.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_TANK"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_TANK.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_ALKETT"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_ALKETT.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_ACHGELIS"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_ACHGELIS.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_EQUIPMENT"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_EQUIPMENT.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_SECTOR"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_SECTOR.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_AUTOMOTIVE"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_AUTOMOTIVE.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_ARSENAL"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_ARSENAL.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_NAVAL"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_NAVAL.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_CIVIL"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_CIVIL.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_FAIREY"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_FAIREY.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_LARGE"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_LARGE.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_MECHANIZED"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_MECHANIZED.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZNECY_JGZZ_HOUQIN"
+		texturefile = "gfx/interface/jgzz/ZNECY_JGZZ_HOUQIN.png"
+	}
+}

@@ -1,0 +1,4134 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sq_meinv1_small"
+		texturefile = "gfx/leaders/NG/sq_meinv1_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv2_small"
+		texturefile = "gfx/leaders/NG/sq_meinv2_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv3_small"
+		texturefile = "gfx/leaders/NG/sq_meinv3_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv4_small"
+		texturefile = "gfx/leaders/NG/sq_meinv4_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv5_small"
+		texturefile = "gfx/leaders/NG/sq_meinv5_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv6_small"
+		texturefile = "gfx/leaders/NG/sq_meinv6_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv7_small"
+		texturefile = "gfx/leaders/NG/sq_meinv7_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv8_small"
+		texturefile = "gfx/leaders/NG/sq_meinv8_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv9_small"
+		texturefile = "gfx/leaders/NG/sq_meinv9_small.png"
+	}
+	spriteType = {
+		name = "GFX_sq_meinv10_small"
+		texturefile = "gfx/leaders/NG/sq_meinv10_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_1_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_2_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_2_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_3_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_3_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_4_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_4_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_5_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_5_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_6_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_6_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_7_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_7_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_8_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_8_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_9_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_9_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_10_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_10_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_11_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_11_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_12_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_12_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_13_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_13_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_14_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_14_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_15_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_15_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_16_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_16_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_17_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_17_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_18_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_18_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_19_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_19_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_20_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_20_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_21_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_21_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_22_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_22_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_23_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_23_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_24_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_24_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_25_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_25_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_26_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_26_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_27_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_27_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_28_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_28_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_29_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_29_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_30_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_30_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_31_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_31_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_32_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_32_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_33_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_33_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_34_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_34_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_35_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_35_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_36_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_36_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_37_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_37_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_38_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_38_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_39_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_39_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_40_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_40_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_41_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_41_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_42_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_42_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_43_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_43_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_44_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_44_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_45_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_45_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_46_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_46_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_47_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_47_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_48_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_48_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_49_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_49_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_50_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_50_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_51_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_51_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_52_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_52_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_53_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_53_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_54_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_54_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_55_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_55_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_56_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_56_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_57_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_57_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_58_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_58_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_59_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_59_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_60_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_60_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_61_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_61_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_62_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_62_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_63_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_63_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_64_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_64_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_65_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_65_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_66_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_66_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_67_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_67_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_68_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_68_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_69_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_69_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_70_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_70_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_71_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_71_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_72_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_72_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_73_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_73_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_74_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_74_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_75_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_75_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_76_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_76_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_77_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_77_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_78_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_78_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_79_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_79_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_80_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_80_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_81_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_81_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_82_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_82_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_83_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_83_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_84_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_84_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_85_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_85_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_86_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_86_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_87_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_87_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_88_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_88_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_89_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_89_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_90_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_90_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_91_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_91_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_92_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_92_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_93_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_93_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_94_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_94_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_95_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_95_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_96_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_96_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_97_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_97_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_98_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_98_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_99_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_99_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_100_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_100_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_101_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_101_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_102_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_102_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_103_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_103_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_104_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_104_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_105_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_105_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_106_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_106_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_107_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_107_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_108_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_108_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_109_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_109_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_110_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_110_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_111_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_111_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_112_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_112_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_113_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_113_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_114_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_114_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_115_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_115_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_116_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_116_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_117_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_117_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_118_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_118_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_119_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_119_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_120_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_120_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_121_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_121_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_122_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_122_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_123_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_123_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_124_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_124_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_125_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_125_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_126_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_126_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_127_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_127_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_128_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_128_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_129_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_129_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_130_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_130_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_131_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_131_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_132_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_132_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_133_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_133_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_134_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_134_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_135_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_135_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_136_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_136_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_137_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_137_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_138_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_138_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_139_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_139_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_140_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_140_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_141_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_141_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_142_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_142_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_143_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_143_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_144_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_144_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_145_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_145_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_146_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_146_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_147_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_147_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_148_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_148_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_149_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_149_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_150_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_150_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_151_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_151_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_152_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_152_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_153_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_153_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_154_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_154_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_155_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_155_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_156_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_156_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_157_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_157_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_158_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_158_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_159_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_159_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_160_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_160_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_161_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_161_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_162_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_162_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_163_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_163_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_164_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_164_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_165_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_165_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_166_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_166_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_167_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_167_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_168_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_168_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_169_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_169_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_170_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_170_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_171_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_171_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_172_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_172_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_173_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_173_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_174_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_174_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_175_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_175_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_176_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_176_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_177_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_177_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_178_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_178_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_179_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_179_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_180_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_180_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_181_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_181_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_182_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_182_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_183_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_183_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_184_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_184_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_185_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_185_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_186_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_186_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_187_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_187_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_188_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_188_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_189_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_189_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_190_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_190_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_191_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_191_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_192_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_192_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_193_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_193_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_194_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_194_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_195_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_195_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_196_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_196_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_197_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_197_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_198_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_198_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_199_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_199_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_200_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_200_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_201_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_201_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_202_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_202_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_203_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_203_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_204_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_204_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_205_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_205_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_206_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_206_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_207_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_207_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_208_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_208_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_209_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_209_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_210_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_210_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_211_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_211_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_212_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_212_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_213_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_213_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_214_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_214_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_215_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_215_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_216_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_216_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_217_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_217_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_218_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_218_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_219_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_219_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_220_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_220_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_221_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_221_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_222_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_222_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_223_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_223_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_224_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_224_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_225_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_225_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_226_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_226_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_227_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_227_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_228_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_228_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_229_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_229_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_230_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_230_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_231_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_231_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_232_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_232_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_233_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_233_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_234_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_234_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_235_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_235_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_236_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_236_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_237_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_237_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_238_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_238_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_239_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_239_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_240_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_240_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_241_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_241_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_242_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_242_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_243_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_243_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_244_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_244_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_245_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_245_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_246_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_246_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_247_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_247_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_248_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_248_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_249_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_249_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_250_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_250_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_251_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_251_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_252_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_252_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_253_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_253_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_254_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_254_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_255_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_255_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_256_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_256_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_257_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_257_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_258_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_258_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_259_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_259_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_260_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_260_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_261_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_261_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_262_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_262_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_263_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_263_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_264_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_264_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_265_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_265_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_266_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_266_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_267_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_267_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_268_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_268_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_269_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_269_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_270_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_270_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_271_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_271_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_272_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_272_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_273_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_273_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_274_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_274_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_275_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_275_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_276_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_276_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_277_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_277_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_278_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_278_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_279_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_279_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_280_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_280_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_281_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_281_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_282_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_282_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_283_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_283_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_284_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_284_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_285_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_285_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_286_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_286_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_287_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_287_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_288_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_288_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_289_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_289_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_290_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_290_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_291_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_291_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_292_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_292_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_293_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_293_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_294_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_294_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_295_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_295_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_296_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_296_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_297_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_297_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_298_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_298_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_299_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_299_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_300_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_300_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_301_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_301_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_302_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_302_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_303_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_303_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_304_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_304_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_305_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_305_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_306_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_306_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_307_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_307_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_308_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_308_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_309_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_309_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_310_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_310_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_311_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_311_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_312_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_312_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_313_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_313_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_314_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_314_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_315_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_315_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_316_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_316_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_317_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_317_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_318_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_318_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_319_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_319_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_320_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_320_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_321_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_321_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_322_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_322_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_323_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_323_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_324_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_324_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_325_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_325_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_326_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_326_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_327_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_327_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_328_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_328_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_329_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_329_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_330_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_330_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_331_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_331_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_332_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_332_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_333_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_333_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_334_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_334_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_335_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_335_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_336_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_336_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_337_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_337_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_338_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_338_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_339_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_339_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_340_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_340_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_341_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_341_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_342_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_342_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_343_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_343_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_344_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_344_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_345_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_345_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_346_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_346_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_347_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_347_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_348_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_348_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_349_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_349_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_350_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_350_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_351_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_351_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_352_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_352_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_353_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_353_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_354_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_354_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_355_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_355_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_356_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_356_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_357_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_357_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_358_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_358_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_359_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_359_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_360_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_360_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_361_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_361_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_362_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_362_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_363_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_363_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_364_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_364_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_365_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_365_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_366_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_366_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_367_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_367_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_368_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_368_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_369_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_369_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_370_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_370_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_371_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_371_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_372_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_372_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_373_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_373_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_374_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_374_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_375_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_375_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_376_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_376_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_377_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_377_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_378_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_378_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_379_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_379_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_380_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_380_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_381_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_381_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_382_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_382_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_383_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_383_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_384_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_384_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_385_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_385_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_386_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_386_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_387_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_387_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_388_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_388_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_389_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_389_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_390_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_390_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_391_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_391_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_392_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_392_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_393_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_393_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_394_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_394_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_395_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_395_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_396_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_396_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_397_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_397_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_398_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_398_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_399_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_399_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_400_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_400_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_401_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_401_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_402_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_402_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_403_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_403_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_404_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_404_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_405_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_405_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_406_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_406_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_407_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_407_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_408_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_408_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_409_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_409_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_410_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_410_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_411_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_411_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_412_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_412_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_413_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_413_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_414_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_414_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_415_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_415_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_416_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_416_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_417_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_417_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_418_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_418_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_419_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_419_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_420_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_420_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_421_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_421_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_422_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_422_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_423_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_423_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_424_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_424_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_425_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_425_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_426_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_426_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_427_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_427_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_428_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_428_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_429_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_429_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_430_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_430_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_431_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_431_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_432_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_432_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_433_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_433_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_434_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_434_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_435_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_435_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_436_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_436_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_437_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_437_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_438_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_438_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_439_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_439_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_440_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_440_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_441_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_441_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_442_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_442_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_443_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_443_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_444_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_444_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_445_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_445_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_446_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_446_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_447_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_447_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_448_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_448_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_449_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_449_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_450_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_450_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_451_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_451_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_452_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_452_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_453_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_453_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_454_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_454_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_455_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_455_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_456_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_456_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_457_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_457_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_458_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_458_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_459_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_459_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_460_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_460_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_461_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_461_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_462_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_462_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_463_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_463_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_464_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_464_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_465_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_465_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_466_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_466_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_467_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_467_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_468_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_468_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_469_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_469_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_470_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_470_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_471_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_471_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_472_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_472_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_473_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_473_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_474_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_474_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_475_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_475_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_476_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_476_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_477_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_477_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_478_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_478_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_479_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_479_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_480_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_480_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_481_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_481_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_482_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_482_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_483_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_483_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_484_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_484_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_485_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_485_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_486_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_486_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_487_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_487_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_488_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_488_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_489_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_489_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_490_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_490_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_491_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_491_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_492_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_492_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_493_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_493_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_494_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_494_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_495_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_495_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_496_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_496_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_497_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_497_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_498_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_498_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_499_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_499_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_500_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_500_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_501_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_501_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_502_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_502_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_503_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_503_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_504_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_504_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_505_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_505_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_506_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_506_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_507_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_507_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_508_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_508_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_509_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_509_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_510_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_510_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_511_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_511_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_512_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_512_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_513_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_513_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_514_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_514_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_515_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_515_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_516_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_516_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_517_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_517_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_518_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_518_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_519_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_519_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_520_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_520_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_521_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_521_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_522_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_522_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_523_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_523_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_524_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_524_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_525_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_525_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_526_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_526_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_527_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_527_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_528_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_528_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_529_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_529_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_530_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_530_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_531_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_531_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_532_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_532_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_533_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_533_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_534_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_534_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_535_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_535_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_536_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_536_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_537_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_537_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_538_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_538_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_539_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_539_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_540_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_540_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_541_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_541_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_542_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_542_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_543_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_543_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_544_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_544_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_545_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_545_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_546_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_546_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_547_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_547_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_548_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_548_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_549_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_549_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_550_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_550_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_551_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_551_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_552_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_552_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_553_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_553_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_554_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_554_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_555_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_555_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_556_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_556_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_557_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_557_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_558_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_558_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_559_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_559_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_560_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_560_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_561_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_561_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_562_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_562_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_563_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_563_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_564_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_564_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_565_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_565_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_566_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_566_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_567_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_567_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_568_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_568_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_569_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_569_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_570_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_570_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_571_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_571_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_572_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_572_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_573_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_573_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_574_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_574_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_575_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_575_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_576_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_576_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_577_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_577_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_578_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_578_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_579_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_579_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_580_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_580_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_581_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_581_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_582_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_582_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_583_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_583_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_584_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_584_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_585_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_585_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_586_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_586_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_587_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_587_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_588_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_588_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_589_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_589_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_590_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_590_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_591_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_591_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_592_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_592_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_593_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_593_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_594_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_594_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_595_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_595_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_596_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_596_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_597_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_597_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_598_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_598_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_599_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_599_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_600_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_600_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_601_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_601_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_602_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_602_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_603_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_603_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_604_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_604_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_605_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_605_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_606_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_606_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_607_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_607_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_608_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_608_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_609_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_609_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_610_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_610_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_611_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_611_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_612_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_612_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_613_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_613_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_614_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_614_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_615_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_615_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_616_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_616_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_617_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_617_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_618_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_618_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_619_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_619_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_620_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_620_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_621_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_621_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_622_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_622_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_623_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_623_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_624_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_624_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_625_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_625_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_626_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_626_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_627_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_627_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_628_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_628_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_629_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_629_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_630_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_630_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_631_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_631_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_632_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_632_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_633_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_633_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_634_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_634_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_635_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_635_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_636_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_636_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_637_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_637_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_638_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_638_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_639_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_639_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_640_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_640_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_641_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_641_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_642_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_642_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_643_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_643_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_644_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_644_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_645_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_645_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_646_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_646_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_647_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_647_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_648_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_648_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_649_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_649_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_650_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_650_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_651_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_651_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_652_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_652_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_653_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_653_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_654_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_654_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_655_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_655_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_656_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_656_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_657_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_657_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_658_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_658_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_659_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_659_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_660_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_660_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_661_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_661_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_662_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_662_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_662_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_662_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_664_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_664_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_665_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_665_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_666_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_666_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_667_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_667_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_668_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_668_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_669_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_669_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_670_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_670_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_671_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_671_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_672_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_672_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_673_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_673_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_674_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_674_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_675_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_675_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_676_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_676_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_677_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_677_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_678_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_678_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_679_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_679_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_680_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_680_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_681_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_681_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_682_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_682_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_683_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_683_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_684_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_684_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_685_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_685_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_686_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_686_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_687_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_687_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_688_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_688_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_689_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_689_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_690_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_690_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_691_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_691_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_692_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_692_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_693_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_693_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_694_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_694_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_695_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_695_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_696_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_696_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_697_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_697_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_698_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_698_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_699_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_699_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_700_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_700_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_701_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_701_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_702_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_702_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_703_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_703_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_704_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_704_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_705_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_705_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_706_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_706_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_707_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_707_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_708_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_708_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_709_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_709_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_710_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_710_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_711_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_711_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_712_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_712_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_713_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_713_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_714_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_714_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_715_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_715_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_716_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_716_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_717_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_717_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_718_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_718_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_719_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_719_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_720_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_720_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_721_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_721_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_722_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_722_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_723_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_723_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_724_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_724_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_725_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_725_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_726_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_726_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_727_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_727_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_728_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_728_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_729_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_729_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_730_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_730_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_731_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_731_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_732_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_732_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_733_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_733_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_734_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_734_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_735_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_735_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_736_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_736_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_737_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_737_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_738_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_738_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_739_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_739_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_740_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_740_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_741_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_741_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_742_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_742_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_743_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_743_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_744_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_744_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_745_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_745_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_746_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_746_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_747_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_747_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_748_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_748_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_749_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_749_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_750_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_750_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_751_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_751_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_752_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_752_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_753_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_753_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_754_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_754_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_755_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_755_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_756_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_756_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_757_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_757_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_758_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_758_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_759_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_759_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_760_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_760_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_761_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_761_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_762_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_762_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_763_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_763_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_764_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_764_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_765_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_765_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_766_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_766_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_767_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_767_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_768_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_768_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_769_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_769_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_770_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_770_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_771_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_771_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_772_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_772_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_773_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_773_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_774_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_774_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_775_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_775_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_776_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_776_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_777_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_777_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_778_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_778_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_779_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_779_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_780_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_780_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_781_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_781_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_782_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_782_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_783_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_783_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_784_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_784_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_785_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_785_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_786_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_786_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_787_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_787_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_788_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_788_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_789_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_789_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_790_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_790_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_791_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_791_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_792_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_792_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_793_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_793_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_794_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_794_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_795_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_795_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_796_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_796_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_797_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_797_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_798_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_798_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_799_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_799_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_800_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_800_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_801_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_801_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_802_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_802_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_803_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_803_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_804_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_804_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_805_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_805_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_806_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_806_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_807_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_807_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_808_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_808_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_809_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_809_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_810_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_810_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_811_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_811_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_812_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_812_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_813_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_813_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_814_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_814_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_815_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_815_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_816_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_816_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_817_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_817_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_818_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_818_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_819_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_819_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_820_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_820_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_821_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_821_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_822_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_822_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_823_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_823_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_824_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_824_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_825_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_825_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_826_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_826_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_827_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_827_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_828_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_828_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_829_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_829_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_830_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_830_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_831_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_831_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_832_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_832_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_833_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_833_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_834_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_834_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_835_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_835_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_836_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_836_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_837_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_837_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_838_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_838_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_839_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_839_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_840_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_840_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_841_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_841_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_842_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_842_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_843_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_843_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_844_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_844_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_845_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_845_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_846_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_846_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_847_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_847_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_848_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_848_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_849_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_849_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_850_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_850_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_851_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_851_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_852_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_852_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_853_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_853_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_854_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_854_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_855_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_855_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_856_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_856_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_857_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_857_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_858_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_858_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_859_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_859_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_860_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_860_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_861_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_861_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_862_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_862_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_863_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_863_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_864_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_864_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_865_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_865_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_866_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_866_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_867_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_867_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_868_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_868_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_869_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_869_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_870_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_870_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_871_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_871_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_872_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_872_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_873_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_873_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_874_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_874_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_875_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_875_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_876_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_876_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_877_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_877_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_878_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_878_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_879_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_879_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_880_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_880_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_881_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_881_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_882_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_882_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_883_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_883_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_884_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_884_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_885_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_885_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_886_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_886_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_887_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_887_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_888_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_888_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_889_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_889_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_890_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_890_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_891_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_891_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_892_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_892_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_893_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_893_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_894_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_894_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_895_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_895_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_896_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_896_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_897_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_897_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_898_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_898_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_899_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_899_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_900_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_900_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_901_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_901_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_902_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_902_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_903_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_903_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_904_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_904_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_905_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_905_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_906_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_906_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_907_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_907_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_908_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_908_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_909_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_909_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_910_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_910_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_911_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_911_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_912_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_912_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_913_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_913_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_914_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_914_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_915_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_915_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_916_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_916_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_917_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_917_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_918_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_918_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_919_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_919_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_920_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_920_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_921_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_921_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_922_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_922_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_923_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_923_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_924_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_924_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_925_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_925_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_926_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_926_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_927_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_927_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_928_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_928_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_929_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_929_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_930_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_930_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_931_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_931_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_932_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_932_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_933_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_933_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_934_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_934_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_935_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_935_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_936_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_936_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_937_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_937_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_938_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_938_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_939_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_939_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_940_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_940_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_941_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_941_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_942_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_942_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_943_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_943_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_944_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_944_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_945_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_945_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_946_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_946_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_947_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_947_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_948_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_948_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_949_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_949_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_950_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_950_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_951_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_951_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_952_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_952_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_953_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_953_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_954_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_954_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_955_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_955_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_956_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_956_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_957_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_957_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_958_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_958_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_959_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_959_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_960_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_960_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_961_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_961_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_962_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_962_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_963_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_963_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_964_small"
+		texturefile = "gfx/leaders/NG/Portrait_SQ_964_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_965_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_965_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_966_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_966_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_967_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_967_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_968_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_968_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_969_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_969_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_970_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_970_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_971_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_971_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_972_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_972_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_973_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_973_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_974_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_974_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_975_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_975_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_976_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_976_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_977_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_977_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_978_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_978_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_979_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_979_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_980_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_980_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_981_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_981_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_982_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_982_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_983_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_983_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_984_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_984_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_985_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_985_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_986_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_986_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_987_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_987_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_988_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_988_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_989_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_989_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_990_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_990_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_991_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_991_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_992_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_992_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_993_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_993_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_994_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_994_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_995_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_995_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_996_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_996_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_997_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_997_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_998_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_998_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_999_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_999_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1000_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1000_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1001_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1001_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1002_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1002_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1003_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1003_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1004_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1004_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1005_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1005_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1006_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1006_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1007_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1007_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1008_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1008_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1009_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1009_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1010_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1010_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1011_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1011_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1012_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1012_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1013_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1013_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1014_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1014_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1015_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1015_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1016_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1016_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1017_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1017_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1018_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1018_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1019_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1019_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1020_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1020_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1021_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1021_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1022_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1022_small.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SQ_1023_small"
+		texturefile = "gfx/leaders/SQ/Portrait_SQ_1023_small.png"
+	}
+}

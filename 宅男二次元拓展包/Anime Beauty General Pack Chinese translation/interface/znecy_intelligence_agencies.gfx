@@ -1,0 +1,42 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_1"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_1.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_2"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_2.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_3"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_3.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_4"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_4.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_5"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_5.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_6"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_6.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_7"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_7.png"
+        noOfFrames = 2
+    }
+    spriteType = {
+        name = "GFX_intelligence_agency_znecy_8"
+		texturefile = "gfx/interface/operatives/agencies/agency_znecy_8.png"
+        noOfFrames = 2
+    }
+}

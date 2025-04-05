@@ -1,0 +1,38 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_1"
+		texturefile = "gfx/interface/traits/Znecy_trait_1.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_2"
+		texturefile = "gfx/interface/traits/Znecy_trait_2.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_3"
+		texturefile = "gfx/interface/traits/Znecy_trait_3.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_4"
+		texturefile = "gfx/interface/traits/Znecy_trait_4.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_5"
+		texturefile = "gfx/interface/traits/Znecy_trait_5.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_6"
+		texturefile = "gfx/interface/traits/Znecy_trait_6.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_7"
+		texturefile = "gfx/interface/traits/Znecy_trait_7.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_8"
+		texturefile = "gfx/interface/traits/Znecy_trait_8.png"
+    }
+    spriteType = {
+        name = "GFX_trait_Znecy_trait_9"
+		texturefile = "gfx/interface/traits/Znecy_trait_9.png"
+    }
+}

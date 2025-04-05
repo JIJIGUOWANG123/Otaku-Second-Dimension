@@ -1,0 +1,1420 @@
+##OpzrL
+spriteTypes = {
+#KXKR政治顾问头像
+	spriteType = {
+		name = "GFX_idea_guwenkx_1"
+		texturefile = "gfx/interface/neige/guwenkx_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_2"
+		texturefile = "gfx/interface/neige/guwenkx_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_3"
+		texturefile = "gfx/interface/neige/guwenkx_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_4"
+		texturefile = "gfx/interface/neige/guwenkx_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_5"
+		texturefile = "gfx/interface/neige/guwenkx_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_6"
+		texturefile = "gfx/interface/neige/guwenkx_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_7"
+		texturefile = "gfx/interface/neige/guwenkx_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_8"
+		texturefile = "gfx/interface/neige/guwenkx_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_9"
+		texturefile = "gfx/interface/neige/guwenkx_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwenkx_10"
+		texturefile = "gfx/interface/neige/guwenkx_10.png"
+	}
+#政治顾问头像
+	spriteType = {
+		name = "GFX_idea_guwen_1"
+		texturefile = "gfx/interface/neige/guwen_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_2"
+		texturefile = "gfx/interface/neige/guwen_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_3"
+		texturefile = "gfx/interface/neige/guwen_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_4"
+		texturefile = "gfx/interface/neige/guwen_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_5"
+		texturefile = "gfx/interface/neige/guwen_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_6"
+		texturefile = "gfx/interface/neige/guwen_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_7"
+		texturefile = "gfx/interface/neige/guwen_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_8"
+		texturefile = "gfx/interface/neige/guwen_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_9"
+		texturefile = "gfx/interface/neige/guwen_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_10"
+		texturefile = "gfx/interface/neige/guwen_10.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_11"
+		texturefile = "gfx/interface/neige/guwen_11.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_12"
+		texturefile = "gfx/interface/neige/guwen_12.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_13"
+		texturefile = "gfx/interface/neige/guwen_13.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_14"
+		texturefile = "gfx/interface/neige/guwen_14.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_15"
+		texturefile = "gfx/interface/neige/guwen_15.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_16"
+		texturefile = "gfx/interface/neige/guwen_16.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_17"
+		texturefile = "gfx/interface/neige/guwen_17.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_18"
+		texturefile = "gfx/interface/neige/guwen_18.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_19"
+		texturefile = "gfx/interface/neige/guwen_19.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_20"
+		texturefile = "gfx/interface/neige/guwen_20.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_21"
+		texturefile = "gfx/interface/neige/guwen_21.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_22"
+		texturefile = "gfx/interface/neige/guwen_22.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_23"
+		texturefile = "gfx/interface/neige/guwen_23.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_24"
+		texturefile = "gfx/interface/neige/guwen_24.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_25"
+		texturefile = "gfx/interface/neige/guwen_25.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_26"
+		texturefile = "gfx/interface/neige/guwen_26.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_27"
+		texturefile = "gfx/interface/neige/guwen_27.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_28"
+		texturefile = "gfx/interface/neige/guwen_28.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_29"
+		texturefile = "gfx/interface/neige/guwen_29.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_30"
+		texturefile = "gfx/interface/neige/guwen_30.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_31"
+		texturefile = "gfx/interface/neige/guwen_31.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_32"
+		texturefile = "gfx/interface/neige/guwen_32.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_33"
+		texturefile = "gfx/interface/neige/guwen_33.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_34"
+		texturefile = "gfx/interface/neige/guwen_34.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_35"
+		texturefile = "gfx/interface/neige/guwen_35.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_36"
+		texturefile = "gfx/interface/neige/guwen_36.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_37"
+		texturefile = "gfx/interface/neige/guwen_37.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_38"
+		texturefile = "gfx/interface/neige/guwen_38.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_39"
+		texturefile = "gfx/interface/neige/guwen_39.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_40"
+		texturefile = "gfx/interface/neige/guwen_40.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_41"
+		texturefile = "gfx/interface/neige/guwen_41.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_42"
+		texturefile = "gfx/interface/neige/guwen_42.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_43"
+		texturefile = "gfx/interface/neige/guwen_43.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_44"
+		texturefile = "gfx/interface/neige/guwen_44.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_45"
+		texturefile = "gfx/interface/neige/guwen_45.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_46"
+		texturefile = "gfx/interface/neige/guwen_46.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_47"
+		texturefile = "gfx/interface/neige/guwen_47.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_48"
+		texturefile = "gfx/interface/neige/guwen_48.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_49"
+		texturefile = "gfx/interface/neige/guwen_49.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_50"
+		texturefile = "gfx/interface/neige/guwen_50.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_51"
+		texturefile = "gfx/interface/neige/guwen_51.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_52"
+		texturefile = "gfx/interface/neige/guwen_52.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_53"
+		texturefile = "gfx/interface/neige/guwen_53.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_54"
+		texturefile = "gfx/interface/neige/guwen_54.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_55"
+		texturefile = "gfx/interface/neige/guwen_55.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_56"
+		texturefile = "gfx/interface/neige/guwen_56.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_57"
+		texturefile = "gfx/interface/neige/guwen_57.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_58"
+		texturefile = "gfx/interface/neige/guwen_58.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_59"
+		texturefile = "gfx/interface/neige/guwen_59.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_60"
+		texturefile = "gfx/interface/neige/guwen_50.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_61"
+		texturefile = "gfx/interface/neige/guwen_61.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_62"
+		texturefile = "gfx/interface/neige/guwen_62.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guwen_63"
+		texturefile = "gfx/interface/neige/guwen_63.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_64"
+		texturefile = "gfx/interface/neige/guwen_64.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_65"
+		texturefile = "gfx/interface/neige/guwen_65.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_66"
+		texturefile = "gfx/interface/neige/guwen_66.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_67"
+		texturefile = "gfx/interface/neige/guwen_67.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_68"
+		texturefile = "gfx/interface/neige/guwen_68.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_69"
+		texturefile = "gfx/interface/neige/guwen_69.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_guwen_70"
+		texturefile = "gfx/interface/neige/guwen_70.png"
+	}
+#理论家头像
+	spriteType = {
+		name = "GFX_idea_lilunjia_1"
+		texturefile = "gfx/interface/neige/lilunjia_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_2"
+		texturefile = "gfx/interface/neige/lilunjia_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_3"
+		texturefile = "gfx/interface/neige/lilunjia_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_4"
+		texturefile = "gfx/interface/neige/lilunjia_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_5"
+		texturefile = "gfx/interface/neige/lilunjia_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_6"
+		texturefile = "gfx/interface/neige/lilunjia_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_7"
+		texturefile = "gfx/interface/neige/lilunjia_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_8"
+		texturefile = "gfx/interface/neige/lilunjia_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_9"
+		texturefile = "gfx/interface/neige/lilunjia_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_10"
+		texturefile = "gfx/interface/neige/lilunjia_10.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_11"
+		texturefile = "gfx/interface/neige/lilunjia_11.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_12"
+		texturefile = "gfx/interface/neige/lilunjia_12.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_13"
+		texturefile = "gfx/interface/neige/lilunjia_13.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_14"
+		texturefile = "gfx/interface/neige/lilunjia_14.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_15"
+		texturefile = "gfx/interface/neige/lilunjia_15.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_16"
+		texturefile = "gfx/interface/neige/lilunjia_16.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_17"
+		texturefile = "gfx/interface/neige/lilunjia_17.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_18"
+		texturefile = "gfx/interface/neige/lilunjia_18.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_19"
+		texturefile = "gfx/interface/neige/lilunjia_19.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_20"
+		texturefile = "gfx/interface/neige/lilunjia_20.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_21"
+		texturefile = "gfx/interface/neige/lilunjia_21.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_22"
+		texturefile = "gfx/interface/neige/lilunjia_22.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_23"
+		texturefile = "gfx/interface/neige/lilunjia_23.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_24"
+		texturefile = "gfx/interface/neige/lilunjia_24.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_25"
+		texturefile = "gfx/interface/neige/lilunjia_25.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_26"
+		texturefile = "gfx/interface/neige/lilunjia_26.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_27"
+		texturefile = "gfx/interface/neige/lilunjia_27.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_28"
+		texturefile = "gfx/interface/neige/lilunjia_28.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lilunjia_29"
+		texturefile = "gfx/interface/neige/lilunjia_29.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_30"
+		texturefile = "gfx/interface/neige/lilunjia_30.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_31"
+		texturefile = "gfx/interface/neige/lilunjia_31.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_32"
+		texturefile = "gfx/interface/neige/lilunjia_32.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_33"
+		texturefile = "gfx/interface/neige/lilunjia_33.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_34"
+		texturefile = "gfx/interface/neige/lilunjia_34.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_35"
+		texturefile = "gfx/interface/neige/lilunjia_35.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_36"
+		texturefile = "gfx/interface/neige/lilunjia_36.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_37"
+		texturefile = "gfx/interface/neige/lilunjia_37.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_38"
+		texturefile = "gfx/interface/neige/lilunjia_38.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_39"
+		texturefile = "gfx/interface/neige/lilunjia_39.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_40"
+		texturefile = "gfx/interface/neige/lilunjia_40.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lilunjia_41"
+		texturefile = "gfx/interface/neige/lilunjia_41.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_42"
+		texturefile = "gfx/interface/neige/lilunjia_42.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_43"
+		texturefile = "gfx/interface/neige/lilunjia_43.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_44"
+		texturefile = "gfx/interface/neige/lilunjia_44.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_45"
+		texturefile = "gfx/interface/neige/lilunjia_45.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_46"
+		texturefile = "gfx/interface/neige/lilunjia_46.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_47"
+		texturefile = "gfx/interface/neige/lilunjia_47.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_48"
+		texturefile = "gfx/interface/neige/lilunjia_48.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_49"
+		texturefile = "gfx/interface/neige/lilunjia_49.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_50"
+		texturefile = "gfx/interface/neige/lilunjia_50.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lilunjia_51"
+		texturefile = "gfx/interface/neige/lilunjia_51.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_52"
+		texturefile = "gfx/interface/neige/lilunjia_52.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_53"
+		texturefile = "gfx/interface/neige/lilunjia_53.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_54"
+		texturefile = "gfx/interface/neige/lilunjia_54.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_55"
+		texturefile = "gfx/interface/neige/lilunjia_55.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_56"
+		texturefile = "gfx/interface/neige/lilunjia_56.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_57"
+		texturefile = "gfx/interface/neige/lilunjia_57.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_58"
+		texturefile = "gfx/interface/neige/lilunjia_58.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_59"
+		texturefile = "gfx/interface/neige/lilunjia_59.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_60"
+		texturefile = "gfx/interface/neige/lilunjia_60.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lilunjia_61"
+		texturefile = "gfx/interface/neige/lilunjia_61.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_62"
+		texturefile = "gfx/interface/neige/lilunjia_62.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_63"
+		texturefile = "gfx/interface/neige/lilunjia_63.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_64"
+		texturefile = "gfx/interface/neige/lilunjia_64.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_65"
+		texturefile = "gfx/interface/neige/lilunjia_65.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_66"
+		texturefile = "gfx/interface/neige/lilunjia_66.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_67"
+		texturefile = "gfx/interface/neige/lilunjia_67.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_68"
+		texturefile = "gfx/interface/neige/lilunjia_68.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_69"
+		texturefile = "gfx/interface/neige/lilunjia_69.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_70"
+		texturefile = "gfx/interface/neige/lilunjia_70.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lilunjia_71"
+		texturefile = "gfx/interface/neige/lilunjia_71.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_72"
+		texturefile = "gfx/interface/neige/lilunjia_72.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_73"
+		texturefile = "gfx/interface/neige/lilunjia_73.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_74"
+		texturefile = "gfx/interface/neige/lilunjia_74.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_75"
+		texturefile = "gfx/interface/neige/lilunjia_75.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_76"
+		texturefile = "gfx/interface/neige/lilunjia_76.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_77"
+		texturefile = "gfx/interface/neige/lilunjia_77.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_78"
+		texturefile = "gfx/interface/neige/lilunjia_78.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_79"
+		texturefile = "gfx/interface/neige/lilunjia_79.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lilunjia_80"
+		texturefile = "gfx/interface/neige/lilunjia_80.png"
+	}
+#陆军部长头像
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_1"
+		texturefile = "gfx/interface/neige/lujunbuzhang_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_2"
+		texturefile = "gfx/interface/neige/lujunbuzhang_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_3"
+		texturefile = "gfx/interface/neige/lujunbuzhang_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_4"
+		texturefile = "gfx/interface/neige/lujunbuzhang_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_5"
+		texturefile = "gfx/interface/neige/lujunbuzhang_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_6"
+		texturefile = "gfx/interface/neige/lujunbuzhang_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_7"
+		texturefile = "gfx/interface/neige/lujunbuzhang_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_8"
+		texturefile = "gfx/interface/neige/lujunbuzhang_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_9"
+		texturefile = "gfx/interface/neige/lujunbuzhang_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_10"
+		texturefile = "gfx/interface/neige/lujunbuzhang_10.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_11"
+		texturefile = "gfx/interface/neige/lujunbuzhang_11.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_12"
+		texturefile = "gfx/interface/neige/lujunbuzhang_12.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_13"
+		texturefile = "gfx/interface/neige/lujunbuzhang_13.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_14"
+		texturefile = "gfx/interface/neige/lujunbuzhang_14.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_15"
+		texturefile = "gfx/interface/neige/lujunbuzhang_15.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_16"
+		texturefile = "gfx/interface/neige/lujunbuzhang_16.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_17"
+		texturefile = "gfx/interface/neige/lujunbuzhang_17.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_18"
+		texturefile = "gfx/interface/neige/lujunbuzhang_18.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_19"
+		texturefile = "gfx/interface/neige/lujunbuzhang_19.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_20"
+		texturefile = "gfx/interface/neige/lujunbuzhang_20.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_21"
+		texturefile = "gfx/interface/neige/lujunbuzhang_21.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_22"
+		texturefile = "gfx/interface/neige/lujunbuzhang_22.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_23"
+		texturefile = "gfx/interface/neige/lujunbuzhang_23.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_24"
+		texturefile = "gfx/interface/neige/lujunbuzhang_24.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_25"
+		texturefile = "gfx/interface/neige/lujunbuzhang_25.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_26"
+		texturefile = "gfx/interface/neige/lujunbuzhang_26.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_27"
+		texturefile = "gfx/interface/neige/lujunbuzhang_27.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_28"
+		texturefile = "gfx/interface/neige/lujunbuzhang_28.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_29"
+		texturefile = "gfx/interface/neige/lujunbuzhang_29.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_lujunbuzhang_30"
+		texturefile = "gfx/interface/neige/lujunbuzhang_30.png"
+	}
+#海军部长头像
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_1"
+		texturefile = "gfx/interface/neige/haijunbuzhang_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_2"
+		texturefile = "gfx/interface/neige/haijunbuzhang_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_3"
+		texturefile = "gfx/interface/neige/haijunbuzhang_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_4"
+		texturefile = "gfx/interface/neige/haijunbuzhang_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_5"
+		texturefile = "gfx/interface/neige/haijunbuzhang_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_6"
+		texturefile = "gfx/interface/neige/haijunbuzhang_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_7"
+		texturefile = "gfx/interface/neige/haijunbuzhang_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_8"
+		texturefile = "gfx/interface/neige/haijunbuzhang_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_9"
+		texturefile = "gfx/interface/neige/haijunbuzhang_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_10"
+		texturefile = "gfx/interface/neige/haijunbuzhang_10.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_11"
+		texturefile = "gfx/interface/neige/haijunbuzhang_11.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_12"
+		texturefile = "gfx/interface/neige/haijunbuzhang_12.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_13"
+		texturefile = "gfx/interface/neige/haijunbuzhang_13.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_14"
+		texturefile = "gfx/interface/neige/haijunbuzhang_14.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_15"
+		texturefile = "gfx/interface/neige/haijunbuzhang_15.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_16"
+		texturefile = "gfx/interface/neige/haijunbuzhang_16.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_17"
+		texturefile = "gfx/interface/neige/haijunbuzhang_17.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_18"
+		texturefile = "gfx/interface/neige/haijunbuzhang_18.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_19"
+		texturefile = "gfx/interface/neige/haijunbuzhang_19.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_20"
+		texturefile = "gfx/interface/neige/haijunbuzhang_20.png"
+	}
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_21"
+		texturefile = "gfx/interface/neige/haijunbuzhang_21.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_22"
+		texturefile = "gfx/interface/neige/haijunbuzhang_22.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_23"
+		texturefile = "gfx/interface/neige/haijunbuzhang_23.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_24"
+		texturefile = "gfx/interface/neige/haijunbuzhang_24.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_25"
+		texturefile = "gfx/interface/neige/haijunbuzhang_25.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_26"
+		texturefile = "gfx/interface/neige/haijunbuzhang_26.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_27"
+		texturefile = "gfx/interface/neige/haijunbuzhang_27.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_28"
+		texturefile = "gfx/interface/neige/haijunbuzhang_28.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_29"
+		texturefile = "gfx/interface/neige/haijunbuzhang_29.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_haijunbuzhang_30"
+		texturefile = "gfx/interface/neige/haijunbuzhang_30.png"
+	}
+#空军部长头像
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_1"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_2"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_3"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_4"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_5"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_6"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_7"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_8"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_9"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_10"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_10.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_11"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_11.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_12"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_12.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_13"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_13.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_14"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_14.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_15"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_15.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_16"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_16.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_17"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_17.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_18"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_18.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_19"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_19.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_20"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_20.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_21"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_21.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_22"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_22.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_23"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_23.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_24"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_24.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_25"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_25.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_26"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_26.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_27"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_27.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_28"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_28.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_29"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_29.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_kongjunbuzhang_30"
+		texturefile = "gfx/interface/neige/kongjunbuzhang_30.png"
+	}
+#总司令头像
+	spriteType = {
+	    name = "GFX_idea_zongsiling_1"
+		texturefile = "gfx/interface/neige/zongsiling_1.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_2"
+		texturefile = "gfx/interface/neige/zongsiling_2.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_3"
+		texturefile = "gfx/interface/neige/zongsiling_3.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_4"
+		texturefile = "gfx/interface/neige/zongsiling_4.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_5"
+		texturefile = "gfx/interface/neige/zongsiling_5.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_6"
+		texturefile = "gfx/interface/neige/zongsiling_6.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_7"
+		texturefile = "gfx/interface/neige/zongsiling_7.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_8"
+		texturefile = "gfx/interface/neige/zongsiling_8.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_9"
+		texturefile = "gfx/interface/neige/zongsiling_9.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_10"
+		texturefile = "gfx/interface/neige/zongsiling_10.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_11"
+		texturefile = "gfx/interface/neige/zongsiling_11.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_12"
+		texturefile = "gfx/interface/neige/zongsiling_12.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_13"
+		texturefile = "gfx/interface/neige/zongsiling_13.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_14"
+		texturefile = "gfx/interface/neige/zongsiling_14.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_15"
+		texturefile = "gfx/interface/neige/zongsiling_15.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_16"
+		texturefile = "gfx/interface/neige/zongsiling_16.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_17"
+		texturefile = "gfx/interface/neige/zongsiling_17.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_18"
+		texturefile = "gfx/interface/neige/zongsiling_18.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_19"
+		texturefile = "gfx/interface/neige/zongsiling_19.png"
+	}
+	
+	spriteType = {
+	    name = "GFX_idea_zongsiling_20"
+		texturefile = "gfx/interface/neige/zongsiling_20.png"
+	}
+	spriteType = {
+		name = "GFX_idea_zongsiling_21"
+		texturefile = "gfx/interface/neige/zongsiling_21.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_22"
+		texturefile = "gfx/interface/neige/zongsiling_22.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_23"
+		texturefile = "gfx/interface/neige/zongsiling_23.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_24"
+		texturefile = "gfx/interface/neige/zongsiling_24.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_25"
+		texturefile = "gfx/interface/neige/zongsiling_25.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_26"
+		texturefile = "gfx/interface/neige/zongsiling_26.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_27"
+		texturefile = "gfx/interface/neige/zongsiling_27.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_28"
+		texturefile = "gfx/interface/neige/zongsiling_28.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_29"
+		texturefile = "gfx/interface/neige/zongsiling_29.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_zongsiling_30"
+		texturefile = "gfx/interface/neige/zongsiling_30.png"
+	}
+#招募决议图标
+	spriteType = {
+		name = "GFX_ECY_zzgw"
+		texturefile = "gfx/interface/jytb/ECY_zzgw.png"
+	}
+	spriteType = {
+		name = "GFX_ECY_llj"
+		texturefile = "gfx/interface/jytb/ECY_llj.png"
+	}
+	spriteType = {
+		name = "GFX_ECY_ljbz"
+		texturefile = "gfx/interface/jytb/ECY_ljbz.png"
+	}
+	spriteType = {
+		name = "GFX_ECY_hjbz"
+		texturefile = "gfx/interface/jytb/ECY_hjbz.png"
+	}
+	spriteType = {
+		name = "GFX_ECY_kjbz"
+		texturefile = "gfx/interface/jytb/ECY_hjbz.png"
+	}
+	spriteType = {
+		name = "GFX_ECY_zsl"
+		texturefile = "gfx/interface/jytb/ECY_zsl.png"
+	}
+}	

@@ -1,0 +1,11 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_znecy_intro"
+		textureFile = "gfx/introscreen/znecy_intro.png"
+	}
+
+	spriteType = {
+		name = "GFX_znecy_splash_intro"
+		textureFile = "gfx/introscreen/zhainan_erciyuan_splash.png"
+	}
+}

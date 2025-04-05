@@ -1,0 +1,122 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_idea_znecy_1"
+        texturefile = "gfx/interface/zzs/znecy_1.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_2"
+        texturefile = "gfx/interface/zzs/znecy_2.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_3"
+        texturefile = "gfx/interface/zzs/znecy_3.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_4"
+        texturefile = "gfx/interface/zzs/znecy_4.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_5"
+        texturefile = "gfx/interface/zzs/znecy_5.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_6"
+        texturefile = "gfx/interface/zzs/znecy_6.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_7"
+        texturefile = "gfx/interface/zzs/znecy_7.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_8"
+        texturefile = "gfx/interface/zzs/znecy_8.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_9"
+        texturefile = "gfx/interface/zzs/znecy_9.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_10"
+        texturefile = "gfx/interface/zzs/znecy_10.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_11"
+        texturefile = "gfx/interface/zzs/znecy_11.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_12"
+        texturefile = "gfx/interface/zzs/znecy_12.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_13"
+        texturefile = "gfx/interface/zzs/znecy_13.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_14"
+        texturefile = "gfx/interface/zzs/znecy_14.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_15"
+        texturefile = "gfx/interface/zzs/znecy_15.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_16"
+        texturefile = "gfx/interface/zzs/znecy_16.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_17"
+        texturefile = "gfx/interface/zzs/znecy_17.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_18"
+        texturefile = "gfx/interface/zzs/znecy_18.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_19"
+        texturefile = "gfx/interface/zzs/znecy_19.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_20"
+        texturefile = "gfx/interface/zzs/znecy_20.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_21"
+        texturefile = "gfx/interface/zzs/znecy_21.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_22"
+        texturefile = "gfx/interface/zzs/znecy_22.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_23"
+        texturefile = "gfx/interface/zzs/znecy_23.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_24"
+        texturefile = "gfx/interface/zzs/znecy_24.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_25"
+        texturefile = "gfx/interface/zzs/znecy_25.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_26"
+        texturefile = "gfx/interface/zzs/znecy_26.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_27"
+        texturefile = "gfx/interface/zzs/znecy_27.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_28"
+        texturefile = "gfx/interface/zzs/znecy_28.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_29"
+        texturefile = "gfx/interface/zzs/znecy_29.png"
+    }
+    spriteType = {
+        name = "GFX_idea_znecy_30"
+        texturefile = "gfx/interface/zzs/znecy_30.png"
+    }
+}

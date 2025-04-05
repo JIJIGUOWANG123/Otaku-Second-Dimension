@@ -1,0 +1,2856 @@
+﻿#capital = 162
+
+#set_research_slots = 3
+
+#set_convoys = 25
+#set_stability = 0.5
+#set_war_support = 0.1
+
+recruit_character = EBY_scientist_1
+recruit_character = EBY_scientist_2
+recruit_character = EBY_scientist_3
+recruit_character = EBY_scientist_4
+recruit_character = EBY_scientist_5
+recruit_character = EBY_scientist_6
+recruit_character = EBY_scientist_7
+recruit_character = EBY_scientist_8
+recruit_character = EBY_scientist_9
+recruit_character = EBY_scientist_10
+recruit_character = EBY_scientist_11
+recruit_character = EBY_scientist_12
+recruit_character = EBY_scientist_13
+recruit_character = EBY_scientist_14
+recruit_character = EBY_scientist_15
+recruit_character = EBY_scientist_16
+recruit_character = EBY_scientist_17
+recruit_character = EBY_scientist_18
+recruit_character = EBY_scientist_19
+recruit_character = EBY_scientist_20
+recruit_character = EBY_scientist_21
+recruit_character = EBY_scientist_22
+recruit_character = EBY_scientist_23
+recruit_character = EBY_scientist_24
+recruit_character = EBY_scientist_25
+recruit_character = EBY_scientist_26
+recruit_character = EBY_scientist_27
+recruit_character = EBY_scientist_28
+recruit_character = EBY_scientist_29
+recruit_character = EBY_scientist_30
+
+EBY_scientist_1 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_2 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_3 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_4 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_5 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_6 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_7 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_8 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_9 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_10 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_11 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_12 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_13 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_14 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_15 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_16 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_17 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_18 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_19 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_20 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_21 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_22 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_23 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_24 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_25 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_26 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_27 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_28 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_29 = { set_character_flag = eby_scientist_flag }
+EBY_scientist_30 = { set_character_flag = eby_scientist_flag }
+
+recruit_character = EBY_guwen_1
+recruit_character = EBY_guwen_2
+recruit_character = EBY_guwen_3
+recruit_character = EBY_guwen_4
+recruit_character = EBY_guwen_5
+recruit_character = EBY_guwen_6
+recruit_character = EBY_guwen_7
+recruit_character = EBY_guwen_8
+recruit_character = EBY_guwen_9
+recruit_character = EBY_guwen_10
+recruit_character = EBY_guwen_11
+recruit_character = EBY_guwen_12
+recruit_character = EBY_guwen_13
+recruit_character = EBY_guwen_14
+recruit_character = EBY_guwen_15
+recruit_character = EBY_guwen_16
+recruit_character = EBY_guwen_17
+recruit_character = EBY_guwen_18
+recruit_character = EBY_guwen_19
+recruit_character = EBY_guwen_20
+recruit_character = EBY_guwen_21
+recruit_character = EBY_guwen_22
+recruit_character = EBY_guwen_23
+recruit_character = EBY_guwen_24
+recruit_character = EBY_guwen_25
+recruit_character = EBY_guwen_26
+recruit_character = EBY_guwen_27
+recruit_character = EBY_guwen_28
+recruit_character = EBY_guwen_29
+recruit_character = EBY_guwen_30
+recruit_character = EBY_guwen_31
+recruit_character = EBY_guwen_32
+recruit_character = EBY_guwen_33
+recruit_character = EBY_guwen_34
+recruit_character = EBY_guwen_35
+recruit_character = EBY_guwen_36
+recruit_character = EBY_guwen_37
+recruit_character = EBY_guwen_38
+recruit_character = EBY_guwen_39
+recruit_character = EBY_guwen_40
+recruit_character = EBY_guwen_41
+recruit_character = EBY_guwen_42
+recruit_character = EBY_guwen_43
+recruit_character = EBY_guwen_44
+recruit_character = EBY_guwen_45
+recruit_character = EBY_guwen_46
+recruit_character = EBY_guwen_47
+recruit_character = EBY_guwen_48
+recruit_character = EBY_guwen_49
+recruit_character = EBY_guwen_50
+recruit_character = EBY_guwen_51
+recruit_character = EBY_guwen_52
+recruit_character = EBY_guwen_53
+recruit_character = EBY_guwen_54
+recruit_character = EBY_guwen_55
+recruit_character = EBY_guwen_56
+recruit_character = EBY_guwen_57
+recruit_character = EBY_guwen_58
+recruit_character = EBY_guwen_59
+recruit_character = EBY_guwen_60
+recruit_character = EBY_guwen_61
+recruit_character = EBY_guwen_62
+recruit_character = EBY_guwen_63
+recruit_character = EBY_guwen_64
+recruit_character = EBY_guwen_65
+recruit_character = EBY_guwen_66
+recruit_character = EBY_guwen_67
+recruit_character = EBY_guwen_68
+recruit_character = EBY_guwen_69
+recruit_character = EBY_guwen_70
+
+EBY_guwen_1 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_2 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_3 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_4 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_5 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_6 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_7 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_8 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_9 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_10 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_11 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_12 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_13 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_14 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_15 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_16 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_17 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_18 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_19 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_20 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_21 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_22 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_23 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_24 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_25 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_26 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_27 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_28 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_29 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_30 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_31 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_32 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_33 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_34 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_35 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_36 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_37 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_38 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_39 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_40 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_41 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_42 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_43 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_44 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_45 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_46 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_47 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_48 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_49 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_50 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_51 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_52 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_53 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_54 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_55 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_56 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_57 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_58 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_59 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_60 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_61 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_62 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_63 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_64 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_65 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_66 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_67 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_68 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_69 = { set_character_flag = eby_guwen_flag }
+EBY_guwen_70 = { set_character_flag = eby_guwen_flag }
+
+recruit_character = EBY_gwkx_1
+recruit_character = EBY_gwkx_2
+recruit_character = EBY_gwkx_3
+recruit_character = EBY_gwkx_4
+recruit_character = EBY_gwkx_5
+recruit_character = EBY_gwkx_6
+recruit_character = EBY_gwkx_7
+recruit_character = EBY_gwkx_8
+recruit_character = EBY_gwkx_9
+recruit_character = EBY_gwkx_10
+
+EBY_gwkx_1 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_2 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_3 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_4 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_5 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_6 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_7 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_8 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_9 = { set_character_flag = eby_gwkx_flag }
+EBY_gwkx_10 = { set_character_flag = eby_gwkx_flag }
+
+recruit_character = EBY_lilunjia_1
+recruit_character = EBY_lilunjia_2
+recruit_character = EBY_lilunjia_3
+recruit_character = EBY_lilunjia_4
+recruit_character = EBY_lilunjia_5
+recruit_character = EBY_lilunjia_6
+recruit_character = EBY_lilunjia_7
+recruit_character = EBY_lilunjia_8
+recruit_character = EBY_lilunjia_9
+recruit_character = EBY_lilunjia_10
+recruit_character = EBY_lilunjia_11
+recruit_character = EBY_lilunjia_12
+recruit_character = EBY_lilunjia_13
+recruit_character = EBY_lilunjia_14
+recruit_character = EBY_lilunjia_15
+recruit_character = EBY_lilunjia_16
+recruit_character = EBY_lilunjia_17
+recruit_character = EBY_lilunjia_18
+recruit_character = EBY_lilunjia_19
+recruit_character = EBY_lilunjia_20
+recruit_character = EBY_lilunjia_21
+recruit_character = EBY_lilunjia_22
+recruit_character = EBY_lilunjia_23
+recruit_character = EBY_lilunjia_24
+recruit_character = EBY_lilunjia_25
+recruit_character = EBY_lilunjia_26
+recruit_character = EBY_lilunjia_27
+recruit_character = EBY_lilunjia_28
+recruit_character = EBY_lilunjia_29
+recruit_character = EBY_lilunjia_30
+recruit_character = EBY_lilunjia_31
+recruit_character = EBY_lilunjia_32
+recruit_character = EBY_lilunjia_33
+recruit_character = EBY_lilunjia_34
+recruit_character = EBY_lilunjia_35
+recruit_character = EBY_lilunjia_36
+recruit_character = EBY_lilunjia_37
+recruit_character = EBY_lilunjia_38
+recruit_character = EBY_lilunjia_39
+recruit_character = EBY_lilunjia_40
+recruit_character = EBY_lilunjia_41
+recruit_character = EBY_lilunjia_42
+recruit_character = EBY_lilunjia_43
+recruit_character = EBY_lilunjia_44
+recruit_character = EBY_lilunjia_45
+recruit_character = EBY_lilunjia_46
+recruit_character = EBY_lilunjia_47
+recruit_character = EBY_lilunjia_48
+recruit_character = EBY_lilunjia_49
+recruit_character = EBY_lilunjia_50
+recruit_character = EBY_lilunjia_51
+recruit_character = EBY_lilunjia_52
+recruit_character = EBY_lilunjia_53
+recruit_character = EBY_lilunjia_54
+recruit_character = EBY_lilunjia_55
+recruit_character = EBY_lilunjia_56
+recruit_character = EBY_lilunjia_57
+recruit_character = EBY_lilunjia_58
+recruit_character = EBY_lilunjia_59
+recruit_character = EBY_lilunjia_60
+recruit_character = EBY_lilunjia_61
+recruit_character = EBY_lilunjia_62
+recruit_character = EBY_lilunjia_63
+recruit_character = EBY_lilunjia_64
+recruit_character = EBY_lilunjia_65
+recruit_character = EBY_lilunjia_66
+recruit_character = EBY_lilunjia_67
+recruit_character = EBY_lilunjia_68
+recruit_character = EBY_lilunjia_69
+recruit_character = EBY_lilunjia_70
+recruit_character = EBY_lilunjia_71
+recruit_character = EBY_lilunjia_72
+recruit_character = EBY_lilunjia_73
+recruit_character = EBY_lilunjia_74
+recruit_character = EBY_lilunjia_75
+recruit_character = EBY_lilunjia_76
+recruit_character = EBY_lilunjia_77
+recruit_character = EBY_lilunjia_78
+recruit_character = EBY_lilunjia_79
+recruit_character = EBY_lilunjia_80
+
+EBY_lilunjia_1 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_2 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_3 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_4 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_5 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_6 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_7 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_8 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_9 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_10 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_11 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_12 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_13 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_14 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_15 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_16 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_17 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_18 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_19 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_20 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_21 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_22 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_23 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_24 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_25 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_26 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_27 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_28 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_29 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_30 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_31 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_32 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_33 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_34 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_35 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_36 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_37 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_38 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_39 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_40 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_41 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_42 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_43 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_44 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_45 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_46 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_47 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_48 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_49 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_50 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_51 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_52 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_53 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_54 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_55 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_56 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_57 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_58 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_59 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_60 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_61 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_62 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_63 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_64 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_65 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_66 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_67 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_68 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_69 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_70 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_71 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_72 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_73 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_74 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_75 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_76 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_77 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_78 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_79 = { set_character_flag = eby_lilunjia_flag }
+EBY_lilunjia_80 = { set_character_flag = eby_lilunjia_flag }
+
+recruit_character = EBY_lujunbuzhang_1
+recruit_character = EBY_lujunbuzhang_2
+recruit_character = EBY_lujunbuzhang_3
+recruit_character = EBY_lujunbuzhang_4
+recruit_character = EBY_lujunbuzhang_5
+recruit_character = EBY_lujunbuzhang_6
+recruit_character = EBY_lujunbuzhang_7
+recruit_character = EBY_lujunbuzhang_8
+recruit_character = EBY_lujunbuzhang_9
+recruit_character = EBY_lujunbuzhang_10
+recruit_character = EBY_lujunbuzhang_11
+recruit_character = EBY_lujunbuzhang_12
+recruit_character = EBY_lujunbuzhang_13
+recruit_character = EBY_lujunbuzhang_14
+recruit_character = EBY_lujunbuzhang_15
+recruit_character = EBY_lujunbuzhang_16
+recruit_character = EBY_lujunbuzhang_17
+recruit_character = EBY_lujunbuzhang_18
+recruit_character = EBY_lujunbuzhang_19
+recruit_character = EBY_lujunbuzhang_20
+recruit_character = EBY_lujunbuzhang_21
+recruit_character = EBY_lujunbuzhang_22
+recruit_character = EBY_lujunbuzhang_23
+recruit_character = EBY_lujunbuzhang_24
+recruit_character = EBY_lujunbuzhang_25
+recruit_character = EBY_lujunbuzhang_26
+recruit_character = EBY_lujunbuzhang_27
+recruit_character = EBY_lujunbuzhang_28
+recruit_character = EBY_lujunbuzhang_29
+recruit_character = EBY_lujunbuzhang_30
+
+EBY_lujunbuzhang_1 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_2 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_3 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_4 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_5 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_6 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_7 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_8 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_9 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_10 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_11 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_12 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_13 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_14 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_15 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_16 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_17 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_18 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_19 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_20 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_21 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_22 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_23 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_24 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_25 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_26 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_27 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_28 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_29 = { set_character_flag = eby_lujunbuzhang_flag }
+EBY_lujunbuzhang_30 = { set_character_flag = eby_lujunbuzhang_flag }
+
+recruit_character = EBY_haijunbuzhang_1
+recruit_character = EBY_haijunbuzhang_2
+recruit_character = EBY_haijunbuzhang_3
+recruit_character = EBY_haijunbuzhang_4
+recruit_character = EBY_haijunbuzhang_5
+recruit_character = EBY_haijunbuzhang_6
+recruit_character = EBY_haijunbuzhang_7
+recruit_character = EBY_haijunbuzhang_8
+recruit_character = EBY_haijunbuzhang_9
+recruit_character = EBY_haijunbuzhang_10
+recruit_character = EBY_haijunbuzhang_11
+recruit_character = EBY_haijunbuzhang_12
+recruit_character = EBY_haijunbuzhang_13
+recruit_character = EBY_haijunbuzhang_14
+recruit_character = EBY_haijunbuzhang_15
+recruit_character = EBY_haijunbuzhang_16
+recruit_character = EBY_haijunbuzhang_17
+recruit_character = EBY_haijunbuzhang_18
+recruit_character = EBY_haijunbuzhang_19
+recruit_character = EBY_haijunbuzhang_20
+recruit_character = EBY_haijunbuzhang_21
+recruit_character = EBY_haijunbuzhang_22
+recruit_character = EBY_haijunbuzhang_23
+recruit_character = EBY_haijunbuzhang_24
+recruit_character = EBY_haijunbuzhang_25
+recruit_character = EBY_haijunbuzhang_26
+recruit_character = EBY_haijunbuzhang_27
+recruit_character = EBY_haijunbuzhang_28
+recruit_character = EBY_haijunbuzhang_29
+recruit_character = EBY_haijunbuzhang_30
+
+EBY_haijunbuzhang_1 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_2 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_3 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_4 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_5 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_6 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_7 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_8 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_9 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_10 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_11 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_12 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_13 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_14 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_15 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_16 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_17 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_18 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_19 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_20 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_21 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_22 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_23 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_24 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_25 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_26 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_27 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_28 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_29 = { set_character_flag = eby_haijunbuzhang_flag }
+EBY_haijunbuzhang_30 = { set_character_flag = eby_haijunbuzhang_flag }
+
+recruit_character = EBY_kongjunbuzhang_1
+recruit_character = EBY_kongjunbuzhang_2
+recruit_character = EBY_kongjunbuzhang_3
+recruit_character = EBY_kongjunbuzhang_4
+recruit_character = EBY_kongjunbuzhang_5
+recruit_character = EBY_kongjunbuzhang_6
+recruit_character = EBY_kongjunbuzhang_7
+recruit_character = EBY_kongjunbuzhang_8
+recruit_character = EBY_kongjunbuzhang_9
+recruit_character = EBY_kongjunbuzhang_10
+recruit_character = EBY_kongjunbuzhang_11
+recruit_character = EBY_kongjunbuzhang_12
+recruit_character = EBY_kongjunbuzhang_13
+recruit_character = EBY_kongjunbuzhang_14
+recruit_character = EBY_kongjunbuzhang_15
+recruit_character = EBY_kongjunbuzhang_16
+recruit_character = EBY_kongjunbuzhang_17
+recruit_character = EBY_kongjunbuzhang_18
+recruit_character = EBY_kongjunbuzhang_19
+recruit_character = EBY_kongjunbuzhang_20
+recruit_character = EBY_kongjunbuzhang_21
+recruit_character = EBY_kongjunbuzhang_22
+recruit_character = EBY_kongjunbuzhang_23
+recruit_character = EBY_kongjunbuzhang_24
+recruit_character = EBY_kongjunbuzhang_25
+recruit_character = EBY_kongjunbuzhang_26
+recruit_character = EBY_kongjunbuzhang_27
+recruit_character = EBY_kongjunbuzhang_28
+recruit_character = EBY_kongjunbuzhang_29
+recruit_character = EBY_kongjunbuzhang_30
+
+EBY_kongjunbuzhang_1 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_2 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_3 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_4 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_5 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_6 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_7 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_8 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_9 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_10 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_11 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_12 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_13 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_14 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_15 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_16 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_17 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_18 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_19 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_20 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_21 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_22 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_23 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_24 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_25 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_26 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_27 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_28 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_29 = { set_character_flag = eby_kongjunbuzhang_flag }
+EBY_kongjunbuzhang_30 = { set_character_flag = eby_kongjunbuzhang_flag }
+
+recruit_character = EBY_zongsiling_1
+recruit_character = EBY_zongsiling_2
+recruit_character = EBY_zongsiling_3
+recruit_character = EBY_zongsiling_4
+recruit_character = EBY_zongsiling_5
+recruit_character = EBY_zongsiling_6
+recruit_character = EBY_zongsiling_7
+recruit_character = EBY_zongsiling_8
+recruit_character = EBY_zongsiling_9
+recruit_character = EBY_zongsiling_10
+recruit_character = EBY_zongsiling_11
+recruit_character = EBY_zongsiling_12
+recruit_character = EBY_zongsiling_13
+recruit_character = EBY_zongsiling_14
+recruit_character = EBY_zongsiling_15
+recruit_character = EBY_zongsiling_16
+recruit_character = EBY_zongsiling_17
+recruit_character = EBY_zongsiling_18
+recruit_character = EBY_zongsiling_19
+recruit_character = EBY_zongsiling_20
+recruit_character = EBY_zongsiling_21
+recruit_character = EBY_zongsiling_22
+recruit_character = EBY_zongsiling_23
+recruit_character = EBY_zongsiling_24
+recruit_character = EBY_zongsiling_25
+recruit_character = EBY_zongsiling_26
+recruit_character = EBY_zongsiling_27
+recruit_character = EBY_zongsiling_28
+recruit_character = EBY_zongsiling_29
+recruit_character = EBY_zongsiling_30
+
+EBY_zongsiling_1 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_2 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_3 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_4 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_5 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_6 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_7 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_8 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_9 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_10 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_11 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_12 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_13 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_14 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_15 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_16 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_17 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_18 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_19 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_20 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_21 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_22 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_23 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_24 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_25 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_26 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_27 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_28 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_29 = { set_character_flag = eby_zongsiling_flag }
+EBY_zongsiling_30 = { set_character_flag = eby_zongsiling_flag }
+
+recruit_character = EBY_ljjl_1
+recruit_character = EBY_ljjl_2
+recruit_character = EBY_ljjl_3
+recruit_character = EBY_ljjl_4
+recruit_character = EBY_ljjl_5
+recruit_character = EBY_ljjl_6
+recruit_character = EBY_ljjl_7
+recruit_character = EBY_ljjl_8
+recruit_character = EBY_ljjl_9
+recruit_character = EBY_ljjl_10
+recruit_character = EBY_ljjl_11
+recruit_character = EBY_ljjl_12
+recruit_character = EBY_ljjl_13
+recruit_character = EBY_ljjl_14
+recruit_character = EBY_ljjl_15
+recruit_character = EBY_ljjl_16
+recruit_character = EBY_ljjl_17
+recruit_character = EBY_ljjl_18
+recruit_character = EBY_ljjl_19
+recruit_character = EBY_ljjl_20
+recruit_character = EBY_ljjl_21
+recruit_character = EBY_ljjl_22
+recruit_character = EBY_ljjl_23
+recruit_character = EBY_ljjl_24
+recruit_character = EBY_ljjl_25
+recruit_character = EBY_ljjl_26
+recruit_character = EBY_ljjl_27
+recruit_character = EBY_ljjl_28
+recruit_character = EBY_ljjl_29
+recruit_character = EBY_ljjl_30
+
+EBY_ljjl_1 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_2 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_3 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_4 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_5 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_6 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_7 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_8 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_9 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_10 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_11 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_12 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_13 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_14 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_15 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_16 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_17 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_18 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_19 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_20 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_21 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_22 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_23 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_24 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_25 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_26 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_27 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_28 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_29 = { set_character_flag = eby_ljjl_flag }
+EBY_ljjl_30 = { set_character_flag = eby_ljjl_flag }
+
+recruit_character = EBY_ljys_1
+recruit_character = EBY_ljys_2
+recruit_character = EBY_ljys_3
+recruit_character = EBY_ljys_4
+recruit_character = EBY_ljys_5
+recruit_character = EBY_ljys_6
+recruit_character = EBY_ljys_7
+recruit_character = EBY_ljys_8
+recruit_character = EBY_ljys_9
+recruit_character = EBY_ljys_10
+recruit_character = EBY_ljys_11
+recruit_character = EBY_ljys_12
+recruit_character = EBY_ljys_13
+recruit_character = EBY_ljys_14
+recruit_character = EBY_ljys_15
+recruit_character = EBY_ljys_16
+recruit_character = EBY_ljys_17
+recruit_character = EBY_ljys_18
+recruit_character = EBY_ljys_19
+recruit_character = EBY_ljys_20
+recruit_character = EBY_ljys_21
+recruit_character = EBY_ljys_22
+recruit_character = EBY_ljys_23
+recruit_character = EBY_ljys_24
+recruit_character = EBY_ljys_25
+recruit_character = EBY_ljys_26
+recruit_character = EBY_ljys_27
+recruit_character = EBY_ljys_28
+recruit_character = EBY_ljys_29
+recruit_character = EBY_ljys_30
+recruit_character = EBY_ljys_31
+recruit_character = EBY_ljys_32
+recruit_character = EBY_ljys_33
+recruit_character = EBY_ljys_34
+recruit_character = EBY_ljys_35
+recruit_character = EBY_ljys_36
+recruit_character = EBY_ljys_37
+recruit_character = EBY_ljys_38
+recruit_character = EBY_ljys_39
+recruit_character = EBY_ljys_40
+recruit_character = EBY_ljys_41
+recruit_character = EBY_ljys_42
+recruit_character = EBY_ljys_43
+recruit_character = EBY_ljys_44
+recruit_character = EBY_ljys_45
+recruit_character = EBY_ljys_46
+recruit_character = EBY_ljys_47
+recruit_character = EBY_ljys_48
+recruit_character = EBY_ljys_49
+recruit_character = EBY_ljys_50
+
+EBY_ljys_1 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_2 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_3 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_4 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_5 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_6 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_7 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_8 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_9 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_10 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_11 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_12 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_13 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_14 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_15 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_16 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_17 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_18 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_19 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_20 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_21 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_22 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_23 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_24 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_25 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_26 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_27 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_28 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_29 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_30 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_31 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_32 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_33 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_34 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_35 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_36 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_37 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_38 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_39 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_40 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_41 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_42 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_43 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_44 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_45 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_46 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_47 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_48 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_49 = { set_character_flag = eby_ljys_flag }
+EBY_ljys_50 = { set_character_flag = eby_ljys_flag }
+
+recruit_character = EBY_renqi_1
+recruit_character = EBY_renqi_2
+recruit_character = EBY_renqi_3
+recruit_character = EBY_renqi_4
+recruit_character = EBY_renqi_5
+recruit_character = EBY_renqi_6
+recruit_character = EBY_renqi_7
+recruit_character = EBY_renqi_8
+recruit_character = EBY_renqi_9
+recruit_character = EBY_renqi_10
+recruit_character = EBY_renqi_11
+recruit_character = EBY_renqi_12
+recruit_character = EBY_renqi_13
+recruit_character = EBY_renqi_14
+recruit_character = EBY_renqi_15
+recruit_character = EBY_renqi_16
+recruit_character = EBY_renqi_17
+recruit_character = EBY_renqi_18
+recruit_character = EBY_renqi_19
+recruit_character = EBY_renqi_20
+
+EBY_renqi_1 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_2 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_3 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_4 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_5 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_6 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_7 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_8 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_9 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_10 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_11 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_12 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_13 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_14 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_15 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_16 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_17 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_18 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_19 = { set_character_flag = eby_renqi_flag }
+EBY_renqi_20 = { set_character_flag = eby_renqi_flag }
+
+recruit_character = EBY_glg_1
+recruit_character = EBY_glg_2
+recruit_character = EBY_glg_3
+recruit_character = EBY_glg_4
+recruit_character = EBY_glg_5
+recruit_character = EBY_glg_6
+recruit_character = EBY_glg_7
+recruit_character = EBY_glg_8
+recruit_character = EBY_glg_9
+recruit_character = EBY_glg_10
+recruit_character = EBY_glg_11
+recruit_character = EBY_glg_12
+recruit_character = EBY_glg_13
+recruit_character = EBY_glg_14
+recruit_character = EBY_glg_15
+recruit_character = EBY_glg_16
+recruit_character = EBY_glg_17
+recruit_character = EBY_glg_18
+recruit_character = EBY_glg_19
+recruit_character = EBY_glg_20
+
+EBY_glg_1 = { set_character_flag = eby_glg_flag }
+EBY_glg_2 = { set_character_flag = eby_glg_flag }
+EBY_glg_3 = { set_character_flag = eby_glg_flag }
+EBY_glg_4 = { set_character_flag = eby_glg_flag }
+EBY_glg_5 = { set_character_flag = eby_glg_flag }
+EBY_glg_6 = { set_character_flag = eby_glg_flag }
+EBY_glg_7 = { set_character_flag = eby_glg_flag }
+EBY_glg_8 = { set_character_flag = eby_glg_flag }
+EBY_glg_9 = { set_character_flag = eby_glg_flag }
+EBY_glg_10 = { set_character_flag = eby_glg_flag }
+EBY_glg_11 = { set_character_flag = eby_glg_flag }
+EBY_glg_12 = { set_character_flag = eby_glg_flag }
+EBY_glg_13 = { set_character_flag = eby_glg_flag }
+EBY_glg_14 = { set_character_flag = eby_glg_flag }
+EBY_glg_15 = { set_character_flag = eby_glg_flag }
+EBY_glg_16 = { set_character_flag = eby_glg_flag }
+EBY_glg_17 = { set_character_flag = eby_glg_flag }
+EBY_glg_18 = { set_character_flag = eby_glg_flag }
+EBY_glg_19 = { set_character_flag = eby_glg_flag }
+EBY_glg_20 = { set_character_flag = eby_glg_flag }
+
+recruit_character = EBY_xqtd_1
+recruit_character = EBY_xqtd_2
+recruit_character = EBY_xqtd_3
+recruit_character = EBY_xqtd_4
+recruit_character = EBY_xqtd_5
+recruit_character = EBY_xqtd_6
+recruit_character = EBY_xqtd_7
+recruit_character = EBY_xqtd_8
+recruit_character = EBY_xqtd_9
+recruit_character = EBY_xqtd_10
+recruit_character = EBY_xqtd_11
+recruit_character = EBY_xqtd_12
+recruit_character = EBY_xqtd_13
+recruit_character = EBY_xqtd_14
+recruit_character = EBY_xqtd_15
+recruit_character = EBY_xqtd_16
+recruit_character = EBY_xqtd_17
+recruit_character = EBY_xqtd_18
+recruit_character = EBY_xqtd_19
+recruit_character = EBY_xqtd_20
+recruit_character = EBY_xqtd_21
+recruit_character = EBY_xqtd_22
+recruit_character = EBY_xqtd_23
+recruit_character = EBY_xqtd_24
+recruit_character = EBY_xqtd_25
+recruit_character = EBY_xqtd_26
+recruit_character = EBY_xqtd_27
+recruit_character = EBY_xqtd_28
+recruit_character = EBY_xqtd_29
+recruit_character = EBY_xqtd_30
+recruit_character = EBY_xqtd_31
+recruit_character = EBY_xqtd_32
+recruit_character = EBY_xqtd_33
+recruit_character = EBY_xqtd_34
+recruit_character = EBY_xqtd_35
+recruit_character = EBY_xqtd_36
+recruit_character = EBY_xqtd_37
+
+EBY_xqtd_1 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_2 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_3 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_4 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_5 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_6 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_7 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_8 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_9 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_10 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_11 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_12 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_13 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_14 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_15 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_16 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_17 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_18 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_19 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_20 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_21 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_22 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_23 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_24 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_25 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_26 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_27 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_28 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_29 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_30 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_31 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_32 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_33 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_34 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_35 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_36 = { set_character_flag = eby_xqtd_flag }
+EBY_xqtd_37 = { set_character_flag = eby_xqtd_flag }
+
+recruit_character = EBY_ysqd_1
+recruit_character = EBY_ysqd_2
+recruit_character = EBY_ysqd_3
+recruit_character = EBY_ysqd_4
+recruit_character = EBY_ysqd_5
+recruit_character = EBY_ysqd_6
+recruit_character = EBY_ysqd_7
+recruit_character = EBY_ysqd_8
+recruit_character = EBY_ysqd_9
+recruit_character = EBY_ysqd_10
+recruit_character = EBY_ysqd_11
+recruit_character = EBY_ysqd_12
+recruit_character = EBY_ysqd_13
+recruit_character = EBY_ysqd_14
+recruit_character = EBY_ysqd_15
+recruit_character = EBY_ysqd_16
+recruit_character = EBY_ysqd_17
+recruit_character = EBY_ysqd_18
+recruit_character = EBY_ysqd_19
+recruit_character = EBY_ysqd_20
+recruit_character = EBY_ysqd_21
+recruit_character = EBY_ysqd_22
+recruit_character = EBY_ysqd_23
+recruit_character = EBY_ysqd_24
+recruit_character = EBY_ysqd_25
+recruit_character = EBY_ysqd_26
+recruit_character = EBY_ysqd_27
+recruit_character = EBY_ysqd_28
+recruit_character = EBY_ysqd_29
+recruit_character = EBY_ysqd_30
+recruit_character = EBY_ysqd_31
+recruit_character = EBY_ysqd_32
+recruit_character = EBY_ysqd_33
+recruit_character = EBY_ysqd_34
+recruit_character = EBY_ysqd_35
+recruit_character = EBY_ysqd_36
+recruit_character = EBY_ysqd_37
+recruit_character = EBY_ysqd_38
+recruit_character = EBY_ysqd_39
+recruit_character = EBY_ysqd_40
+recruit_character = EBY_ysqd_41
+recruit_character = EBY_ysqd_42
+recruit_character = EBY_ysqd_43
+recruit_character = EBY_ysqd_44
+recruit_character = EBY_ysqd_45
+recruit_character = EBY_ysqd_46
+recruit_character = EBY_ysqd_47
+recruit_character = EBY_ysqd_48
+recruit_character = EBY_ysqd_49
+recruit_character = EBY_ysqd_50
+recruit_character = EBY_ysqd_51
+
+EBY_ysqd_1 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_2 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_3 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_4 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_5 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_6 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_7 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_8 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_9 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_10 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_11 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_12 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_13 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_14 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_15 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_16 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_17 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_18 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_19 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_20 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_21 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_22 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_23 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_24 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_25 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_26 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_27 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_28 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_29 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_30 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_31 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_32 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_33 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_34 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_35 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_36 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_37 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_38 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_39 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_40 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_41 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_42 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_43 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_44 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_45 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_46 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_47 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_48 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_49 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_50 = { set_character_flag = eby_ysqd_flag }
+EBY_ysqd_51 = { set_character_flag = eby_ysqd_flag }
+
+recruit_character = EBY_mjbh_1
+recruit_character = EBY_mjbh_2
+recruit_character = EBY_mjbh_3
+recruit_character = EBY_mjbh_4
+recruit_character = EBY_mjbh_5
+recruit_character = EBY_mjbh_6
+recruit_character = EBY_mjbh_7
+recruit_character = EBY_mjbh_8
+recruit_character = EBY_mjbh_9
+recruit_character = EBY_mjbh_10
+recruit_character = EBY_mjbh_11
+recruit_character = EBY_mjbh_12
+recruit_character = EBY_mjbh_13
+recruit_character = EBY_mjbh_14
+recruit_character = EBY_mjbh_15
+recruit_character = EBY_mjbh_16
+recruit_character = EBY_mjbh_17
+recruit_character = EBY_mjbh_18
+recruit_character = EBY_mjbh_19
+recruit_character = EBY_mjbh_20
+recruit_character = EBY_mjbh_21
+recruit_character = EBY_mjbh_22
+recruit_character = EBY_mjbh_23
+recruit_character = EBY_mjbh_24
+recruit_character = EBY_mjbh_25
+recruit_character = EBY_mjbh_26
+recruit_character = EBY_mjbh_27
+recruit_character = EBY_mjbh_28
+recruit_character = EBY_mjbh_29
+recruit_character = EBY_mjbh_30
+recruit_character = EBY_mjbh_31
+recruit_character = EBY_mjbh_32
+recruit_character = EBY_mjbh_33
+recruit_character = EBY_mjbh_34
+
+EBY_mjbh_1 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_2 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_3 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_4 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_5 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_6 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_7 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_8 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_9 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_10 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_11 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_12 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_13 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_14 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_15 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_16 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_17 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_18 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_19 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_20 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_21 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_22 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_23 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_24 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_25 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_26 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_27 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_28 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_29 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_30 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_31 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_32 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_33 = { set_character_flag = eby_mjbh_flag }
+EBY_mjbh_34 = { set_character_flag = eby_mjbh_flag }
+
+recruit_character = EBY_jql_1
+recruit_character = EBY_jql_2
+recruit_character = EBY_jql_3
+recruit_character = EBY_jql_4
+recruit_character = EBY_jql_5
+recruit_character = EBY_jql_6
+recruit_character = EBY_jql_7
+recruit_character = EBY_jql_8
+recruit_character = EBY_jql_9
+recruit_character = EBY_jql_10
+recruit_character = EBY_jql_11
+recruit_character = EBY_jql_12
+recruit_character = EBY_jql_13
+recruit_character = EBY_jql_14
+recruit_character = EBY_jql_15
+recruit_character = EBY_jql_16
+recruit_character = EBY_jql_17
+recruit_character = EBY_jql_18
+
+EBY_jql_1 = { set_character_flag = eby_jql_flag }
+EBY_jql_2 = { set_character_flag = eby_jql_flag }
+EBY_jql_3 = { set_character_flag = eby_jql_flag }
+EBY_jql_4 = { set_character_flag = eby_jql_flag }
+EBY_jql_5 = { set_character_flag = eby_jql_flag }
+EBY_jql_6 = { set_character_flag = eby_jql_flag }
+EBY_jql_7 = { set_character_flag = eby_jql_flag }
+EBY_jql_8 = { set_character_flag = eby_jql_flag }
+EBY_jql_9 = { set_character_flag = eby_jql_flag }
+EBY_jql_10 = { set_character_flag = eby_jql_flag }
+EBY_jql_11 = { set_character_flag = eby_jql_flag }
+EBY_jql_12 = { set_character_flag = eby_jql_flag }
+EBY_jql_13 = { set_character_flag = eby_jql_flag }
+EBY_jql_14 = { set_character_flag = eby_jql_flag }
+EBY_jql_15 = { set_character_flag = eby_jql_flag }
+EBY_jql_16 = { set_character_flag = eby_jql_flag }
+EBY_jql_17 = { set_character_flag = eby_jql_flag }
+EBY_jql_18 = { set_character_flag = eby_jql_flag }
+
+recruit_character = EBY_mrfz_1
+recruit_character = EBY_mrfz_2
+recruit_character = EBY_mrfz_3
+recruit_character = EBY_mrfz_4
+recruit_character = EBY_mrfz_5
+recruit_character = EBY_mrfz_6
+recruit_character = EBY_mrfz_7
+recruit_character = EBY_mrfz_8
+recruit_character = EBY_mrfz_9
+recruit_character = EBY_mrfz_10
+recruit_character = EBY_mrfz_11
+recruit_character = EBY_mrfz_12
+recruit_character = EBY_mrfz_13
+recruit_character = EBY_mrfz_14
+recruit_character = EBY_mrfz_15
+recruit_character = EBY_mrfz_16
+recruit_character = EBY_mrfz_17
+recruit_character = EBY_mrfz_18
+recruit_character = EBY_mrfz_19
+recruit_character = EBY_mrfz_20
+recruit_character = EBY_mrfz_21
+recruit_character = EBY_mrfz_22
+recruit_character = EBY_mrfz_23
+recruit_character = EBY_mrfz_24
+recruit_character = EBY_mrfz_25
+recruit_character = EBY_mrfz_26
+recruit_character = EBY_mrfz_27
+recruit_character = EBY_mrfz_28
+recruit_character = EBY_mrfz_29
+recruit_character = EBY_mrfz_30
+
+EBY_mrfz_1 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_2 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_3 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_4 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_5 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_6 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_7 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_8 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_9 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_10 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_11 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_12 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_13 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_14 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_15 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_16 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_17 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_18 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_19 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_20 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_21 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_22 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_23 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_24 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_25 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_26 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_27 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_28 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_29 = { set_character_flag = eby_mrfz_flag }
+EBY_mrfz_30 = { set_character_flag = eby_mrfz_flag }
+
+recruit_character = EBY_gzlj_1
+recruit_character = EBY_gzlj_2
+recruit_character = EBY_gzlj_3
+recruit_character = EBY_gzlj_4
+recruit_character = EBY_gzlj_5
+recruit_character = EBY_gzlj_6
+recruit_character = EBY_gzlj_7
+recruit_character = EBY_gzlj_8
+recruit_character = EBY_gzlj_9
+recruit_character = EBY_gzlj_10
+recruit_character = EBY_gzlj_11
+recruit_character = EBY_gzlj_12
+recruit_character = EBY_gzlj_13
+recruit_character = EBY_gzlj_14
+recruit_character = EBY_gzlj_15
+recruit_character = EBY_gzlj_16
+recruit_character = EBY_gzlj_17
+recruit_character = EBY_gzlj_18
+recruit_character = EBY_gzlj_19
+recruit_character = EBY_gzlj_20
+recruit_character = EBY_gzlj_21
+recruit_character = EBY_gzlj_22
+recruit_character = EBY_gzlj_23
+recruit_character = EBY_gzlj_24
+recruit_character = EBY_gzlj_25
+recruit_character = EBY_gzlj_26
+recruit_character = EBY_gzlj_27
+recruit_character = EBY_gzlj_28
+recruit_character = EBY_gzlj_29
+recruit_character = EBY_gzlj_30
+
+EBY_gzlj_1 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_2 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_3 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_4 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_5 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_6 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_7 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_8 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_9 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_10 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_11 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_12 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_13 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_14 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_15 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_16 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_17 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_18 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_19 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_20 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_21 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_22 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_23 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_24 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_25 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_26 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_27 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_28 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_29 = { set_character_flag = eby_gzlj_flag }
+EBY_gzlj_30 = { set_character_flag = eby_gzlj_flag }
+
+recruit_character = EBY_blhx3_1
+recruit_character = EBY_blhx3_2
+recruit_character = EBY_blhx3_3
+recruit_character = EBY_blhx3_4
+recruit_character = EBY_blhx3_5
+recruit_character = EBY_blhx3_6
+recruit_character = EBY_blhx3_7
+recruit_character = EBY_blhx3_8
+recruit_character = EBY_blhx3_9
+recruit_character = EBY_blhx3_10
+recruit_character = EBY_blhx3_11
+recruit_character = EBY_blhx3_12
+recruit_character = EBY_blhx3_13
+recruit_character = EBY_blhx3_14
+recruit_character = EBY_blhx3_15
+recruit_character = EBY_blhx3_16
+recruit_character = EBY_blhx3_17
+recruit_character = EBY_blhx3_18
+recruit_character = EBY_blhx3_19
+recruit_character = EBY_blhx3_20
+recruit_character = EBY_blhx3_21
+recruit_character = EBY_blhx3_22
+recruit_character = EBY_blhx3_23
+recruit_character = EBY_blhx3_24
+recruit_character = EBY_blhx3_25
+recruit_character = EBY_blhx3_26
+recruit_character = EBY_blhx3_27
+recruit_character = EBY_blhx3_28
+recruit_character = EBY_blhx3_29
+recruit_character = EBY_blhx3_30
+recruit_character = EBY_blhx3_31
+recruit_character = EBY_blhx3_32
+recruit_character = EBY_blhx3_33
+recruit_character = EBY_blhx3_34
+recruit_character = EBY_blhx3_35
+recruit_character = EBY_blhx3_36
+recruit_character = EBY_blhx3_37
+recruit_character = EBY_blhx3_38
+recruit_character = EBY_blhx3_39
+recruit_character = EBY_blhx3_40
+recruit_character = EBY_blhx3_41
+recruit_character = EBY_blhx3_42
+recruit_character = EBY_blhx3_43
+recruit_character = EBY_blhx3_44
+recruit_character = EBY_blhx3_45
+recruit_character = EBY_blhx3_46
+recruit_character = EBY_blhx3_47
+recruit_character = EBY_blhx3_48
+recruit_character = EBY_blhx3_49
+recruit_character = EBY_blhx3_50
+recruit_character = EBY_blhx3_51
+recruit_character = EBY_blhx3_52
+recruit_character = EBY_blhx3_53
+recruit_character = EBY_blhx3_54
+recruit_character = EBY_blhx3_55
+recruit_character = EBY_blhx3_56
+recruit_character = EBY_blhx3_57
+recruit_character = EBY_blhx3_58
+recruit_character = EBY_blhx3_59
+recruit_character = EBY_blhx3_60
+recruit_character = EBY_blhx3_61
+recruit_character = EBY_blhx3_62
+recruit_character = EBY_blhx3_63
+recruit_character = EBY_blhx3_64
+recruit_character = EBY_blhx3_65
+recruit_character = EBY_blhx3_66
+recruit_character = EBY_blhx3_67
+recruit_character = EBY_blhx3_68
+recruit_character = EBY_blhx3_69
+recruit_character = EBY_blhx3_70
+recruit_character = EBY_blhx3_71
+recruit_character = EBY_blhx3_72
+recruit_character = EBY_blhx3_73
+recruit_character = EBY_blhx3_74
+recruit_character = EBY_blhx3_75
+
+EBY_blhx3_1 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_2 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_3 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_4 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_5 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_6 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_7 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_8 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_9 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_10 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_11 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_12 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_13 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_14 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_15 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_16 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_17 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_18 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_19 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_20 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_21 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_22 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_23 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_24 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_25 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_26 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_27 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_28 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_29 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_30 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_31 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_32 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_33 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_34 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_35 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_36 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_37 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_38 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_39 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_40 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_41 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_42 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_43 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_44 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_45 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_46 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_47 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_48 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_49 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_50 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_51 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_52 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_53 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_54 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_55 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_56 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_57 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_58 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_59 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_60 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_61 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_62 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_63 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_64 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_65 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_66 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_67 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_68 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_69 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_70 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_71 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_72 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_73 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_74 = { set_character_flag = eby_blhx3_flag }
+EBY_blhx3_75 = { set_character_flag = eby_blhx3_flag }
+
+recruit_character = EBY_wlhx_1
+recruit_character = EBY_wlhx_2
+recruit_character = EBY_wlhx_3
+recruit_character = EBY_wlhx_4
+recruit_character = EBY_wlhx_5
+recruit_character = EBY_wlhx_6
+recruit_character = EBY_wlhx_7
+recruit_character = EBY_wlhx_8
+recruit_character = EBY_wlhx_9
+recruit_character = EBY_wlhx_10
+recruit_character = EBY_wlhx_11
+recruit_character = EBY_wlhx_12
+recruit_character = EBY_wlhx_13
+recruit_character = EBY_wlhx_14
+recruit_character = EBY_wlhx_15
+recruit_character = EBY_wlhx_16
+recruit_character = EBY_wlhx_17
+recruit_character = EBY_wlhx_18
+recruit_character = EBY_wlhx_19
+recruit_character = EBY_wlhx_20
+recruit_character = EBY_wlhx_21
+recruit_character = EBY_wlhx_22
+recruit_character = EBY_wlhx_23
+recruit_character = EBY_wlhx_24
+recruit_character = EBY_wlhx_25
+recruit_character = EBY_wlhx_26
+recruit_character = EBY_wlhx_27
+recruit_character = EBY_wlhx_28
+recruit_character = EBY_wlhx_29
+recruit_character = EBY_wlhx_30
+
+EBY_wlhx_1 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_2 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_3 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_4 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_5 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_6 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_7 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_8 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_9 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_10 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_11 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_12 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_13 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_14 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_15 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_16 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_17 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_18 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_19 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_20 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_21 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_22 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_23 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_24 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_25 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_26 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_27 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_28 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_29 = { set_character_flag = eby_wlhx_flag }
+EBY_wlhx_30 = { set_character_flag = eby_wlhx_flag }
+
+recruit_character = EBY_blhxhj_1
+recruit_character = EBY_blhxhj_2
+recruit_character = EBY_blhxhj_3
+recruit_character = EBY_blhxhj_4
+recruit_character = EBY_blhxhj_5
+recruit_character = EBY_blhxhj_6
+recruit_character = EBY_blhxhj_7
+recruit_character = EBY_blhxhj_8
+recruit_character = EBY_blhxhj_9
+recruit_character = EBY_blhxhj_10
+recruit_character = EBY_blhxhj_11
+recruit_character = EBY_blhxhj_12
+recruit_character = EBY_blhxhj_13
+recruit_character = EBY_blhxhj_14
+recruit_character = EBY_blhxhj_15
+recruit_character = EBY_blhxhj_16
+recruit_character = EBY_blhxhj_17
+recruit_character = EBY_blhxhj_18
+recruit_character = EBY_blhxhj_19
+recruit_character = EBY_blhxhj_20
+recruit_character = EBY_blhxhj_21
+recruit_character = EBY_blhxhj_22
+recruit_character = EBY_blhxhj_23
+recruit_character = EBY_blhxhj_24
+recruit_character = EBY_blhxhj_25
+recruit_character = EBY_blhxhj_26
+recruit_character = EBY_blhxhj_27
+recruit_character = EBY_blhxhj_28
+recruit_character = EBY_blhxhj_29
+recruit_character = EBY_blhxhj_30
+
+EBY_blhxhj_1 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_2 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_3 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_4 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_5 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_6 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_7 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_8 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_9 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_10 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_11 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_12 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_13 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_14 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_15 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_16 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_17 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_18 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_19 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_20 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_21 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_22 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_23 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_24 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_25 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_26 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_27 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_28 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_29 = { set_character_flag = eby_blhxhj_flag }
+EBY_blhxhj_30 = { set_character_flag = eby_blhxhj_flag }
+
+recruit_character = EBY_mygwzd_1
+recruit_character = EBY_mygwzd_2
+recruit_character = EBY_mygwzd_3
+recruit_character = EBY_mygwzd_4
+recruit_character = EBY_mygwzd_5
+recruit_character = EBY_mygwzd_6
+recruit_character = EBY_mygwzd_7
+recruit_character = EBY_mygwzd_8
+recruit_character = EBY_mygwzd_9
+recruit_character = EBY_mygwzd_10
+recruit_character = EBY_mygwzd_11
+recruit_character = EBY_mygwzd_12
+
+EBY_mygwzd_1 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_2 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_3 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_4 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_5 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_6 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_7 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_8 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_9 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_10 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_11 = { set_character_flag = eby_mygwzd_flag }
+EBY_mygwzd_12 = { set_character_flag = eby_mygwzd_flag }
+
+recruit_character = EBY_slns_1
+recruit_character = EBY_slns_2
+recruit_character = EBY_slns_3
+recruit_character = EBY_slns_4
+recruit_character = EBY_slns_5
+recruit_character = EBY_slns_6
+recruit_character = EBY_slns_7
+recruit_character = EBY_slns_8
+recruit_character = EBY_slns_9
+recruit_character = EBY_slns_10
+recruit_character = EBY_slns_11
+recruit_character = EBY_slns_12
+recruit_character = EBY_slns_13
+recruit_character = EBY_slns_14
+recruit_character = EBY_slns_15
+recruit_character = EBY_slns_16
+recruit_character = EBY_slns_17
+recruit_character = EBY_slns_18
+recruit_character = EBY_slns_19
+recruit_character = EBY_slns_20
+recruit_character = EBY_slns_21
+recruit_character = EBY_slns_22
+recruit_character = EBY_slns_23
+recruit_character = EBY_slns_24
+recruit_character = EBY_slns_25
+recruit_character = EBY_slns_26
+recruit_character = EBY_slns_27
+recruit_character = EBY_slns_28
+recruit_character = EBY_slns_29
+recruit_character = EBY_slns_30
+recruit_character = EBY_slns_31
+recruit_character = EBY_slns_32
+recruit_character = EBY_slns_33
+recruit_character = EBY_slns_34
+recruit_character = EBY_slns_35
+recruit_character = EBY_slns_36
+recruit_character = EBY_slns_37
+recruit_character = EBY_slns_38
+recruit_character = EBY_slns_39
+recruit_character = EBY_slns_40
+recruit_character = EBY_slns_41
+recruit_character = EBY_slns_42
+recruit_character = EBY_slns_43
+recruit_character = EBY_slns_44
+recruit_character = EBY_slns_45
+recruit_character = EBY_slns_46
+recruit_character = EBY_slns_47
+recruit_character = EBY_slns_48
+recruit_character = EBY_slns_49
+recruit_character = EBY_slns_50
+recruit_character = EBY_slns_51
+recruit_character = EBY_slns_52
+recruit_character = EBY_slns_53
+recruit_character = EBY_slns_54
+recruit_character = EBY_slns_55
+recruit_character = EBY_slns_56
+recruit_character = EBY_slns_57
+recruit_character = EBY_slns_58
+recruit_character = EBY_slns_59
+recruit_character = EBY_slns_60
+recruit_character = EBY_slns_61
+recruit_character = EBY_slns_62
+recruit_character = EBY_slns_63
+recruit_character = EBY_slns_64
+recruit_character = EBY_slns_65
+recruit_character = EBY_slns_66
+recruit_character = EBY_slns_67
+recruit_character = EBY_slns_68
+recruit_character = EBY_slns_69
+recruit_character = EBY_slns_70
+
+EBY_slns_1 = { set_character_flag = eby_slns_flag }
+EBY_slns_2 = { set_character_flag = eby_slns_flag }
+EBY_slns_3 = { set_character_flag = eby_slns_flag }
+EBY_slns_4 = { set_character_flag = eby_slns_flag }
+EBY_slns_5 = { set_character_flag = eby_slns_flag }
+EBY_slns_6 = { set_character_flag = eby_slns_flag }
+EBY_slns_7 = { set_character_flag = eby_slns_flag }
+EBY_slns_8 = { set_character_flag = eby_slns_flag }
+EBY_slns_9 = { set_character_flag = eby_slns_flag }
+EBY_slns_10 = { set_character_flag = eby_slns_flag }
+EBY_slns_11 = { set_character_flag = eby_slns_flag }
+EBY_slns_12 = { set_character_flag = eby_slns_flag }
+EBY_slns_13 = { set_character_flag = eby_slns_flag }
+EBY_slns_14 = { set_character_flag = eby_slns_flag }
+EBY_slns_15 = { set_character_flag = eby_slns_flag }
+EBY_slns_16 = { set_character_flag = eby_slns_flag }
+EBY_slns_17 = { set_character_flag = eby_slns_flag }
+EBY_slns_18 = { set_character_flag = eby_slns_flag }
+EBY_slns_19 = { set_character_flag = eby_slns_flag }
+EBY_slns_20 = { set_character_flag = eby_slns_flag }
+EBY_slns_21 = { set_character_flag = eby_slns_flag }
+EBY_slns_22 = { set_character_flag = eby_slns_flag }
+EBY_slns_23 = { set_character_flag = eby_slns_flag }
+EBY_slns_24 = { set_character_flag = eby_slns_flag }
+EBY_slns_25 = { set_character_flag = eby_slns_flag }
+EBY_slns_26 = { set_character_flag = eby_slns_flag }
+EBY_slns_27 = { set_character_flag = eby_slns_flag }
+EBY_slns_28 = { set_character_flag = eby_slns_flag }
+EBY_slns_29 = { set_character_flag = eby_slns_flag }
+EBY_slns_30 = { set_character_flag = eby_slns_flag }
+EBY_slns_31 = { set_character_flag = eby_slns_flag }
+EBY_slns_32 = { set_character_flag = eby_slns_flag }
+EBY_slns_33 = { set_character_flag = eby_slns_flag }
+EBY_slns_34 = { set_character_flag = eby_slns_flag }
+EBY_slns_35 = { set_character_flag = eby_slns_flag }
+EBY_slns_36 = { set_character_flag = eby_slns_flag }
+EBY_slns_37 = { set_character_flag = eby_slns_flag }
+EBY_slns_38 = { set_character_flag = eby_slns_flag }
+EBY_slns_39 = { set_character_flag = eby_slns_flag }
+EBY_slns_40 = { set_character_flag = eby_slns_flag }
+EBY_slns_41 = { set_character_flag = eby_slns_flag }
+EBY_slns_42 = { set_character_flag = eby_slns_flag }
+EBY_slns_43 = { set_character_flag = eby_slns_flag }
+EBY_slns_44 = { set_character_flag = eby_slns_flag }
+EBY_slns_45 = { set_character_flag = eby_slns_flag }
+EBY_slns_46 = { set_character_flag = eby_slns_flag }
+EBY_slns_47 = { set_character_flag = eby_slns_flag }
+EBY_slns_48 = { set_character_flag = eby_slns_flag }
+EBY_slns_49 = { set_character_flag = eby_slns_flag }
+EBY_slns_50 = { set_character_flag = eby_slns_flag }
+EBY_slns_51 = { set_character_flag = eby_slns_flag }
+EBY_slns_52 = { set_character_flag = eby_slns_flag }
+EBY_slns_53 = { set_character_flag = eby_slns_flag }
+EBY_slns_54 = { set_character_flag = eby_slns_flag }
+EBY_slns_55 = { set_character_flag = eby_slns_flag }
+EBY_slns_56 = { set_character_flag = eby_slns_flag }
+EBY_slns_57 = { set_character_flag = eby_slns_flag }
+EBY_slns_58 = { set_character_flag = eby_slns_flag }
+EBY_slns_59 = { set_character_flag = eby_slns_flag }
+EBY_slns_60 = { set_character_flag = eby_slns_flag }
+EBY_slns_61 = { set_character_flag = eby_slns_flag }
+EBY_slns_62 = { set_character_flag = eby_slns_flag }
+EBY_slns_63 = { set_character_flag = eby_slns_flag }
+EBY_slns_64 = { set_character_flag = eby_slns_flag }
+EBY_slns_65 = { set_character_flag = eby_slns_flag }
+EBY_slns_66 = { set_character_flag = eby_slns_flag }
+EBY_slns_67 = { set_character_flag = eby_slns_flag }
+EBY_slns_68 = { set_character_flag = eby_slns_flag }
+EBY_slns_69 = { set_character_flag = eby_slns_flag }
+EBY_slns_70 = { set_character_flag = eby_slns_flag }
+
+recruit_character = EBY_mcjl_1
+recruit_character = EBY_mcjl_2
+recruit_character = EBY_mcjl_3
+recruit_character = EBY_mcjl_4
+recruit_character = EBY_mcjl_5
+recruit_character = EBY_mcjl_6
+recruit_character = EBY_mcjl_7
+recruit_character = EBY_mcjl_8
+recruit_character = EBY_mcjl_9
+recruit_character = EBY_mcjl_10
+recruit_character = EBY_mcjl_11
+recruit_character = EBY_mcjl_12
+recruit_character = EBY_mcjl_13
+recruit_character = EBY_mcjl_14
+recruit_character = EBY_mcjl_15
+recruit_character = EBY_mcjl_16
+recruit_character = EBY_mcjl_17
+recruit_character = EBY_mcjl_18
+recruit_character = EBY_mcjl_19
+recruit_character = EBY_mcjl_20
+recruit_character = EBY_mcjl_21
+recruit_character = EBY_mcjl_22
+
+EBY_mcjl_1 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_2 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_3 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_4 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_5 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_6 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_7 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_8 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_9 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_10 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_11 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_12 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_13 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_14 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_15 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_16 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_17 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_18 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_19 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_20 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_21 = { set_character_flag = eby_mcjl_flag }
+EBY_mcjl_22 = { set_character_flag = eby_mcjl_flag }
+
+recruit_character = EBY_cbjq_1
+recruit_character = EBY_cbjq_2
+recruit_character = EBY_cbjq_3
+recruit_character = EBY_cbjq_4
+recruit_character = EBY_cbjq_5
+recruit_character = EBY_cbjq_6
+recruit_character = EBY_cbjq_7
+recruit_character = EBY_cbjq_8
+recruit_character = EBY_cbjq_9
+recruit_character = EBY_cbjq_10
+recruit_character = EBY_cbjq_11
+recruit_character = EBY_cbjq_12
+recruit_character = EBY_cbjq_13
+recruit_character = EBY_cbjq_14
+recruit_character = EBY_cbjq_15
+recruit_character = EBY_cbjq_16
+recruit_character = EBY_cbjq_17
+recruit_character = EBY_cbjq_18
+recruit_character = EBY_cbjq_19
+
+EBY_cbjq_1 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_2 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_3 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_4 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_5 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_6 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_7 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_8 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_9 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_10 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_11 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_12 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_13 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_14 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_15 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_16 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_17 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_18 = { set_character_flag = eby_cbjq_flag }
+EBY_cbjq_19 = { set_character_flag = eby_cbjq_flag }
+
+recruit_character = EBY_dqss_1
+recruit_character = EBY_dqss_2
+recruit_character = EBY_dqss_3
+recruit_character = EBY_dqss_4
+recruit_character = EBY_dqss_5
+recruit_character = EBY_dqss_6
+recruit_character = EBY_dqss_7
+recruit_character = EBY_dqss_8
+recruit_character = EBY_dqss_9
+recruit_character = EBY_dqss_10
+recruit_character = EBY_dqss_11
+recruit_character = EBY_dqss_12
+recruit_character = EBY_dqss_13
+recruit_character = EBY_dqss_14
+recruit_character = EBY_dqss_15
+recruit_character = EBY_dqss_16
+recruit_character = EBY_dqss_17
+recruit_character = EBY_dqss_18
+recruit_character = EBY_dqss_19
+recruit_character = EBY_dqss_20
+recruit_character = EBY_dqss_21
+recruit_character = EBY_dqss_22
+recruit_character = EBY_dqss_23
+recruit_character = EBY_dqss_24
+recruit_character = EBY_dqss_25
+recruit_character = EBY_dqss_26
+recruit_character = EBY_dqss_27
+recruit_character = EBY_dqss_28
+recruit_character = EBY_dqss_29
+recruit_character = EBY_dqss_30
+recruit_character = EBY_dqss_31
+recruit_character = EBY_dqss_32
+recruit_character = EBY_dqss_33
+recruit_character = EBY_dqss_34
+recruit_character = EBY_dqss_35
+recruit_character = EBY_dqss_36
+recruit_character = EBY_dqss_37
+recruit_character = EBY_dqss_38
+recruit_character = EBY_dqss_39
+recruit_character = EBY_dqss_40
+recruit_character = EBY_dqss_41
+recruit_character = EBY_dqss_42
+recruit_character = EBY_dqss_43
+recruit_character = EBY_dqss_44
+recruit_character = EBY_dqss_45
+recruit_character = EBY_dqss_46
+recruit_character = EBY_dqss_47
+recruit_character = EBY_dqss_48
+recruit_character = EBY_dqss_49
+recruit_character = EBY_dqss_50
+recruit_character = EBY_dqss_51
+recruit_character = EBY_dqss_52
+recruit_character = EBY_dqss_53
+recruit_character = EBY_dqss_54
+
+EBY_dqss_1 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_2 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_3 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_4 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_5 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_6 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_7 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_8 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_9 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_10 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_11 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_12 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_13 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_14 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_15 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_16 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_17 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_18 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_19 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_20 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_21 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_22 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_23 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_24 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_25 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_26 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_27 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_28 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_29 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_30 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_31 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_32 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_33 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_34 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_35 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_36 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_37 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_38 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_39 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_40 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_41 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_42 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_43 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_44 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_45 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_46 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_47 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_48 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_49 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_50 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_51 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_52 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_53 = { set_character_flag = eby_dqss_flag }
+EBY_dqss_54 = { set_character_flag = eby_dqss_flag }
+
+recruit_character = EBY_emgx_1
+recruit_character = EBY_emgx_2
+recruit_character = EBY_emgx_3
+recruit_character = EBY_emgx_4
+recruit_character = EBY_emgx_5
+recruit_character = EBY_emgx_6
+recruit_character = EBY_emgx_7
+recruit_character = EBY_emgx_8
+recruit_character = EBY_emgx_9
+recruit_character = EBY_emgx_10
+recruit_character = EBY_emgx_11
+recruit_character = EBY_emgx_12
+recruit_character = EBY_emgx_13
+recruit_character = EBY_emgx_14
+recruit_character = EBY_emgx_15
+recruit_character = EBY_emgx_16
+recruit_character = EBY_emgx_17
+recruit_character = EBY_emgx_18
+recruit_character = EBY_emgx_19
+recruit_character = EBY_emgx_20
+
+EBY_emgx_1 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_2 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_3 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_4 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_5 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_6 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_7 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_8 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_9 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_10 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_11 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_12 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_13 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_14 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_15 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_16 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_17 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_18 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_19 = { set_character_flag = eby_emgx_flag }
+EBY_emgx_20 = { set_character_flag = eby_emgx_flag }
+
+recruit_character = EBY_shsjl_1
+recruit_character = EBY_shsjl_2
+recruit_character = EBY_shsjl_3
+recruit_character = EBY_shsjl_4
+recruit_character = EBY_shsjl_5
+recruit_character = EBY_shsjl_6
+recruit_character = EBY_shsjl_7
+recruit_character = EBY_shsjl_8
+recruit_character = EBY_shsjl_9
+recruit_character = EBY_shsjl_10
+recruit_character = EBY_shsjl_11
+recruit_character = EBY_shsjl_12
+recruit_character = EBY_shsjl_13
+recruit_character = EBY_shsjl_14
+recruit_character = EBY_shsjl_15
+recruit_character = EBY_shsjl_16
+recruit_character = EBY_shsjl_17
+recruit_character = EBY_shsjl_18
+recruit_character = EBY_shsjl_19
+recruit_character = EBY_shsjl_20
+recruit_character = EBY_shsjl_21
+recruit_character = EBY_shsjl_22
+recruit_character = EBY_shsjl_23
+recruit_character = EBY_shsjl_24
+recruit_character = EBY_shsjl_25
+recruit_character = EBY_shsjl_26
+
+EBY_shsjl_1 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_2 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_3 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_4 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_5 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_6 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_7 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_8 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_9 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_10 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_11 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_12 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_13 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_14 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_15 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_16 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_17 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_18 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_19 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_20 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_21 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_22 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_23 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_24 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_25 = { set_character_flag = eby_shsjl_flag }
+EBY_shsjl_26 = { set_character_flag = eby_shsjl_flag }
+
+recruit_character = EBY_cbwn_1
+recruit_character = EBY_cbwn_2
+recruit_character = EBY_cbwn_3
+recruit_character = EBY_cbwn_4
+recruit_character = EBY_cbwn_5
+recruit_character = EBY_cbwn_6
+recruit_character = EBY_cbwn_7
+recruit_character = EBY_cbwn_8
+recruit_character = EBY_cbwn_9
+recruit_character = EBY_cbwn_10
+recruit_character = EBY_cbwn_11
+recruit_character = EBY_cbwn_12
+recruit_character = EBY_cbwn_13
+recruit_character = EBY_cbwn_14
+recruit_character = EBY_cbwn_15
+recruit_character = EBY_cbwn_16
+recruit_character = EBY_cbwn_17
+recruit_character = EBY_cbwn_18
+recruit_character = EBY_cbwn_19
+recruit_character = EBY_cbwn_20
+
+EBY_cbwn_1 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_2 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_3 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_4 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_5 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_6 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_7 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_8 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_9 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_10 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_11 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_12 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_13 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_14 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_15 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_16 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_17 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_18 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_19 = { set_character_flag = eby_cbwn_flag }
+EBY_cbwn_20 = { set_character_flag = eby_cbwn_flag }
+
+recruit_character = EBY_sjzl_1
+recruit_character = EBY_sjzl_2
+recruit_character = EBY_sjzl_3
+recruit_character = EBY_sjzl_4
+recruit_character = EBY_sjzl_5
+recruit_character = EBY_sjzl_6
+recruit_character = EBY_sjzl_7
+recruit_character = EBY_sjzl_8
+recruit_character = EBY_sjzl_9
+recruit_character = EBY_sjzl_10
+recruit_character = EBY_sjzl_11
+recruit_character = EBY_sjzl_12
+recruit_character = EBY_sjzl_13
+recruit_character = EBY_sjzl_14
+
+EBY_sjzl_1 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_2 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_3 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_4 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_5 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_6 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_7 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_8 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_9 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_10 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_11 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_12 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_13 = { set_character_flag = eby_sjzl_flag }
+EBY_sjzl_14 = { set_character_flag = eby_sjzl_flag }
+
+recruit_character = EBY_yqdq_1
+recruit_character = EBY_yqdq_2
+recruit_character = EBY_yqdq_3
+recruit_character = EBY_yqdq_4
+recruit_character = EBY_yqdq_5
+recruit_character = EBY_yqdq_6
+recruit_character = EBY_yqdq_7
+recruit_character = EBY_yqdq_8
+recruit_character = EBY_yqdq_9
+recruit_character = EBY_yqdq_10
+recruit_character = EBY_yqdq_11
+recruit_character = EBY_yqdq_12
+recruit_character = EBY_yqdq_13
+recruit_character = EBY_yqdq_14
+
+EBY_yqdq_1 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_2 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_3 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_4 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_5 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_6 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_7 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_8 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_9 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_10 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_11 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_12 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_13 = { set_character_flag = eby_yqdq_flag }
+EBY_yqdq_14 = { set_character_flag = eby_yqdq_flag }
+
+recruit_character = EBY_jczx_1
+recruit_character = EBY_jczx_2
+recruit_character = EBY_jczx_3
+recruit_character = EBY_jczx_4
+recruit_character = EBY_jczx_5
+recruit_character = EBY_jczx_6
+recruit_character = EBY_jczx_7
+recruit_character = EBY_jczx_8
+recruit_character = EBY_jczx_9
+recruit_character = EBY_jczx_10
+recruit_character = EBY_jczx_11
+recruit_character = EBY_jczx_12
+recruit_character = EBY_jczx_13
+recruit_character = EBY_jczx_14
+recruit_character = EBY_jczx_15
+recruit_character = EBY_jczx_16
+recruit_character = EBY_jczx_17
+recruit_character = EBY_jczx_18
+recruit_character = EBY_jczx_19
+recruit_character = EBY_jczx_20
+recruit_character = EBY_jczx_21
+recruit_character = EBY_jczx_22
+recruit_character = EBY_jczx_23
+recruit_character = EBY_jczx_24
+recruit_character = EBY_jczx_25
+recruit_character = EBY_jczx_26
+recruit_character = EBY_jczx_27
+recruit_character = EBY_jczx_28
+recruit_character = EBY_jczx_29
+recruit_character = EBY_jczx_30
+recruit_character = EBY_jczx_31
+recruit_character = EBY_jczx_32
+recruit_character = EBY_jczx_33
+recruit_character = EBY_jczx_34
+recruit_character = EBY_jczx_35
+recruit_character = EBY_jczx_36
+recruit_character = EBY_jczx_37
+recruit_character = EBY_jczx_38
+recruit_character = EBY_jczx_39
+recruit_character = EBY_jczx_40
+recruit_character = EBY_jczx_41
+recruit_character = EBY_jczx_42
+recruit_character = EBY_jczx_43
+recruit_character = EBY_jczx_44
+recruit_character = EBY_jczx_45
+recruit_character = EBY_jczx_46
+recruit_character = EBY_jczx_47
+recruit_character = EBY_jczx_48
+recruit_character = EBY_jczx_49
+recruit_character = EBY_jczx_50
+recruit_character = EBY_jczx_51
+recruit_character = EBY_jczx_52
+recruit_character = EBY_jczx_53
+recruit_character = EBY_jczx_54
+
+EBY_jczx_1 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_2 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_3 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_4 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_5 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_6 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_7 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_8 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_9 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_10 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_11 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_12 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_13 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_14 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_15 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_16 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_17 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_18 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_19 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_20 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_21 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_22 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_23 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_24 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_25 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_26 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_27 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_28 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_29 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_30 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_31 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_32 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_33 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_34 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_35 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_36 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_37 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_38 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_39 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_40 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_41 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_42 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_43 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_44 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_45 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_46 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_47 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_48 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_49 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_50 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_51 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_52 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_53 = { set_character_flag = eby_jczx_flag }
+EBY_jczx_54 = { set_character_flag = eby_jczx_flag }
+
+recruit_character = EBY_slsy_1
+recruit_character = EBY_slsy_2
+recruit_character = EBY_slsy_3
+recruit_character = EBY_slsy_4
+recruit_character = EBY_slsy_5
+recruit_character = EBY_slsy_6
+recruit_character = EBY_slsy_7
+recruit_character = EBY_slsy_8
+recruit_character = EBY_slsy_9
+recruit_character = EBY_slsy_10
+recruit_character = EBY_slsy_11
+recruit_character = EBY_slsy_12
+recruit_character = EBY_slsy_13
+recruit_character = EBY_slsy_14
+recruit_character = EBY_slsy_15
+recruit_character = EBY_slsy_16
+recruit_character = EBY_slsy_17
+recruit_character = EBY_slsy_18
+recruit_character = EBY_slsy_19
+recruit_character = EBY_slsy_20
+recruit_character = EBY_slsy_21
+recruit_character = EBY_slsy_22
+recruit_character = EBY_slsy_23
+recruit_character = EBY_slsy_24
+recruit_character = EBY_slsy_25
+recruit_character = EBY_slsy_26
+recruit_character = EBY_slsy_27
+
+EBY_slsy_1 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_2 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_3 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_4 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_5 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_6 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_7 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_8 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_9 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_10 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_11 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_12 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_13 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_14 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_15 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_16 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_17 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_18 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_19 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_20 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_21 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_22 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_23 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_24 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_25 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_26 = { set_character_flag = eby_slsy_flag }
+EBY_slsy_27 = { set_character_flag = eby_slsy_flag }
+
+recruit_character = EBY_yhdzz_1
+recruit_character = EBY_yhdzz_2
+recruit_character = EBY_yhdzz_3
+recruit_character = EBY_yhdzz_4
+recruit_character = EBY_yhdzz_5
+recruit_character = EBY_yhdzz_6
+recruit_character = EBY_yhdzz_7
+recruit_character = EBY_yhdzz_8
+recruit_character = EBY_yhdzz_9
+recruit_character = EBY_yhdzz_10
+recruit_character = EBY_yhdzz_11
+recruit_character = EBY_yhdzz_12
+recruit_character = EBY_yhdzz_13
+recruit_character = EBY_yhdzz_14
+recruit_character = EBY_yhdzz_15
+recruit_character = EBY_yhdzz_16
+recruit_character = EBY_yhdzz_17
+
+EBY_yhdzz_1 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_2 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_3 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_4 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_5 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_6 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_7 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_8 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_9 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_10 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_11 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_12 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_13 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_14 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_15 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_16 = { set_character_flag = eby_yhdzz_flag }
+EBY_yhdzz_17 = { set_character_flag = eby_yhdzz_flag }
+
+recruit_character = EBY_wlda_1
+recruit_character = EBY_wlda_2
+recruit_character = EBY_wlda_3
+recruit_character = EBY_wlda_4
+recruit_character = EBY_wlda_5
+recruit_character = EBY_wlda_6
+recruit_character = EBY_wlda_7
+recruit_character = EBY_wlda_8
+recruit_character = EBY_wlda_9
+recruit_character = EBY_wlda_10
+recruit_character = EBY_wlda_11
+recruit_character = EBY_wlda_12
+recruit_character = EBY_wlda_13
+recruit_character = EBY_wlda_14
+recruit_character = EBY_wlda_15
+recruit_character = EBY_wlda_16
+recruit_character = EBY_wlda_17
+recruit_character = EBY_wlda_18
+recruit_character = EBY_wlda_19
+recruit_character = EBY_wlda_20
+recruit_character = EBY_wlda_21
+recruit_character = EBY_wlda_22
+recruit_character = EBY_wlda_23
+recruit_character = EBY_wlda_24
+recruit_character = EBY_wlda_25
+recruit_character = EBY_wlda_26
+recruit_character = EBY_wlda_27
+recruit_character = EBY_wlda_28
+recruit_character = EBY_wlda_29
+recruit_character = EBY_wlda_30
+recruit_character = EBY_wlda_31
+recruit_character = EBY_wlda_32
+recruit_character = EBY_wlda_33
+recruit_character = EBY_wlda_34
+recruit_character = EBY_wlda_35
+recruit_character = EBY_wlda_36
+recruit_character = EBY_wlda_37
+recruit_character = EBY_wlda_38
+recruit_character = EBY_wlda_39
+recruit_character = EBY_wlda_40
+recruit_character = EBY_wlda_41
+recruit_character = EBY_wlda_42
+recruit_character = EBY_wlda_43
+recruit_character = EBY_wlda_44
+
+EBY_wlda_1 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_2 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_3 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_4 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_5 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_6 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_7 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_8 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_9 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_10 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_11 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_12 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_13 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_14 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_15 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_16 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_17 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_18 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_19 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_20 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_21 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_22 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_23 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_24 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_25 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_26 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_27 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_28 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_29 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_30 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_31 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_32 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_33 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_34 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_35 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_36 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_37 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_38 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_39 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_40 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_41 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_42 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_43 = { set_character_flag = eby_wlda_flag }
+EBY_wlda_44 = { set_character_flag = eby_wlda_flag }
+
+recruit_character = EBY_ljws_1
+recruit_character = EBY_ljws_2
+recruit_character = EBY_ljws_3
+recruit_character = EBY_ljws_4
+recruit_character = EBY_ljws_5
+recruit_character = EBY_ljws_6
+recruit_character = EBY_ljws_7
+recruit_character = EBY_ljws_8
+recruit_character = EBY_ljws_9
+recruit_character = EBY_ljws_10
+recruit_character = EBY_ljws_11
+recruit_character = EBY_ljws_12
+recruit_character = EBY_ljws_13
+recruit_character = EBY_ljws_14
+recruit_character = EBY_ljws_15
+recruit_character = EBY_ljws_16
+recruit_character = EBY_ljws_17
+recruit_character = EBY_ljws_18
+recruit_character = EBY_ljws_19
+recruit_character = EBY_ljws_20
+recruit_character = EBY_ljws_21
+recruit_character = EBY_ljws_22
+recruit_character = EBY_ljws_23
+recruit_character = EBY_ljws_24
+recruit_character = EBY_ljws_25
+recruit_character = EBY_ljws_26
+recruit_character = EBY_ljws_27
+recruit_character = EBY_ljws_28
+recruit_character = EBY_ljws_29
+recruit_character = EBY_ljws_30
+recruit_character = EBY_ljws_31
+recruit_character = EBY_ljws_32
+
+EBY_ljws_1 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_2 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_3 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_4 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_5 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_6 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_7 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_8 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_9 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_10 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_11 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_12 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_13 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_14 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_15 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_16 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_17 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_18 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_19 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_20 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_21 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_22 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_23 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_24 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_25 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_26 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_27 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_28 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_29 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_30 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_31 = { set_character_flag = eby_ljws_flag }
+EBY_ljws_32 = { set_character_flag = eby_ljws_flag }
+
+recruit_character = EBY_snzq_1
+recruit_character = EBY_snzq_2
+recruit_character = EBY_snzq_3
+recruit_character = EBY_snzq_4
+recruit_character = EBY_snzq_5
+recruit_character = EBY_snzq_6
+recruit_character = EBY_snzq_7
+recruit_character = EBY_snzq_8
+recruit_character = EBY_snzq_9
+
+EBY_snzq_1 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_2 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_3 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_4 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_5 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_6 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_7 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_8 = { set_character_flag = eby_snzq_flag }
+EBY_snzq_9 = { set_character_flag = eby_snzq_flag }
+
+recruit_character = EBY_snqx_1
+recruit_character = EBY_snqx_2
+recruit_character = EBY_snqx_3
+recruit_character = EBY_snqx_4
+recruit_character = EBY_snqx_5
+recruit_character = EBY_snqx_6
+recruit_character = EBY_snqx_7
+recruit_character = EBY_snqx_8
+recruit_character = EBY_snqx_9
+recruit_character = EBY_snqx_10
+recruit_character = EBY_snqx_11
+recruit_character = EBY_snqx_12
+recruit_character = EBY_snqx_13
+recruit_character = EBY_snqx_14
+recruit_character = EBY_snqx_15
+recruit_character = EBY_snqx_16
+recruit_character = EBY_snqx_17
+recruit_character = EBY_snqx_18
+recruit_character = EBY_snqx_19
+recruit_character = EBY_snqx_20
+recruit_character = EBY_snqx_21
+recruit_character = EBY_snqx_22
+recruit_character = EBY_snqx_23
+recruit_character = EBY_snqx_24
+recruit_character = EBY_snqx_25
+recruit_character = EBY_snqx_26
+recruit_character = EBY_snqx_27
+recruit_character = EBY_snqx_28
+recruit_character = EBY_snqx_29
+recruit_character = EBY_snqx_30
+recruit_character = EBY_snqx_31
+recruit_character = EBY_snqx_32
+recruit_character = EBY_snqx_33
+recruit_character = EBY_snqx_34
+recruit_character = EBY_snqx_35
+recruit_character = EBY_snqx_36
+recruit_character = EBY_snqx_37
+recruit_character = EBY_snqx_38
+recruit_character = EBY_snqx_39
+recruit_character = EBY_snqx_40
+recruit_character = EBY_snqx_41
+recruit_character = EBY_snqx_42
+recruit_character = EBY_snqx_43
+recruit_character = EBY_snqx_44
+recruit_character = EBY_snqx_45
+recruit_character = EBY_snqx_46
+recruit_character = EBY_snqx_47
+recruit_character = EBY_snqx_48
+recruit_character = EBY_snqx_49
+recruit_character = EBY_snqx_50
+recruit_character = EBY_snqx_51
+recruit_character = EBY_snqx_52
+recruit_character = EBY_snqx_53
+recruit_character = EBY_snqx_54
+recruit_character = EBY_snqx_55
+recruit_character = EBY_snqx_56
+recruit_character = EBY_snqx_57
+recruit_character = EBY_snqx_58
+recruit_character = EBY_snqx_59
+recruit_character = EBY_snqx_60
+recruit_character = EBY_snqx_61
+recruit_character = EBY_snqx_62
+recruit_character = EBY_snqx_63
+recruit_character = EBY_snqx_64
+recruit_character = EBY_snqx_65
+recruit_character = EBY_snqx_66
+recruit_character = EBY_snqx_67
+recruit_character = EBY_snqx_68
+recruit_character = EBY_snqx_69
+recruit_character = EBY_snqx_70
+recruit_character = EBY_snqx_71
+recruit_character = EBY_snqx_72
+recruit_character = EBY_snqx_73
+recruit_character = EBY_snqx_74
+recruit_character = EBY_snqx_75
+recruit_character = EBY_snqx_76
+recruit_character = EBY_snqx_77
+recruit_character = EBY_snqx_78
+recruit_character = EBY_snqx_79
+recruit_character = EBY_snqx_80
+recruit_character = EBY_snqx_81
+recruit_character = EBY_snqx_82
+recruit_character = EBY_snqx_83
+recruit_character = EBY_snqx_84
+recruit_character = EBY_snqx_85
+recruit_character = EBY_snqx_86
+recruit_character = EBY_snqx_87
+recruit_character = EBY_snqx_88
+recruit_character = EBY_snqx_89
+recruit_character = EBY_snqx_90
+recruit_character = EBY_snqx_91
+recruit_character = EBY_snqx_92
+recruit_character = EBY_snqx_93
+recruit_character = EBY_snqx_94
+recruit_character = EBY_snqx_95
+recruit_character = EBY_snqx_96
+recruit_character = EBY_snqx_97
+recruit_character = EBY_snqx_98
+
+EBY_snqx_1 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_2 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_3 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_4 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_5 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_6 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_7 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_8 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_9 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_10 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_11 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_12 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_13 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_14 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_15 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_16 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_17 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_18 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_19 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_20 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_21 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_22 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_23 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_24 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_25 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_26 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_27 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_28 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_29 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_30 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_31 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_32 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_33 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_34 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_35 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_36 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_37 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_38 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_39 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_40 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_41 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_42 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_43 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_44 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_45 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_46 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_47 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_48 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_49 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_50 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_51 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_52 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_53 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_54 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_55 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_56 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_57 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_58 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_59 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_60 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_61 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_62 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_63 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_64 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_65 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_66 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_67 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_68 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_69 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_70 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_71 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_72 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_73 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_74 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_75 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_76 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_77 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_78 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_79 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_80 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_81 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_82 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_83 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_84 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_85 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_86 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_87 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_88 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_89 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_90 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_91 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_92 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_93 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_94 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_95 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_96 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_97 = { set_character_flag = eby_snqx_flag }
+EBY_snqx_98 = { set_character_flag = eby_snqx_flag }
+
+recruit_character = EBY_srh_1
+recruit_character = EBY_srh_2
+recruit_character = EBY_srh_3
+recruit_character = EBY_srh_4
+recruit_character = EBY_srh_5
+recruit_character = EBY_srh_6
+recruit_character = EBY_srh_7
+recruit_character = EBY_srh_8
+recruit_character = EBY_srh_9
+recruit_character = EBY_srh_10
+recruit_character = EBY_srh_11
+recruit_character = EBY_srh_12
+recruit_character = EBY_srh_13
+recruit_character = EBY_srh_14
+recruit_character = EBY_srh_15
+recruit_character = EBY_srh_16
+recruit_character = EBY_srh_17
+recruit_character = EBY_srh_18
+recruit_character = EBY_srh_19
+recruit_character = EBY_srh_20
+
+EBY_srh_1 = { set_character_flag = eby_srh_flag }
+EBY_srh_2 = { set_character_flag = eby_srh_flag }
+EBY_srh_3 = { set_character_flag = eby_srh_flag }
+EBY_srh_4 = { set_character_flag = eby_srh_flag }
+EBY_srh_5 = { set_character_flag = eby_srh_flag }
+EBY_srh_6 = { set_character_flag = eby_srh_flag }
+EBY_srh_7 = { set_character_flag = eby_srh_flag }
+EBY_srh_8 = { set_character_flag = eby_srh_flag }
+EBY_srh_9 = { set_character_flag = eby_srh_flag }
+EBY_srh_10 = { set_character_flag = eby_srh_flag }
+EBY_srh_11 = { set_character_flag = eby_srh_flag }
+EBY_srh_12 = { set_character_flag = eby_srh_flag }
+EBY_srh_13 = { set_character_flag = eby_srh_flag }
+EBY_srh_14 = { set_character_flag = eby_srh_flag }
+EBY_srh_15 = { set_character_flag = eby_srh_flag }
+EBY_srh_16 = { set_character_flag = eby_srh_flag }
+EBY_srh_17 = { set_character_flag = eby_srh_flag }
+EBY_srh_18 = { set_character_flag = eby_srh_flag }
+EBY_srh_19 = { set_character_flag = eby_srh_flag }
+EBY_srh_20 = { set_character_flag = eby_srh_flag }
+
+recruit_character = EBY_zsca2_1
+recruit_character = EBY_zsca2_2
+recruit_character = EBY_zsca2_3
+recruit_character = EBY_zsca2_4
+recruit_character = EBY_zsca2_5
+recruit_character = EBY_zsca2_6
+recruit_character = EBY_zsca2_7
+recruit_character = EBY_zsca2_8
+recruit_character = EBY_zsca2_9
+recruit_character = EBY_zsca2_10
+recruit_character = EBY_zsca2_11
+recruit_character = EBY_zsca2_12
+recruit_character = EBY_zsca2_13
+recruit_character = EBY_zsca2_14
+recruit_character = EBY_zsca2_15
+recruit_character = EBY_zsca2_16
+recruit_character = EBY_zsca2_17
+recruit_character = EBY_zsca2_18
+recruit_character = EBY_zsca2_19
+recruit_character = EBY_zsca2_20
+recruit_character = EBY_zsca2_21
+recruit_character = EBY_zsca2_22
+recruit_character = EBY_zsca2_23
+recruit_character = EBY_zsca2_24
+recruit_character = EBY_zsca2_25
+recruit_character = EBY_zsca2_26
+recruit_character = EBY_zsca2_27
+recruit_character = EBY_zsca2_28
+recruit_character = EBY_zsca2_29
+recruit_character = EBY_zsca2_30
+recruit_character = EBY_zsca2_31
+recruit_character = EBY_zsca2_32
+recruit_character = EBY_zsca2_33
+recruit_character = EBY_zsca2_34
+recruit_character = EBY_zsca2_35
+recruit_character = EBY_zsca2_36
+recruit_character = EBY_zsca2_37
+recruit_character = EBY_zsca2_38
+recruit_character = EBY_zsca2_39
+recruit_character = EBY_zsca2_40
+recruit_character = EBY_zsca2_41
+recruit_character = EBY_zsca2_42
+
+EBY_zsca2_1 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_2 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_3 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_4 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_5 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_6 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_7 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_8 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_9 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_10 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_11 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_12 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_13 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_14 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_15 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_16 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_17 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_18 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_19 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_20 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_21 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_22 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_23 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_24 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_25 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_26 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_27 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_28 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_29 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_30 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_31 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_32 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_33 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_34 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_35 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_36 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_37 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_38 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_39 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_40 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_41 = { set_character_flag = eby_zsca2_flag }
+EBY_zsca2_42 = { set_character_flag = eby_zsca2_flag }
+
+#set_politics = {
+#	ruling_party = neutrality 
+#	last_election = "1932.9.18"
+#	election_frequency = 48
+#	elections_allowed = no
+#}
+
+#set_popularities = {
+#	neutrality = 100
+#}

@@ -1,0 +1,106 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_TG_EC_1"
+		texturefile = "gfx/leaders/TG/TG_EC_1.dds"
+	}
+	
+    SpriteType = {
+		name = "GFX_TG_EC_2"
+		texturefile = "gfx/leaders/TG/TG_EC_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_3"
+		texturefile = "gfx/leaders/TG/TG_EC_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_4"
+		texturefile = "gfx/leaders/TG/TG_EC_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_5"
+		texturefile = "gfx/leaders/TG/TG_EC_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_6"
+		texturefile = "gfx/leaders/TG/TG_EC_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_7"
+		texturefile = "gfx/leaders/TG/TG_EC_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_8"
+		texturefile = "gfx/leaders/TG/TG_EC_8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_9"
+		texturefile = "gfx/leaders/TG/TG_EC_9.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_10"
+		texturefile = "gfx/leaders/TG/TG_EC_10.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_TG_EC_11"
+		texturefile = "gfx/leaders/TG/TG_EC_11.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_12"
+		texturefile = "gfx/leaders/TG/TG_EC_12.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_13"
+		texturefile = "gfx/leaders/TG/TG_EC_13.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_14"
+		texturefile = "gfx/leaders/TG/TG_EC_14.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_15"
+		texturefile = "gfx/leaders/TG/TG_EC_15.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_16"
+		texturefile = "gfx/leaders/TG/TG_EC_16.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_17"
+		texturefile = "gfx/leaders/TG/TG_EC_17.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_18"
+		texturefile = "gfx/leaders/TG/TG_EC_18.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_19"
+		texturefile = "gfx/leaders/TG/TG_EC_19.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_TG_EC_20"
+		texturefile = "gfx/leaders/TG/TG_EC_20.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ECY_cjtg"
+		texturefile = "gfx/interface/znecytb/ECY_cjtg.png"
+	}
+}

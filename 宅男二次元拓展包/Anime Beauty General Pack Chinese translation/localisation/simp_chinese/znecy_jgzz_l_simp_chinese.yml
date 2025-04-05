@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+ ZNECY_armor_manufacturer_organization: "二次元坦克制造局"
+ ZNECY_alkett_organization: "二次元机械化火炮生产集团"
+
+ ZNECY_naval_civil_organization: "二次元民用船只生产集团"
+ ZNECY_naval_organization: "二次元海军装备制造局"
+
+ ZNECY_fairey_aviation_organization: "二次元航空兵装备制造局"
+ ZNECY_large_aircraft_organization: "二次元大型飞机制造局"
+
+ ZNECY_empire_arsenal_organization: "二次元陆军火炮制造局"
+ ZNECY_empire_automotive_organization: "二次元汽车制造总局"
+ ZNECY_infantry_equipment_organization: "二次元陆军装备制造总局"
+ ZNECY_focke_achgelis_organization: "二次元特种飞行器制造公司"
+ ZNECY_pan_organization: "二次元装甲车设计局"
+
+ ZNECY_industry_sector_organization: "二次元工业部门"
+ ZNECY_military_complex_organization: "二次元军工复合体"
+ ZNECY_ZNECY_organization: "二次元陆军后勤总部"
+
+ JGZZ_xs: "军工组织启用"
+ JGZZ_yc: "军工组织禁用"

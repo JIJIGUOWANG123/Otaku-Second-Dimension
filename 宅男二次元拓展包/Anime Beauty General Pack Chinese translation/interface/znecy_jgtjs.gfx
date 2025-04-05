@@ -1,0 +1,164 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_1"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_2"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_3"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_4"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_5"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_6"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_6.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_7"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_7.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_8"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_8.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_9"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_9.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_10"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_10.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_11"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_11.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_12"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_12.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_13"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_13.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_14"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_14.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtlj_15"
+		texturefile = "gfx/interface/jgttb/LJ/ecyjgtlj_15.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_1"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_2"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_3"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_4"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_5"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_6"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_6.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_7"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_7.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_8"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_8.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_9"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_9.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_10"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_10.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_11"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_11.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_12"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_12.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_13"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_13.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_14"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_14.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgthj_15"
+		texturefile = "gfx/interface/jgttb/HJ/ecyjgthj_15.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_1"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_2"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_3"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_4"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_4.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_5"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_5.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_6"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_6.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_7"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_7.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_8"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_8.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_9"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_9.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ecyjgtkj_10"
+		texturefile = "gfx/interface/jgttb/KJ/ecyjgtkj_10.png"
+	}
+}

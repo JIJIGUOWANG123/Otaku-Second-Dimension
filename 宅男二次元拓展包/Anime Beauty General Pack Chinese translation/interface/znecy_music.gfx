@@ -1,0 +1,7 @@
+spriteTypes = {
+  spriteType = {
+    name = "GFX_znecy_music_bg"
+    textureFile = "gfx/interface/music/znecy_music_bg.dds"
+    noOfFrames = 2
+  }
+}
