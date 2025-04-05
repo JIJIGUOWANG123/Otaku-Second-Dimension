@@ -1,0 +1,32 @@
+scripted_gui = {
+    znecy_lore_gui = {
+        context_type = player_context
+        window_name = znecy_lore_gui_container
+
+        ai_enabled = { always = no }
+
+        visible = { has_global_flag = znecy_lore_gui_show }
+
+        effects = {
+            znecy_lore_gui_option_button_click = {
+                clr_global_flag = znecy_lore_gui_show
+            }
+        }
+    }
+
+    znecy_lore_gui_textbox = {
+        context_type = player_context
+        window_name = znecy_lore_gui_textbox_container
+        parent_window_name = znecy_lore_gui_container
+
+        ai_enabled = { always = no }
+
+        visible = { has_global_flag = znecy_lore_gui_show }
+
+        properties = {
+            znecy_lore_intro_icon = {
+                image = "[get_znecy_lore_picture]"
+            }
+        }
+    }
+}

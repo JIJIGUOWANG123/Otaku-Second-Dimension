@@ -1,0 +1,480 @@
+leader_traits = {
+    Znecy_trait_1 = {
+        type = all
+
+        trait_type = Znecy_trait_1
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+            reassignment_duration_factor = -2
+            army_attack_factor = 0.25
+            cavalry_attack_factor = 0.25
+            army_armor_attack_factor = 0.25
+            motorized_attack_factor = 0.25
+            mechanized_attack_factor = 0.25
+            special_forces_attack_factor = 0.25
+            army_core_attack_factor = 0.25
+            army_artillery_attack_factor = 0.25
+        }
+    }
+	Znecy_trait_2 = {
+        type = all
+
+        trait_type = Znecy_trait_2
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+            reassignment_duration_factor = -2
+			army_speed_factor = 0.25
+            org_loss_when_moving = -0.25
+            invasion_preparation = -0.25
+            amphibious_invasion = 0.25
+            breakthrough_factor = 0.25
+        }
+    }
+	Znecy_trait_3 = {
+        type = all
+
+        trait_type = Znecy_trait_3
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+            reassignment_duration_factor = -2
+			cavalry_defence_factor = 0.25
+            army_armor_defence_factor = 0.25
+            army_defence_factor = 0.25
+            army_core_defence_factor = 0.25
+            amphibious_invasion_defence = 0.25
+            army_artillery_defence_factor = 0.25
+        }
+    }
+	Znecy_trait_4 = {
+        type = all
+
+        trait_type = Znecy_trait_4
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+            reassignment_duration_factor = -2
+            army_armor_attack_factor = 0.25
+			army_armor_defence_factor = 0.25
+            cavalry_attack_factor = 0.25
+            cavalry_defence_factor = 0.25
+        }
+    }
+	Znecy_trait_5 = {
+        type = all
+
+        trait_type = Znecy_trait_5
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+            reassignment_duration_factor = -2
+			army_morale_factor = 0.25
+            max_organisation = 100
+            org_loss_when_moving = -0.25
+            supply_consumption_factor = -0.25
+            experience_loss_factor = -0.25
+        }
+    }
+	Znecy_trait_6 = {
+        type = all
+
+        trait_type = Znecy_trait_6
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+			reassignment_duration_factor = -2
+            army_speed_factor = 0.25
+            invasion_preparation = -0.25
+            planning_speed = 0.25
+            max_planning = 0.15
+            land_reinforce_rate = 0.15
+            recon_factor = 0.25
+            dig_in_speed_factor = 0.25
+            breakthrough_factor = 0.25
+        }
+    }
+	Znecy_trait_7 = {
+        type = all
+
+        trait_type = Znecy_trait_7
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+			reassignment_duration_factor = -2
+			heat_attrition_factor = -0.25
+            no_supply_grace = 100
+            special_forces_no_supply_grace = 100
+            combat_width_factor = -0.25
+        }
+    }
+	Znecy_trait_8 = {
+        type = all
+
+        trait_type = Znecy_trait_8
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+            max_army_group_size = 5
+            max_commander_army_size = 24
+            army_armor_attack_factor = 0.25
+            army_attack_factor = 0.25
+            army_artillery_attack_factor = 0.25
+        }
+    }
+	Znecy_trait_9 = {
+        type = all
+
+        trait_type = Znecy_trait_9
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			max_army_group_size = 5
+            max_commander_army_size = 24
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+	Znecy_trait_ = {
+        type = all
+
+        trait_type = Znecy_trait_
+
+        daily_effect = {
+			
+		}
+
+        gain_xp = { 
+            always = no 
+        }
+
+		new_commander_weight = { 
+            factor = 0 
+        }
+
+		modifier = {
+			
+        }
+    }
+}

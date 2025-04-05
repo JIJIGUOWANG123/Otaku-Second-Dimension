@@ -1,0 +1,20 @@
+scripted_gui = {
+	znecy_propaganda_campaigns_ui = {
+		context_type = decision_category
+		window_name = "znecy_propaganda_campaigns_ui_window"
+		properties = {
+			propaganda_poster_znecy_left = {
+				image = "[GetznecyPropagandaLeftSlotAge]"
+				frame = X_znecy_poster_left_icon_frame
+			}
+			propaganda_poster_znecy_center = {
+				image = "[GetznecyPropagandaCenterSlotAge]"
+				frame = X_znecy_poster_center_icon_frame
+			}
+			propaganda_poster_znecy_right = {
+				image = "[GetznecyPropagandaRightSlotAge]"
+				frame = X_znecy_poster_right_icon_frame
+			}
+		}
+	}
+}

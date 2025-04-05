@@ -1,0 +1,59 @@
+super_scientist_666 = {
+	icon = GFX_scientist_trait_yuanshen
+	modifier = {
+		sp_tag_radar_speed_factor = 0.5 #雷达专项计划速度
+		sp_tag_nuclear_power_speed_factor = 0.5 #核能特殊项目速度
+		sp_tag_nuclear_warfare_speed_factor = 0.5 #核战争特殊项目速度
+		sp_tag_surface_ship_speed_factor = 0.5 #水面舰艇特殊项目速度
+		sp_tag_submarine_speed_factor = 0.5 #潜艇特殊项目速度
+		sp_tag_artillery_speed_factor = 0.5 #火炮特殊项目速度
+		sp_tag_tank_speed_factor = 0.5 #坦克特殊项目速度
+		sp_tag_guided_bomb_speed_factor = 0.5 #制导炸弹特殊项目速度
+		sp_tag_bomb_speed_factor = 0.5 #炸弹特殊项目速度
+		sp_tag_rocket_speed_factor = 0.5 #火箭项目速度
+		sp_tag_jet_speed_factor = 0.5 #喷气式飞机特殊项目速度
+		sp_tag_helicopter_speed_factor = 0.5 #直升机特殊项目速度
+		sp_tag_aircraft_speed_factor = 0.5 #飞行器特殊项目速度
+    }
+}
+
+super_scientist_haijun = {
+	icon = GFX_scientist_trait_yuanshen
+	modifier = {
+		sp_tag_surface_ship_speed_factor = 0.25 #水面舰艇特殊项目速度
+		sp_tag_submarine_speed_factor = 0.25 #潜艇特殊项目速度
+	}
+}
+
+super_scientist_hangkong = {
+	icon = GFX_scientist_trait_yuanshen
+	modifier = {
+		sp_tag_radar_speed_factor = 0.25 #雷达专项计划速度
+		sp_tag_jet_speed_factor = 0.25 #喷气式飞机特殊项目速度
+		sp_tag_helicopter_speed_factor = 0.25 #直升机特殊项目速度
+		sp_tag_aircraft_speed_factor = 0.25 #飞行器特殊项目速度
+		sp_tag_guided_bomb_speed_factor = 0.25 #制导炸弹特殊项目速度
+		sp_tag_bomb_speed_factor = 0.25 #炸弹特殊项目速度
+	}
+}
+
+super_scientist_dimian = {
+	icon = GFX_scientist_trait_yuanshen
+	modifier = {
+		sp_tag_artillery_speed_factor = 0.25 #火炮特殊项目速度
+		sp_tag_tank_speed_factor = 0.25 #坦克特殊项目速度
+		sp_tag_guided_bomb_speed_factor = 0.25 #制导炸弹特殊项目速度
+		sp_tag_bomb_speed_factor = 0.25 #炸弹特殊项目速度
+	}
+}
+
+super_scientist_hedan = {
+	icon = GFX_scientist_trait_yuanshen
+	modifier = {
+		sp_tag_guided_bomb_speed_factor = 0.25 #制导炸弹特殊项目速度
+		sp_tag_bomb_speed_factor = 0.25 #炸弹特殊项目速度
+		sp_tag_rocket_speed_factor = 0.25 #火箭项目速度
+		sp_tag_nuclear_power_speed_factor = 0.25 #核能特殊项目速度
+		sp_tag_nuclear_warfare_speed_factor = 0.25 #核战争特殊项目速度
+	}
+}
